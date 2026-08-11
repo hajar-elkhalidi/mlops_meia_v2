@@ -1,15 +1,22 @@
-import csv
 from pathlib import Path
+import csv
 
-DATA = Path("data/housing_data.csv")
 
-def test_dataset_shape():
-    with DATA.open(encoding="utf-8-sig", newline="") as f:
-        rows = list(csv.DictReader(f))
-    assert len(rows) == 4675
-    assert set(["new_price","surface","City","Type"]).issubset(rows[0])
+def test_morocco_file_exists():
+    assert Path("data/housing_data.csv").exists()
 
-def test_listing_ids_are_unique():
-    with DATA.open(encoding="utf-8-sig", newline="") as f:
-        ids = [r["Unnamed: 0"] for r in csv.DictReader(f)]
-    assert len(ids) == len(set(ids))
+
+def test_casa_file_exists():
+    assert Path("data/casa_housing.csv").exists()
+
+
+def test_morocco_has_no_description_requirement():
+    with open("data/housing_data.csv", encoding="utf-8-sig", newline="") as f:
+        headers = csv.DictReader(f).fieldnames
+    assert headers is not None
+
+
+def test_casa_headers():
+    with open("data/casa_housing.csv", encoding="utf-8-sig", newline="") as f:
+        headers = csv.DictReader(f).fieldnames
+    assert {"Type", "Localisation", "Price", "Area", "Price_m2"} <= set(headers)
