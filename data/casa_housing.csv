@@ -1,0 +1,1173 @@
+Type,Localisation,Price,Area,Rooms,Bedrooms,Bathrooms,Floor,Other_tags,Price_m2
+Appartements,Casablanca Finance City,22000,219.0,4.0,3.0,3.0,11.0,"['Nouveau', ""Moins d'un an""]",100.45662100456622
+Appartements,Anfa,1230000,86.0,3.0,2.0,2.0,1.0,"['Bon état', '10-20 ans']",14302.32558139535
+Appartements,La Gironde,900000,86.0,3.0,2.0,1.0,5.0,"['Bon état', '10-20 ans']",10465.116279069767
+Appartements,Bourgogne Ouest,2400000,180.0,5.0,3.0,3.0,3.0,"['Bon état', '10-20 ans']",13333.333333333334
+Appartements,Les princesses,1550000,120.0,5.0,3.0,2.0,5.0,"['Bon état', '5-10 ans']",12916.666666666666
+Appartements,Bourgogne Ouest,1450000,113.0,4.0,3.0,2.0,1.0,"['Bon état', '10-20 ans']",12831.858407079646
+Appartements,Triangle d'Or,4800000,245.0,4.0,3.0,3.0,3.0,"['Bon état', '10-20 ans']",19591.836734693876
+Appartements,Anassi,330000,50.0,3.0,2.0,1.0,1.0,"['Bon état', '5-10 ans']",6600.0
+Villas,Californie,7500000,400.0,8.0,5.0,4.0,0.0,['Bon état'],18750.0
+Appartements,Maârif,1750000,113.0,3.0,2.0,2.0,4.0,"['Nouveau', '1-5 ans']",15486.725663716814
+Appartements,Bourgogne Ouest,2590000,100.0,3.0,2.0,3.0,6.0,"['Nouveau', ""Moins d'un an""]",25900.0
+Appartements,Triangle d'Or,3300000,121.0,3.0,1.0,2.0,10.0,"['Nouveau', ""Moins d'un an""]",27272.727272727272
+Appartements,Racine,1300000,48.0,2.0,1.0,1.0,2.0,"['Nouveau', '1-5 ans']",27083.333333333332
+Appartements,Gauthier,2900000,230.0,4.0,3.0,3.0,7.0,"['Bon état', '10-20 ans']",12608.695652173914
+Appartements,La Gironde,1290000,105.0,7.0,2.0,2.0,1.0,"['Bon état', '5-10 ans']",12285.714285714286
+Appartements,Val Fleury,2219000,124.0,8.0,3.0,3.0,3.0,"['Nouveau', ""Moins d'un an""]",17895.16129032258
+Appartements,Anfa,2408000,165.0,6.0,4.0,2.0,9.0,['Bon état'],14593.939393939394
+Appartements,Val Fleury,2500000,137.0,4.0,3.0,3.0,2.0,"['Nouveau', ""Moins d'un an""]",18248.17518248175
+Appartements,Gauthier,1870000,107.0,4.0,3.0,2.0,6.0,['Nouveau'],17476.635514018693
+Appartements,Maârif,860000,51.0,2.0,1.0,1.0,2.0,"['Nouveau', '1-5 ans']",16862.745098039217
+Appartements,Gauthier,2300000,88.0,3.0,2.0,2.0,3.0,"['Nouveau', ""Moins d'un an""]",26136.363636363636
+Villas,Anfa,11900000,625.0,6.0,5.0,6.0,0.0,"['À rénover', '30-50 ans']",19040.0
+Villas,Anfa,27000000,1000.0,6.0,6.0,7.0,0.0,"['À rénover', '30-50 ans']",27000.0
+Villas,Sidi Maarouf,5500000,400.0,7.0,5.0,4.0,0.0,['Bon état'],13750.0
+Appartements,Ain Diab,4500000,238.0,4.0,3.0,4.0,3.0,"['Nouveau', ""Moins d'un an""]",18907.563025210085
+Appartements,Racine Extension,3400000,198.0,4.0,3.0,3.0,4.0,"['Bon état', '10-20 ans']",17171.717171717173
+Appartements,Racine,2800000,107.0,4.0,3.0,4.0,5.0,"['Nouveau', ""Moins d'un an""]",26168.22429906542
+Villas,Californie,45000000,4037.0,12.0,6.0,7.0,0.0,"['Bon état', '10-20 ans']",11146.891255883082
+Appartements,Gauthier,4200000,244.0,4.0,3.0,4.0,6.0,"['Nouveau', '5-10 ans']",17213.114754098362
+Appartements,Gauthier,4900000,446.0,6.0,5.0,4.0,6.0,"['Bon état', '1-5 ans']",10986.547085201793
+Appartements,Gauthier,3400000,229.0,4.0,3.0,3.0,1.0,"['Bon état', '5-10 ans']",14847.161572052402
+Appartements,Gauthier,4200000,200.0,4.0,3.0,3.0,1.0,"['Nouveau', '1-5 ans']",21000.0
+Appartements,Casablanca Finance City,2090000,99.0,3.0,2.0,2.0,3.0,"['Nouveau', '1-5 ans']",21111.11111111111
+Appartements,Racine,3500000,183.0,5.0,3.0,2.0,4.0,['Bon état'],19125.683060109288
+Appartements,Palmier,3800000,258.0,7.0,4.0,3.0,4.0,"['Bon état', '5-10 ans']",14728.682170542636
+Appartements,Oasis,1239000,59.0,3.0,2.0,1.0,1.0,['Nouveau'],21000.0
+Appartements,Oasis,1176000,56.0,2.0,1.0,1.0,1.0,['Nouveau'],21000.0
+Appartements,La Gironde,1035000,90.0,4.0,3.0,2.0,5.0,['Nouveau'],11500.0
+Villas,CIL (Hay Salam),10400000,400.0,3.0,5.0,3.0,0.0,"['À rénover', '20-30 ans']",26000.0
+Villas,Racine Extension,3400000,122.0,5.0,3.0,2.0,0.0,"['Bon état', '20-30 ans']",27868.852459016394
+Villas,Les Crêtes,9000000,800.0,5.0,4.0,3.0,0.0,['Bon état'],11250.0
+Villas,Sidi Maarouf,3900000,330.0,6.0,5.0,4.0,0.0,['Bon état'],11818.181818181818
+Appartements,Les princesses,1570000,105.0,3.0,2.0,2.0,1.0,"['Bon état', '5-10 ans']",14952.380952380952
+Villas,Californie,16000000,1076.0,6.0,5.0,6.0,0.0,"['Bon état', '10-20 ans']",14869.888475836431
+Appartements,Maârif,1000000,66.0,3.0,2.0,1.0,2.0,['Nouveau'],15151.515151515152
+Appartements,Californie,1688960,104.0,3.0,2.0,2.0,1.0,['Nouveau'],16240.0
+Appartements,Californie,1771840,113.0,4.0,3.0,2.0,3.0,['Nouveau'],15680.0
+Appartements,Californie,1624000,100.0,4.0,3.0,2.0,4.0,[],16240.0
+Appartements,Bourgogne Ouest,1200000,51.0,2.0,1.0,1.0,3.0,"['Nouveau', ""Moins d'un an""]",23529.41176470588
+Appartements,Maârif,850000,40.0,2.0,1.0,1.0,3.0,"['Nouveau', ""Moins d'un an""]",21250.0
+Appartements,Maârif,2020750,100.0,4.0,2.0,2.0,3.0,['Nouveau'],20207.5
+Appartements,Californie,1642500,91.0,4.0,3.0,2.0,4.0,['Nouveau'],18049.45054945055
+Appartements,Casablanca Finance City,1789000,96.0,3.0,2.0,2.0,1.0,['Nouveau'],18635.416666666668
+Appartements,Anfa,1050000,63.0,3.0,2.0,2.0,1.0,"['Nouveau', ""Moins d'un an""]",16666.666666666668
+Appartements,Racine,1950000,99.0,4.0,2.0,2.0,4.0,"['Bon état', '10-20 ans']",19696.969696969696
+Appartements,Bourgogne Est,2300000,160.0,3.0,2.0,2.0,3.0,"['Nouveau', '1-5 ans']",14375.0
+Appartements,Maârif,3500000,243.0,4.0,3.0,3.0,5.0,"['Bon état', '20-30 ans']",14403.292181069959
+Villas,Ain Diab,27000000,1180.0,7.0,4.0,6.0,0.0,"['Nouveau', '1-5 ans']",22881.35593220339
+Appartements,Maârif Extension,1200000,95.0,3.0,2.0,2.0,7.0,"['Bon état', '10-20 ans']",12631.578947368422
+Riad,Ain Diab Extension,7300000,395.0,7.0,4.0,3.0,0.0,"['Nouveau', '5-10 ans']",18481.01265822785
+Villas,Californie,7900000,450.0,4.0,3.0,3.0,0.0,"['Bon état', '5-10 ans']",17555.555555555555
+Appartements,Hay Alamal,800000,76.0,3.0,2.0,1.0,4.0,"['Bon état', '1-5 ans']",10526.315789473685
+Appartements,Mers Sultan,910000,91.0,4.0,3.0,2.0,7.0,"['Bon état', '10-20 ans']",10000.0
+Appartements,Beauséjour,1222000,106.0,3.0,2.0,2.0,4.0,"['Bon état', '5-10 ans']",11528.301886792453
+Appartements,Californie,1602050,96.0,4.0,3.0,3.0,1.0,['Nouveau'],16688.020833333332
+Appartements,Californie,1691200,100.0,4.0,3.0,2.0,3.0,['Nouveau'],16912.0
+Appartements,Californie,1547620,94.0,4.0,3.0,2.0,4.0,['Nouveau'],16464.042553191488
+Appartements,Oasis,1386000,63.0,3.0,2.0,1.0,3.0,['Nouveau'],22000.0
+Appartements,Oasis,1298000,59.0,2.0,1.0,1.0,3.0,['Nouveau'],22000.0
+Appartements,Racine,1850000,82.0,3.0,2.0,2.0,3.0,"['Bon état', '10-20 ans']",22560.975609756097
+Appartements,Les princesses,3200000,200.0,6.0,3.0,3.0,5.0,"['Bon état', '5-10 ans']",16000.0
+Appartements,Racine,1800000,82.0,5.0,2.0,1.0,2.0,"['Bon état', '5-10 ans']",21951.219512195123
+Appartements,Oasis,2701000,151.0,4.0,3.0,2.0,1.0,['Nouveau'],17887.417218543047
+Appartements,Californie,1539000,114.0,3.0,2.0,2.0,3.0,['Nouveau'],13500.0
+Appartements,Racine,4300000,182.0,6.0,3.0,2.0,5.0,"['Bon état', '10-20 ans']",23626.373626373625
+Villas,CIL (Hay Salam),10900000,565.0,5.0,4.0,3.0,0.0,['Bon état'],19292.035398230088
+Villas,Sidi Maarouf,4800000,250.0,5.0,3.0,3.0,0.0,['Bon état'],19200.0
+Villas,Laymoune,7800000,392.0,8.0,5.0,5.0,0.0,"['Bon état', '10-20 ans']",19897.95918367347
+Appartements,Gauthier,3328000,228.0,3.0,3.0,3.0,3.0,"['Bon état', '20-30 ans']",14596.491228070176
+Villas,Californie,5500000,256.0,6.0,4.0,4.0,0.0,['Bon état'],21484.375
+Appartements,Bourgogne Ouest,2150000,131.0,4.0,3.0,2.0,4.0,"['Bon état', '10-20 ans']",16412.213740458013
+Villas,Ain Diab Extension,13000000,608.0,6.0,5.0,6.0,0.0,"['Bon état', '5-10 ans']",21381.57894736842
+Villas,Longchamps (Hay Al Hanâa),10500000,600.0,6.0,6.0,6.0,0.0,"['Bon état', '10-20 ans']",17500.0
+Villas,Californie,17000000,780.0,10.0,7.0,8.0,0.0,"['Bon état', '10-20 ans']",21794.871794871793
+Appartements,CIL (Hay Salam),2400000,175.0,5.0,4.0,2.0,5.0,"['Bon état', '5-10 ans']",13714.285714285714
+Villas,Ain Diab,18525000,1235.0,10.0,7.0,8.0,0.0,"['À rénover', '30-50 ans']",15000.0
+Villas,Les princesses,14000000,1068.0,8.0,5.0,6.0,0.0,"['À rénover', '30-50 ans']",13108.614232209738
+Appartements,Casablanca Finance City,2350000,116.0,3.0,2.0,2.0,1.0,"['Nouveau', '1-5 ans']",20258.620689655174
+Villas,Longchamps (Hay Al Hanâa),11700000,470.0,3.0,5.0,4.0,0.0,"['Bon état', '10-20 ans']",24893.617021276597
+Appartements,Bourgogne Ouest,2500000,131.0,2.0,3.0,2.0,3.0,"['Bon état', '5-10 ans']",19083.969465648854
+Villas,Californie,7500000,434.0,4.0,4.0,4.0,0.0,"['Bon état', '10-20 ans']",17281.10599078341
+Villas,El Manar - El Hank,10000000,490.0,9.0,5.0,5.0,0.0,"['Bon état', '10-20 ans']",20408.163265306124
+Villas,Ain Diab Extension,7500000,395.0,9.0,5.0,2.0,0.0,"['Bon état', '10-20 ans']",18987.3417721519
+Villas,El Manar - El Hank,7600000,480.0,1.0,1.0,1.0,0.0,"['À rénover', '20-30 ans']",15833.333333333334
+Villas,Sidi Maarouf,6800000,450.0,7.0,4.0,4.0,0.0,"['Nouveau', '1-5 ans']",15111.111111111111
+Villas,Californie,16000000,1000.0,5.0,4.0,3.0,0.0,['Bon état'],16000.0
+Villas,Californie,35000000,2500.0,4.0,4.0,4.0,0.0,"['Bon état', '5-10 ans']",14000.0
+Appartements,Racine,2800000,126.0,4.0,3.0,2.0,2.0,['Bon état'],22222.222222222223
+Villas,Ain Diab Extension,18000000,1426.0,10.0,6.0,6.0,0.0,"['Bon état', '5-10 ans']",12622.720897615709
+Villas,Californie,14000000,724.0,10.0,6.0,7.0,0.0,"['Bon état', '10-20 ans']",19337.016574585636
+Appartements,Maârif Extension,1750000,114.0,3.0,2.0,2.0,4.0,"['Bon état', '10-20 ans']",15350.877192982456
+Villas,Ain Diab Extension,8300000,478.0,8.0,5.0,5.0,0.0,"['Bon état', '5-10 ans']",17364.016736401674
+Appartements,Palmier,1900000,122.0,4.0,3.0,2.0,5.0,"['Bon état', '5-10 ans']",15573.77049180328
+Appartements,Racine,3600000,183.0,5.0,4.0,4.0,4.0,"['Bon état', '10-20 ans']",19672.131147540982
+Appartements,Bourgogne Ouest,590000,83.0,2.0,1.0,1.0,4.0,"['Bon état', '20-30 ans']",7108.433734939759
+Appartements,Bourgogne Est,1000000,47.0,2.0,1.0,1.0,3.0,['Bon état'],21276.59574468085
+Appartements,Gauthier,2500000,176.0,4.0,3.0,2.0,3.0,['Nouveau'],14204.545454545454
+Appartements,Oulfa,861000,82.0,3.0,2.0,2.0,3.0,['Nouveau'],10500.0
+Appartements,Oulfa,600000,75.0,3.0,2.0,2.0,2.0,"['Nouveau', ""Moins d'un an""]",8000.0
+Appartements,Les princesses,2400000,158.0,4.0,3.0,3.0,4.0,"['Bon état', '10-20 ans']",15189.87341772152
+Appartements,Racine,6000000,266.0,7.0,4.0,4.0,3.0,"['Nouveau', ""Moins d'un an""]",22556.39097744361
+Appartements,Les princesses,2000000,138.0,4.0,3.0,2.0,4.0,"['Bon état', '10-20 ans']",14492.753623188406
+Appartements,Les Hôpitaux,2400000,151.0,5.0,3.0,2.0,5.0,"['Nouveau', '1-5 ans']",15894.039735099337
+Appartements,Triangle d'Or,4800000,264.0,6.0,3.0,3.0,1.0,"['Nouveau', '1-5 ans']",18181.81818181818
+Villas,Oasis,11600000,1058.0,12.0,6.0,4.0,0.0,"['Bon état', '10-20 ans']",10964.083175803402
+Appartements,Racine,2500000,165.0,4.0,3.0,2.0,3.0,['Bon état'],15151.515151515152
+Appartements,Bourgogne Ouest,2450000,120.0,3.0,2.0,1.0,3.0,['Nouveau'],20416.666666666668
+Appartements,Gauthier,1737300,98.0,3.0,2.0,2.0,6.0,"['Bon état', '10-20 ans']",17727.551020408162
+Appartements,Derb Ghalef,1350000,101.0,3.0,2.0,2.0,6.0,"['Bon état', '1-5 ans']",13366.336633663366
+Appartements,La Gironde,1100000,96.0,4.0,2.0,2.0,2.0,"['Bon état', '10-20 ans']",11458.333333333334
+Appartements,Aïn Sebaâ,320000,50.0,3.0,2.0,1.0,2.0,['Bon état'],6400.0
+Villas,Californie,12000000,1105.0,8.0,4.0,4.0,0.0,"['Bon état', '10-20 ans']",10859.72850678733
+Appartements,Hay Alhoda,530000,69.0,3.0,2.0,1.0,3.0,"['Bon état', '5-10 ans']",7681.159420289855
+Appartements,Maârif Extension,1200000,83.0,3.0,2.0,2.0,2.0,"['Nouveau', ""Moins d'un an""]",14457.831325301206
+Appartements,Les Hôpitaux,2012500,129.0,3.0,3.0,2.0,5.0,"['Nouveau', ""Moins d'un an""]",15600.77519379845
+Villas,Polo,13500000,1434.0,8.0,6.0,4.0,0.0,"['Bon état', '10-20 ans']",9414.225941422594
+Appartements,Oasis,2850000,195.0,4.0,3.0,3.0,1.0,"['Bon état', '1-5 ans']",14615.384615384615
+Villas,CIL (Hay Salam),5990000,361.0,7.0,3.0,3.0,0.0,"['Bon état', '5-10 ans']",16592.797783933518
+Appartements,Racine,6000000,250.0,6.0,3.0,3.0,5.0,['Nouveau'],24000.0
+Villas,CIL (Hay Salam),16520000,944.0,9.0,7.0,6.0,0.0,['Bon état'],17500.0
+Appartements,Gauthier,2450000,167.0,3.0,2.0,3.0,2.0,"['Bon état', '5-10 ans']",14670.65868263473
+Appartements,Hay Zobir,730000,65.0,5.0,2.0,1.0,1.0,"['Bon état', '5-10 ans']",11230.76923076923
+Villas,Californie,44800000,5000.0,12.0,7.0,6.0,0.0,"['À rénover', '20-30 ans']",8960.0
+Appartements,Gauthier,3500000,210.0,4.0,3.0,2.0,1.0,"['Bon état', '5-10 ans']",16666.666666666668
+Appartements,Gauthier,3800000,347.0,4.0,3.0,3.0,6.0,"['Bon état', '5-10 ans']",10951.008645533142
+Appartements,Maârif Extension,1000000,124.0,3.0,2.0,2.0,4.0,"['Bon état', '20-30 ans']",8064.5161290322585
+Appartements,Les Hôpitaux,2900000,214.0,12.0,3.0,2.0,2.0,['Nouveau'],13551.401869158879
+Appartements,Palmier,3500000,262.0,4.0,3.0,3.0,6.0,"['Bon état', '5-10 ans']",13358.778625954199
+Appartements,Gauthier,3300000,198.0,6.0,4.0,3.0,6.0,"['Nouveau', '5-10 ans']",16666.666666666668
+Villas,Ain Diab,8300000,477.0,2.0,1.0,2.0,0.0,['Bon état'],17400.41928721174
+Appartements,Bourgogne Ouest,1007000,53.0,2.0,1.0,1.0,5.0,['Nouveau'],19000.0
+Villas,Californie,60000000,5400.0,3.0,5.0,5.0,0.0,['Bon état'],11111.111111111111
+Villas,Ain Diab Extension,17000000,1430.0,4.0,4.0,4.0,0.0,['Bon état'],11888.111888111887
+Villas,CIL (Hay Salam),8500000,492.0,9.0,5.0,4.0,0.0,"['À rénover', '20-30 ans']",17276.422764227642
+Appartements,Maârif Extension,2450000,140.0,4.0,3.0,2.0,5.0,"['Bon état', '10-20 ans']",17500.0
+Appartements,Californie,1927400,127.0,4.0,3.0,2.0,3.0,[],15176.377952755905
+Appartements,Californie,1613100,106.0,4.0,3.0,2.0,1.0,[],15217.924528301886
+Appartements,Californie,2021750,130.0,4.0,3.0,2.0,2.0,[],15551.923076923076
+Appartements,Maârif,2839750,142.0,4.0,3.0,2.0,5.0,['Nouveau'],19998.23943661972
+Appartements,Beauséjour,1936000,121.0,7.0,4.0,2.0,2.0,"['Bon état', '1-5 ans']",16000.0
+Appartements,La Gironde,1119000,117.0,8.0,3.0,2.0,1.0,"['Bon état', '5-10 ans']",9564.102564102564
+Appartements,Les Hôpitaux,2000000,150.0,5.0,3.0,2.0,1.0,['Bon état'],13333.333333333334
+Appartements,Racine,3850000,210.0,4.0,3.0,2.0,3.0,['Bon état'],18333.333333333332
+Appartements,Bourgogne Ouest,1300000,52.0,2.0,1.0,1.0,5.0,"['Nouveau', ""Moins d'un an""]",25000.0
+Appartements,Gauthier,1750000,98.0,2.0,1.0,1.0,3.0,"['Bon état', '1-5 ans']",17857.14285714286
+Appartements,Foncière,2500000,172.0,8.0,4.0,3.0,2.0,"['Bon état', '5-10 ans']",14534.883720930233
+Appartements,Californie,1630720,104.0,3.0,2.0,2.0,4.0,['Nouveau'],15680.0
+Villas,Anfa Supérieur,25000000,1000.0,7.0,4.0,3.0,0.0,['Bon état'],25000.0
+Villas,Ain Diab,13500000,767.0,7.0,4.0,3.0,0.0,['Bon état'],17601.04302477184
+Appartements,Bourgogne Ouest,1200000,95.0,3.0,2.0,1.0,7.0,"['Bon état', '10-20 ans']",12631.578947368422
+Appartements,Bourgogne Est,2600000,162.0,4.0,3.0,3.0,3.0,"['Nouveau', '1-5 ans']",16049.382716049382
+Villas,Ain Diab,7100000,382.0,6.0,4.0,4.0,0.0,"['Bon état', '20-30 ans']",18586.387434554974
+Appartements,Triangle d'Or,4200000,299.0,4.0,3.0,3.0,1.0,"['Nouveau', '5-10 ans']",14046.822742474917
+Appartements,Maârif Extension,1868000,101.0,3.0,2.0,1.0,5.0,[],18495.049504950493
+Appartements,Maârif Extension,1076000,57.0,2.0,1.0,1.0,5.0,[],18877.19298245614
+Appartements,Maârif Extension,1382000,74.0,3.0,2.0,1.0,4.0,[],18675.675675675677
+Appartements,Maârif Extension,896000,47.0,2.0,1.0,1.0,1.0,[],19063.82978723404
+Villas,Californie,8700000,648.0,8.0,4.0,4.0,0.0,"['Nouveau', '5-10 ans']",13425.925925925925
+Villas,Longchamps (Hay Al Hanâa),14000000,975.0,7.0,4.0,3.0,0.0,"['Bon état', '10-20 ans']",14358.97435897436
+Appartements,Aïn Sebaâ,797865,71.0,3.0,2.0,2.0,2.0,['Nouveau'],11237.535211267606
+Appartements,Aïn Sebaâ,891080,76.0,3.0,2.0,2.0,3.0,['Nouveau'],11724.736842105263
+Appartements,Aïn Sebaâ,970905,87.0,4.0,3.0,2.0,1.0,['Nouveau'],11159.827586206897
+Appartements,Gauthier,1250000,45.0,2.0,1.0,1.0,3.0,['Bon état'],27777.777777777777
+Appartements,Racine,450000,248.0,6.0,4.0,3.0,2.0,"['Bon état', '10-20 ans']",1814.516129032258
+Appartements,Oasis,1370000,62.0,2.0,1.0,1.0,3.0,"['Nouveau', ""Moins d'un an""]",22096.774193548386
+Villas,El Manar - El Hank,9500000,450.0,6.0,4.0,4.0,0.0,"['Bon état', '20-30 ans']",21111.11111111111
+Villas,Californie,14000000,1001.0,7.0,5.0,5.0,0.0,['Bon état'],13986.013986013986
+Appartements,Les princesses,1760800,89.0,3.0,2.0,2.0,2.0,"['Nouveau', ""Moins d'un an""]",19784.26966292135
+Appartements,Maârif Extension,1550000,89.0,3.0,2.0,2.0,3.0,"['Bon état', '1-5 ans']",17415.73033707865
+Appartements,Racine,2000000,111.0,4.0,3.0,2.0,4.0,"['Bon état', '10-20 ans']",18018.018018018018
+Appartements,Mers Sultan,1650000,115.0,4.0,3.0,1.0,3.0,"['Bon état', '10-20 ans']",14347.826086956522
+Appartements,Gauthier,3300000,155.0,4.0,3.0,2.0,7.0,"['Bon état', '5-10 ans']",21290.322580645163
+Appartements,Palmier,3400000,265.0,4.0,3.0,2.0,6.0,"['Bon état', '10-20 ans']",12830.188679245282
+Villas,Californie,15000000,1065.0,8.0,4.0,4.0,0.0,"['Nouveau', '1-5 ans']",14084.507042253521
+Villas,Californie,8500000,605.0,9.0,4.0,3.0,0.0,"['Nouveau', '5-10 ans']",14049.586776859504
+Villas,Californie,9000000,728.0,9.0,4.0,3.0,0.0,"['Nouveau', '5-10 ans']",12362.637362637362
+Villas,Californie,15000000,1100.0,8.0,4.0,3.0,0.0,"['Nouveau', '1-5 ans']",13636.363636363636
+Villas,Ain Diab,4700000,380.0,8.0,4.0,3.0,0.0,"['À rénover', '20-30 ans']",12368.421052631578
+Villas,Ain Diab,6800000,425.0,9.0,4.0,3.0,0.0,"['Bon état', '5-10 ans']",16000.0
+Villas,Anfa,11700000,890.0,9.0,4.0,3.0,0.0,"['À rénover', '10-20 ans']",13146.067415730337
+Villas,Ain Diab,9500000,518.0,6.0,4.0,3.0,0.0,"['Bon état', '5-10 ans']",18339.76833976834
+Villas,Longchamps (Hay Al Hanâa),17000000,1400.0,10.0,4.0,3.0,0.0,"['Bon état', '10-20 ans']",12142.857142857143
+Villas,Longchamps (Hay Al Hanâa),10000000,618.0,9.0,5.0,3.0,0.0,"['À rénover', '10-20 ans']",16181.229773462783
+Villas,Ain Diab,6500000,370.0,7.0,4.0,3.0,0.0,"['Bon état', '5-10 ans']",17567.567567567567
+Villas,Ain Diab,7000000,450.0,7.0,4.0,3.0,0.0,"['Nouveau', '5-10 ans']",15555.555555555555
+Villas,Anfa,12000000,619.0,8.0,4.0,3.0,0.0,"['À rénover', '10-20 ans']",19386.10662358643
+Villas,Anfa,10000000,590.0,8.0,4.0,3.0,0.0,"['À rénover', '10-20 ans']",16949.15254237288
+Villas,Anfa,12000000,725.0,8.0,4.0,3.0,0.0,"['Bon état', '10-20 ans']",16551.724137931036
+Appartements,Maârif,950000,55.0,2.0,1.0,1.0,3.0,['Bon état'],17272.727272727272
+Appartements,Benjdia,1690000,124.0,4.0,3.0,2.0,2.0,"['Bon état', '5-10 ans']",13629.032258064517
+Appartements,Oasis,1050000,46.0,2.0,1.0,1.0,3.0,"['Nouveau', ""Moins d'un an""]",22826.08695652174
+Maisons,Ain Chock,4000000,100.0,7.0,6.0,4.0,0.0,"['Bon état', '20-30 ans']",40000.0
+Appartements,Val Fleury,2450000,170.0,4.0,3.0,2.0,5.0,"['Bon état', '5-10 ans']",14411.764705882353
+Appartements,Burger,1750000,137.0,5.0,3.0,2.0,3.0,"['Bon état', '20-30 ans']",12773.722627737227
+Appartements,Plateau (Al Batha),1750000,117.0,5.0,3.0,2.0,4.0,"['Bon état', '10-20 ans']",14957.264957264957
+Appartements,Racine Extension,4500000,297.0,4.0,3.0,3.0,1.0,"['Nouveau', '5-10 ans']",15151.515151515152
+Appartements,Racine,4100000,229.0,4.0,3.0,3.0,2.0,"['Nouveau', '5-10 ans']",17903.930131004367
+Appartements,Racine,2800000,161.0,3.0,2.0,3.0,7.0,"['Nouveau', '5-10 ans']",17391.304347826088
+Villas,Ain Diab Extension,13000000,574.0,8.0,4.0,5.0,0.0,"['Bon état', '5-10 ans']",22648.08362369338
+Appartements,Les princesses,1950000,146.0,4.0,3.0,2.0,4.0,"['Bon état', '5-10 ans']",13356.164383561643
+Appartements,Anfa,5590000,186.0,3.0,2.0,2.0,12.0,['Bon état'],30053.763440860213
+Villas,CIL (Hay Salam),9000000,641.0,7.0,4.0,2.0,0.0,"['À rénover', '10-20 ans']",14040.561622464898
+Villas,Ain Diab,6500000,360.0,8.0,4.0,2.0,0.0,"['Nouveau', '1-5 ans']",18055.555555555555
+Villas,Longchamps (Hay Al Hanâa),26000000,1975.0,8.0,4.0,2.0,0.0,"['À rénover', '10-20 ans']",13164.556962025317
+Villas,Californie,7000000,411.0,9.0,4.0,3.0,0.0,"['Nouveau', '5-10 ans']",17031.6301703163
+Villas,Californie,8000000,550.0,9.0,4.0,4.0,0.0,"['Nouveau', '5-10 ans']",14545.454545454546
+Villas,Anfa,13000000,670.0,8.0,3.0,2.0,0.0,"['Bon état', '10-20 ans']",19402.985074626864
+Villas,Anfa Supérieur,40000000,2175.0,6.0,3.0,2.0,0.0,"['À rénover', '10-20 ans']",18390.80459770115
+Villas,Anfa Supérieur,45000000,2375.0,8.0,3.0,3.0,0.0,"['Bon état', '10-20 ans']",18947.36842105263
+Appartements,Bourgogne Est,950000,63.0,3.0,2.0,2.0,3.0,"['Bon état', '10-20 ans']",15079.36507936508
+Appartements,Les Hôpitaux,3100000,309.0,6.0,4.0,3.0,5.0,"['Bon état', '10-20 ans']",10032.362459546926
+Appartements,Oulfa,620000,77.0,3.0,2.0,2.0,1.0,"['Nouveau', ""Moins d'un an""]",8051.948051948052
+Appartements,Mers Sultan,1750000,137.0,5.0,3.0,2.0,4.0,"['Bon état', '10-20 ans']",12773.722627737227
+Appartements,Casablanca Finance City,1900000,83.0,3.0,2.0,2.0,3.0,"['Nouveau', '1-5 ans']",22891.566265060243
+Appartements,Gauthier,1700000,98.0,2.0,1.0,1.0,3.0,"['Bon état', '5-10 ans']",17346.938775510203
+Appartements,Casablanca Marina,2500000,65.0,2.0,1.0,1.0,8.0,"['Bon état', '1-5 ans']",38461.53846153846
+Appartements,Oasis,1420000,88.0,2.0,1.0,1.0,1.0,"['Nouveau', ""Moins d'un an""]",16136.363636363636
+Appartements,Les Hôpitaux,1500000,118.0,4.0,2.0,2.0,4.0,"['Bon état', '20-30 ans']",12711.864406779661
+Villas,Californie,11000000,428.0,7.0,5.0,5.0,0.0,"['Bon état', '5-10 ans']",25700.934579439254
+Appartements,Racine,3640000,140.0,6.0,3.0,3.0,5.0,"['Bon état', ""Moins d'un an""]",26000.0
+Appartements,Val Fleury,1900000,138.0,4.0,3.0,2.0,2.0,"['Bon état', '10-20 ans']",13768.115942028986
+Villas,Oulfa,3200000,231.0,4.0,4.0,3.0,0.0,['Bon état'],13852.813852813853
+Appartements,Maârif Extension,1950000,117.0,5.0,3.0,2.0,1.0,['Bon état'],16666.666666666668
+Appartements,Gauthier,1490000,44.0,2.0,1.0,2.0,5.0,['Nouveau'],33863.63636363636
+Appartements,Racine,4500000,211.0,4.0,3.0,3.0,7.0,"['Bon état', '5-10 ans']",21327.014218009477
+Appartements,Les Hôpitaux,2750000,186.0,6.0,3.0,2.0,4.0,"['Bon état', '5-10 ans']",14784.946236559139
+Appartements,Les Hôpitaux,1700000,120.0,4.0,2.0,2.0,3.0,"['Nouveau', '5-10 ans']",14166.666666666666
+Appartements,Racine Extension,4500000,236.0,5.0,3.0,3.0,5.0,"['Bon état', ""Moins d'un an""]",19067.79661016949
+Appartements,Bourgogne Ouest,1850000,159.0,4.0,3.0,2.0,5.0,"['Bon état', '10-20 ans']",11635.220125786163
+Appartements,Les princesses,1470000,85.0,2.0,1.0,1.0,1.0,['Nouveau'],17294.117647058825
+Appartements,Les princesses,1350000,66.0,2.0,1.0,1.0,1.0,['Nouveau'],20454.545454545456
+Appartements,Les princesses,1300000,68.0,2.0,1.0,1.0,1.0,['Nouveau'],19117.647058823528
+Appartements,Les princesses,2270000,181.0,4.0,3.0,3.0,5.0,"['Nouveau', ""Moins d'un an""]",12541.436464088398
+Appartements,Racine,2450000,149.0,5.0,3.0,3.0,5.0,"['Bon état', '5-10 ans']",16442.953020134228
+Appartements,Gauthier,9500,140.0,4.0,3.0,2.0,4.0,"['Nouveau', '1-5 ans']",67.85714285714286
+Appartements,Gauthier,5600000,244.0,4.0,3.0,3.0,12.0,"['Nouveau', '1-5 ans']",22950.819672131147
+Appartements,Racine,3000000,234.0,6.0,4.0,3.0,2.0,"['Bon état', '1-5 ans']",12820.51282051282
+Villas,Sidi Maarouf,4700000,258.0,12.0,6.0,3.0,0.0,"['Bon état', '5-10 ans']",18217.054263565893
+Appartements,Port,1360000,116.0,4.0,3.0,1.0,7.0,['Bon état'],11724.137931034482
+Villas,Californie,7300000,450.0,6.0,4.0,3.0,0.0,"['Bon état', '5-10 ans']",16222.222222222223
+Villas,Ain Diab,38000,445.0,8.0,4.0,4.0,0.0,['Bon état'],85.3932584269663
+Appartements,Californie,1991470,127.0,4.0,3.0,2.0,3.0,[],15680.866141732284
+Appartements,Californie,1967880,128.0,4.0,3.0,2.0,1.0,[],15374.0625
+Appartements,Californie,1941180,120.0,4.0,3.0,2.0,3.0,[],16176.5
+Appartements,Mers Sultan,2550000,186.0,6.0,3.0,3.0,4.0,"['Nouveau', '5-10 ans']",13709.677419354839
+Villas,Californie,7000000,440.0,7.0,4.0,3.0,0.0,"['Bon état', '10-20 ans']",15909.09090909091
+Villas,Californie,4900000,391.0,6.0,4.0,3.0,0.0,"['Nouveau', ""Moins d'un an""]",12531.969309462916
+Villas,Sidi Maarouf,4200000,460.0,7.0,4.0,4.0,0.0,"['Bon état', '10-20 ans']",9130.434782608696
+Appartements,Palmier,1480000,94.0,3.0,2.0,2.0,3.0,"['Nouveau', '1-5 ans']",15744.68085106383
+Villas,Longchamps (Hay Al Hanâa),16500000,485.0,7.0,5.0,2.0,0.0,"['Bon état', '5-10 ans']",34020.61855670103
+Appartements,Hermitage,1152740,54.0,2.0,1.0,2.0,2.0,[],21347.037037037036
+Appartements,Hermitage,973500,46.0,2.0,1.0,2.0,4.0,[],21163.043478260868
+Appartements,Hermitage,1327560,60.0,2.0,1.0,2.0,1.0,[],22126.0
+Appartements,Hermitage,1261100,59.0,2.0,1.0,2.0,1.0,[],21374.57627118644
+Villas,Laymoune,6400000,504.0,6.0,4.0,4.0,0.0,"['Bon état', '10-20 ans']",12698.412698412698
+Appartements,Maârif Extension,1550000,130.0,4.0,3.0,2.0,2.0,"['Bon état', '5-10 ans']",11923.076923076924
+Appartements,La Gironde,1150000,95.0,3.0,2.0,2.0,2.0,"['Bon état', '5-10 ans']",12105.263157894737
+Appartements,La Gironde,1800000,144.0,4.0,3.0,3.0,2.0,"['Bon état', '5-10 ans']",12500.0
+Appartements,Californie,1818500,139.0,4.0,3.0,2.0,1.0,[],13082.73381294964
+Appartements,Lissasfa,1103080,109.0,4.0,3.0,2.0,4.0,['Nouveau'],10120.0
+Appartements,Lissasfa,1146270,123.0,4.0,3.0,2.0,1.0,['Nouveau'],9319.268292682927
+Appartements,Lissasfa,1118150,107.0,4.0,3.0,2.0,2.0,['Nouveau'],10450.0
+Appartements,Oasis,2450000,128.0,3.0,2.0,3.0,4.0,"['Nouveau', '1-5 ans']",19140.625
+Appartements,Gauthier,3275000,155.0,4.0,3.0,2.0,4.0,[],21129.032258064515
+Appartements,Anassi,520000,80.0,3.0,2.0,1.0,6.0,"['Bon état', '5-10 ans']",6500.0
+Appartements,Al Azhar,720000,85.0,4.0,3.0,2.0,2.0,"['Nouveau', '1-5 ans']",8470.588235294117
+Appartements,Gauthier,3000000,256.0,7.0,4.0,3.0,1.0,"['Bon état', '10-20 ans']",11718.75
+Appartements,Oasis,1850000,102.0,5.0,2.0,2.0,2.0,"['Nouveau', ""Moins d'un an""]",18137.254901960783
+Appartements,Oasis,1550000,84.0,4.0,2.0,2.0,3.0,"['Bon état', '1-5 ans']",18452.380952380954
+Appartements,Palmier,1912000,95.0,3.0,2.0,1.0,7.0,"['Nouveau', ""Moins d'un an""]",20126.315789473683
+Appartements,Racine,3150000,173.0,5.0,3.0,2.0,1.0,['Bon état'],18208.092485549132
+Appartements,Mandarona,1200000,120.0,2.0,4.0,2.0,2.0,"['Bon état', '5-10 ans']",10000.0
+Appartements,Racine,8300000,85.0,2.0,2.0,1.0,3.0,['Bon état'],97647.05882352941
+Appartements,Palmier,2600000,184.0,4.0,3.0,2.0,1.0,"['Bon état', '20-30 ans']",14130.434782608696
+Appartements,Mers Sultan,1700000,112.0,4.0,2.0,2.0,3.0,"['Bon état', '10-20 ans']",15178.57142857143
+Appartements,Lissasfa,1034550,99.0,4.0,3.0,2.0,5.0,['Nouveau'],10450.0
+Appartements,Lissasfa,1106380,107.0,4.0,3.0,2.0,3.0,['Nouveau'],10340.0
+Appartements,Lissasfa,1067000,100.0,4.0,3.0,2.0,1.0,['Nouveau'],10670.0
+Appartements,Lissasfa,1056000,100.0,4.0,3.0,2.0,2.0,['Nouveau'],10560.0
+Appartements,Maârif,2615500,133.0,4.0,3.0,2.0,4.0,['Nouveau'],19665.413533834588
+Appartements,Maârif,1473500,85.0,2.0,1.0,1.0,1.0,['Nouveau'],17335.29411764706
+Appartements,La Gironde,800000,64.0,3.0,2.0,2.0,4.0,['Nouveau'],12500.0
+Appartements,La Gironde,875000,70.0,3.0,2.0,2.0,5.0,['Nouveau'],12500.0
+Appartements,Gauthier,3150000,238.0,5.0,3.0,2.0,1.0,"['Bon état', '5-10 ans']",13235.29411764706
+Appartements,Bourgogne Ouest,1600000,87.0,4.0,2.0,2.0,4.0,['Nouveau'],18390.80459770115
+Appartements,Aïn Sebaâ,451000,43.0,3.0,1.0,1.0,4.0,"['Nouveau', ""Moins d'un an""]",10488.372093023256
+Appartements,Hermitage,1237650,57.0,2.0,1.0,2.0,1.0,['Nouveau'],21713.157894736843
+Appartements,Palmier,2420000,110.0,1.0,3.0,1.0,5.0,"['Nouveau', ""Moins d'un an""]",22000.0
+Appartements,Derb Ghalef,910000,65.0,3.0,2.0,1.0,3.0,"['Nouveau', ""Moins d'un an""]",14000.0
+Villas,Nassim 1,8500000,475.0,10.0,5.0,5.0,0.0,"['Bon état', '10-20 ans']",17894.736842105263
+Appartements,Californie,1838760,116.0,4.0,3.0,2.0,1.0,[],15851.379310344828
+Appartements,Maârif Extension,1067500,55.0,2.0,1.0,1.0,5.0,['Nouveau'],19409.090909090908
+Appartements,Maârif Extension,1256000,67.0,2.0,1.0,1.0,4.0,['Nouveau'],18746.268656716416
+Appartements,Maârif Extension,986000,52.0,2.0,1.0,1.0,2.0,['Nouveau'],18961.53846153846
+Villas,Californie,8000000,413.0,10.0,5.0,5.0,0.0,['Bon état'],19370.46004842615
+Villas,Californie,7800000,510.0,8.0,4.0,3.0,0.0,"['Bon état', '5-10 ans']",15294.117647058823
+Appartements,Les Hôpitaux,1400000,105.0,3.0,2.0,2.0,4.0,"['À rénover', '10-20 ans']",13333.333333333334
+Appartements,Ferme Bretonne (Hay Arraha),2050000,123.0,4.0,3.0,4.0,2.0,"['Nouveau', '1-5 ans']",16666.666666666668
+Appartements,Ferme Bretonne (Hay Arraha),2200000,179.0,3.0,2.0,3.0,5.0,"['Nouveau', '1-5 ans']",12290.50279329609
+Appartements,Ferme Bretonne (Hay Arraha),2150000,129.0,3.0,2.0,3.0,4.0,"['Nouveau', '1-5 ans']",16666.666666666668
+Villas,Ain Diab,8000000,370.0,9.0,4.0,4.0,0.0,['Bon état'],21621.62162162162
+Villas,Port,6500000,300.0,6.0,4.0,4.0,0.0,['Bon état'],21666.666666666668
+Villas,Casablanca,7300000,683.0,6.0,4.0,3.0,0.0,['Bon état'],10688.14055636896
+Villas,Casablanca,5500000,650.0,5.0,4.0,2.0,0.0,['Bon état'],8461.538461538461
+Villas,Californie,11000000,860.0,6.0,4.0,4.0,0.0,['Bon état'],12790.697674418605
+Villas,Casablanca,9000000,550.0,6.0,4.0,4.0,0.0,['Bon état'],16363.636363636364
+Appartements,Ain Borja,950000,76.0,5.0,2.0,2.0,4.0,"['Bon état', '5-10 ans']",12500.0
+Villas,Sidi Maarouf,8400000,616.0,7.0,5.0,4.0,0.0,"['Bon état', '5-10 ans']",13636.363636363636
+Appartements,Maârif Extension,1526000,82.0,3.0,2.0,1.0,2.0,['Nouveau'],18609.756097560974
+Appartements,Maârif Extension,1418000,76.0,3.0,2.0,1.0,2.0,['Nouveau'],18657.894736842107
+Appartements,Maârif Extension,1345000,74.0,3.0,2.0,1.0,1.0,['Nouveau'],18175.675675675677
+Appartements,Les Hôpitaux,3600000,245.0,6.0,4.0,2.0,2.0,"['Bon état', '1-5 ans']",14693.877551020409
+Appartements,Maârif,2313250,115.0,4.0,3.0,2.0,4.0,['Nouveau'],20115.217391304348
+Appartements,Oulfa,608000,76.0,3.0,2.0,2.0,3.0,"['Nouveau', ""Moins d'un an""]",8000.0
+Appartements,Oulfa,1092000,104.0,4.0,3.0,2.0,2.0,['Nouveau'],10500.0
+Appartements,Les princesses,1690000,95.0,4.0,2.0,1.0,5.0,"['Bon état', '10-20 ans']",17789.473684210527
+Appartements,CIL (Hay Salam),3400000,201.0,5.0,3.0,2.0,5.0,['Bon état'],16915.422885572138
+Appartements,Hermitage,968000,61.0,2.0,1.0,1.0,1.0,"['Nouveau', ""Moins d'un an""]",15868.852459016394
+Appartements,Derb Ghalef,1400000,100.0,2.0,2.0,2.0,2.0,['Nouveau'],14000.0
+Villas,Polo,8100000,467.0,6.0,4.0,4.0,0.0,"['Nouveau', '5-10 ans']",17344.75374732334
+Villas,Casablanca,5344120,335.0,5.0,3.0,3.0,0.0,[],15952.597014925374
+Villas,Californie,9800000,1055.0,8.0,4.0,4.0,0.0,"['Bon état', '5-10 ans']",9289.099526066351
+Villas,Anfa Supérieur,20000000,1025.0,8.0,4.0,2.0,0.0,"['Nouveau', '5-10 ans']",19512.19512195122
+Villas,Californie,21000000,2611.0,9.0,6.0,5.0,0.0,"['Nouveau', '5-10 ans']",8042.8954423592495
+Villas,CIL (Hay Salam),12000000,583.0,8.0,4.0,3.0,0.0,"['Nouveau', '1-5 ans']",20583.190394511148
+Villas,Anfa Supérieur,12700000,465.0,8.0,4.0,4.0,0.0,"['À rénover', '10-20 ans']",27311.827956989247
+Villas,Anfa Supérieur,16000000,961.0,9.0,4.0,4.0,0.0,"['À rénover', '10-20 ans']",16649.323621227886
+Villas,Polo,7200000,350.0,9.0,6.0,4.0,0.0,"['Bon état', '10-20 ans']",20571.428571428572
+Appartements,Palmier,2400000,152.0,4.0,3.0,2.0,3.0,"['Bon état', '10-20 ans']",15789.473684210527
+Appartements,Les Hôpitaux,1800000,105.0,3.0,2.0,2.0,1.0,['Bon état'],17142.85714285714
+Appartements,Maârif Extension,2500000,142.0,4.0,3.0,2.0,5.0,['Bon état'],17605.6338028169
+Appartements,Plateau (Al Batha),1790000,156.0,5.0,3.0,2.0,4.0,"['Bon état', '10-20 ans']",11474.358974358975
+Villas,Californie,30000000,2049.0,8.0,5.0,4.0,0.0,['Bon état'],14641.288433382138
+Riad,Sidi Maarouf,6500000,331.0,3.0,4.0,5.0,0.0,['Bon état'],19637.462235649546
+Appartements,Maârif Extension,2700000,167.0,4.0,3.0,2.0,7.0,['Bon état'],16167.664670658683
+Villas,Californie,14000000,998.0,4.0,4.0,5.0,0.0,['Bon état'],14028.056112224449
+Villas,Californie,13000000,1200.0,7.0,6.0,4.0,0.0,['À rénover'],10833.333333333334
+Appartements,Tantonville,1600000,120.0,3.0,2.0,2.0,1.0,"['Bon état', '5-10 ans']",13333.333333333334
+Villas,CIL (Hay Salam),10500000,450.0,2.0,4.0,4.0,0.0,['Bon état'],23333.333333333332
+Villas,Anfa,2500000,131.0,4.0,3.0,2.0,0.0,['Bon état'],19083.969465648854
+Villas,Californie,14000000,1100.0,3.0,4.0,4.0,0.0,['Bon état'],12727.272727272728
+Villas,Sidi Maarouf,5000000,250.0,3.0,6.0,5.0,0.0,['Bon état'],20000.0
+Villas,Anfa,5400000,300.0,9.0,5.0,5.0,0.0,['Bon état'],18000.0
+Villas,Anfa Supérieur,35000000,1620.0,8.0,4.0,4.0,0.0,['Bon état'],21604.938271604937
+Appartements,Gauthier,4000000,189.0,5.0,3.0,2.0,2.0,['Bon état'],21164.021164021164
+Villas,Anfa Supérieur,71400000,4200.0,3.0,5.0,5.0,0.0,['Bon état'],17000.0
+Villas,Anfa,18000000,1000.0,8.0,4.0,4.0,0.0,['Bon état'],18000.0
+Appartements,Bourgogne Ouest,1600000,94.0,3.0,2.0,2.0,5.0,"['Bon état', '5-10 ans']",17021.27659574468
+Villas,Anfa Supérieur,48000000,2014.0,1.0,1.0,1.0,0.0,['Bon état'],23833.167825223434
+Villas,Sidi Maarouf,4600000,250.0,6.0,6.0,4.0,0.0,"['Bon état', ""Moins d'un an""]",18400.0
+Appartements,Val Fleury,1900000,129.0,4.0,3.0,2.0,2.0,"['Bon état', '5-10 ans']",14728.682170542636
+Appartements,Racine,1870000,84.0,3.0,2.0,2.0,3.0,"['Bon état', '5-10 ans']",22261.904761904763
+Villas,Anfa Supérieur,45000000,1900.0,5.0,5.0,5.0,0.0,['Bon état'],23684.21052631579
+Villas,Californie,14500000,1143.0,5.0,4.0,5.0,0.0,"['Bon état', '10-20 ans']",12685.91426071741
+Villas,Hermitage,4500000,200.0,6.0,4.0,3.0,0.0,"['Bon état', '5-10 ans']",22500.0
+Appartements,Racine,2750000,156.0,4.0,3.0,3.0,3.0,"['Bon état', '10-20 ans']",17628.20512820513
+Appartements,Les princesses,2350000,146.0,4.0,3.0,3.0,2.0,"['Bon état', '10-20 ans']",16095.890410958904
+Villas,Polo,6400000,803.0,6.0,4.0,3.0,0.0,"['À rénover', '30-50 ans']",7970.112079701121
+Appartements,Gauthier,1540000,91.0,3.0,2.0,1.0,1.0,"['Bon état', '5-10 ans']",16923.076923076922
+Appartements,Les princesses,1600000,100.0,3.0,2.0,2.0,1.0,"['Bon état', '1-5 ans']",16000.0
+Appartements,Les Hôpitaux,1750000,130.0,5.0,3.0,2.0,5.0,"['Bon état', '10-20 ans']",13461.538461538461
+Appartements,Californie,2980000,175.0,5.0,3.0,3.0,4.0,"['Bon état', '1-5 ans']",17028.571428571428
+Villas,Californie,19000000,1000.0,5.0,4.0,5.0,0.0,"['Bon état', '1-5 ans']",19000.0
+Appartements,Les princesses,2400000,140.0,5.0,3.0,3.0,5.0,"['Bon état', '10-20 ans']",17142.85714285714
+Appartements,Les princesses,1090000,51.0,2.0,1.0,1.0,1.0,"['Nouveau', '1-5 ans']",21372.549019607843
+Villas,Sidi Maarouf,4500000,250.0,5.0,4.0,3.0,0.0,"['Bon état', '10-20 ans']",18000.0
+Appartements,Val Fleury,1790000,125.0,5.0,3.0,2.0,1.0,"['Bon état', '10-20 ans']",14320.0
+Appartements,Bourgogne Ouest,2400000,141.0,3.0,3.0,2.0,4.0,"['Bon état', '10-20 ans']",17021.27659574468
+Appartements,Bernoussi,600000,58.0,3.0,2.0,1.0,1.0,"['Bon état', '5-10 ans']",10344.827586206897
+Appartements,Oulfa,470000,52.0,3.0,2.0,2.0,3.0,"['Bon état', '10-20 ans']",9038.461538461539
+Appartements,Californie,1572820,93.0,4.0,3.0,2.0,2.0,['Nouveau'],16912.043010752688
+Appartements,Ain Diab,4050000,162.0,3.0,2.0,3.0,6.0,"['Bon état', '1-5 ans']",25000.0
+Appartements,Gauthier,3000000,198.0,4.0,3.0,3.0,6.0,"['Bon état', '10-20 ans']",15151.515151515152
+Appartements,Maârif Extension,2330000,180.0,5.0,3.0,2.0,5.0,"['Bon état', '10-20 ans']",12944.444444444445
+Appartements,Californie,1585580,99.0,3.0,2.0,2.0,2.0,['Nouveau'],16015.959595959595
+Appartements,Californie,1656480,102.0,4.0,3.0,2.0,3.0,[],16240.0
+Appartements,Californie,1803200,115.0,3.0,2.0,2.0,4.0,['Nouveau'],15680.0
+Appartements,Californie,1721660,122.0,4.0,3.0,3.0,2.0,['Nouveau'],14111.967213114754
+Appartements,Californie,1854720,115.0,3.0,2.0,2.0,1.0,['Nouveau'],16128.0
+Appartements,Aïn Sebaâ,984810,90.0,3.0,2.0,2.0,4.0,['Nouveau'],10942.333333333334
+Villas,Ain Diab,8000000,400.0,10.0,4.0,6.0,0.0,['Nouveau'],20000.0
+Appartements,Belvédère,920000,78.0,3.0,2.0,1.0,2.0,"['Bon état', '5-10 ans']",11794.871794871795
+Appartements,Burger,14000,78.0,3.0,2.0,2.0,2.0,"['Nouveau', ""Moins d'un an""]",179.48717948717947
+Appartements,Val Fleury,2900000,240.0,5.0,3.0,2.0,4.0,"['Bon état', '5-10 ans']",12083.333333333334
+Appartements,Lissasfa,339000,50.0,3.0,2.0,1.0,3.0,"['Bon état', '5-10 ans']",6780.0
+Villas,Anfa,20000000,1058.0,5.0,5.0,4.0,0.0,['Bon état'],18903.59168241966
+Appartements,Triangle d'Or,2900000,125.0,5.0,3.0,2.0,2.0,"['Bon état', '10-20 ans']",23200.0
+Villas,Californie,7300000,490.0,3.0,5.0,4.0,0.0,"['Bon état', '5-10 ans']",14897.959183673469
+Appartements,Anfa,1480000,82.0,3.0,2.0,2.0,3.0,[],18048.780487804877
+Appartements,Centre Ville,2900000,210.0,4.0,2.0,2.0,4.0,[],13809.52380952381
+Appartements,Anfa,2950000,150.0,4.0,3.0,3.0,4.0,[],19666.666666666668
+Appartements,Maârif Extension,1350000,130.0,4.0,3.0,1.0,1.0,"['Bon état', '5-10 ans']",10384.615384615385
+Appartements,Oulfa,340000,47.0,3.0,2.0,1.0,3.0,"['Nouveau', '1-5 ans']",7234.04255319149
+Appartements,Belvédère,1800000,149.0,3.0,3.0,2.0,7.0,"['Bon état', '10-20 ans']",12080.536912751679
+Appartements,Salmia 2,510000,78.0,3.0,2.0,1.0,3.0,['Bon état'],6538.461538461538
+Appartements,Ain Borja,130000,105.0,3.0,1.0,2.0,6.0,"['Bon état', '10-20 ans']",1238.095238095238
+Appartements,Ain Diab,4200000,230.0,6.0,4.0,3.0,1.0,"['Nouveau', '1-5 ans']",18260.869565217392
+Appartements,Maârif,1780000,114.0,4.0,3.0,2.0,5.0,"['Bon état', '1-5 ans']",15614.035087719298
+Appartements,Maârif,1400000,77.0,2.0,1.0,2.0,4.0,"['Nouveau', ""Moins d'un an""]",18181.81818181818
+Appartements,Les princesses,1050000,55.0,2.0,1.0,1.0,3.0,"['Nouveau', ""Moins d'un an""]",19090.909090909092
+Appartements,Anassi,440000,65.0,3.0,2.0,1.0,1.0,"['Bon état', '20-30 ans']",6769.2307692307695
+Appartements,Val Fleury,2500000,162.0,4.0,3.0,2.0,4.0,"['Bon état', '5-10 ans']",15432.098765432098
+Villas,CIL (Hay Salam),9500000,480.0,8.0,4.0,3.0,0.0,"['Bon état', '10-20 ans']",19791.666666666668
+Villas,Californie,7500000,1015.0,10.0,3.0,4.0,0.0,"['À rénover', '10-20 ans']",7389.162561576355
+Appartements,Les princesses,1140000,63.0,2.0,1.0,1.0,5.0,"['Nouveau', ""Moins d'un an""]",18095.238095238095
+Appartements,Bourgogne Ouest,1350000,92.0,3.0,2.0,1.0,2.0,['Bon état'],14673.91304347826
+Villas,Anfa,14000000,1068.0,7.0,6.0,3.0,0.0,"['Bon état', '20-30 ans']",13108.614232209738
+Villas,Laymoune,8800000,700.0,5.0,4.0,2.0,0.0,"['Bon état', ""Moins d'un an""]",12571.42857142857
+Villas,Nassim 1,4650000,345.0,1.0,4.0,2.0,0.0,"['Bon état', '10-20 ans']",13478.260869565218
+Appartements,Hay Zobir,1250000,125.0,6.0,3.0,2.0,3.0,"['Bon état', '5-10 ans']",10000.0
+Appartements,Triangle d'Or,3200000,200.0,4.0,3.0,3.0,3.0,"['À rénover', '10-20 ans']",16000.0
+Appartements,Anfa,2650000,146.0,4.0,3.0,2.0,3.0,"['Nouveau', '1-5 ans']",18150.68493150685
+Appartements,Hay Alamal,670000,60.0,3.0,2.0,1.0,3.0,"['Nouveau', '5-10 ans']",11166.666666666666
+Villas,Sidi Maarouf,5300000,375.0,5.0,3.0,2.0,0.0,[],14133.333333333334
+Appartements,Palmier,1650000,116.0,5.0,3.0,2.0,5.0,"['Nouveau', '10-20 ans']",14224.137931034482
+Appartements,Moulay Youssef,2200000,104.0,5.0,2.0,2.0,5.0,"['Bon état', '5-10 ans']",21153.846153846152
+Appartements,Derb Chorfa,270000,32.0,2.0,1.0,1.0,2.0,"['Nouveau', ""Moins d'un an""]",8437.5
+Appartements,Californie,1694450,123.0,4.0,3.0,3.0,1.0,['Nouveau'],13776.016260162602
+Appartements,Californie,2506000,179.0,4.0,3.0,3.0,2.0,['Nouveau'],14000.0
+Appartements,Californie,1930430,139.0,3.0,2.0,3.0,2.0,['Nouveau'],13887.98561151079
+Appartements,Californie,2479680,180.0,4.0,3.0,3.0,1.0,['Nouveau'],13776.0
+Appartements,Californie,2465900,179.0,4.0,3.0,3.0,4.0,['Nouveau'],13775.977653631286
+Appartements,Derb Ghalef,850000,56.0,2.0,1.0,1.0,4.0,"['Bon état', '1-5 ans']",15178.57142857143
+Villas,Ain Diab Extension,16500000,1180.0,10.0,4.0,3.0,0.0,"['Bon état', '1-5 ans']",13983.050847457627
+Appartements,Derb Loubila,990000,74.0,3.0,2.0,1.0,6.0,"['Bon état', '5-10 ans']",13378.378378378378
+Appartements,Anassi,340000,56.0,5.0,2.0,1.0,3.0,"['Bon état', '5-10 ans']",6071.428571428572
+Appartements,Les princesses,1370000,130.0,4.0,3.0,2.0,1.0,"['Bon état', '10-20 ans']",10538.461538461539
+Appartements,Sidi Moumen,610000,60.0,3.0,2.0,1.0,3.0,"['Bon état', '1-5 ans']",10166.666666666666
+Appartements,Hay Almassira 2,500000,66.0,3.0,2.0,1.0,3.0,"['Bon état', '5-10 ans']",7575.757575757576
+Appartements,Les princesses,1750000,157.0,4.0,3.0,2.0,4.0,['Bon état'],11146.496815286624
+Appartements,Californie,1386000,99.0,3.0,2.0,2.0,1.0,['Nouveau'],14000.0
+Appartements,Maârif,820000,40.0,1.0,1.0,1.0,1.0,"['Nouveau', ""Moins d'un an""]",20500.0
+Appartements,Bernoussi,380000,54.0,3.0,2.0,1.0,3.0,"['Bon état', '5-10 ans']",7037.037037037037
+Appartements,Aïn Sebaâ,880000,91.0,3.0,3.0,1.0,3.0,"['Bon état', '1-5 ans']",9670.329670329671
+Appartements,Racine,2000000,96.0,4.0,3.0,2.0,1.0,"['Bon état', '10-20 ans']",20833.333333333332
+Appartements,Triangle d'Or,2380000,164.0,4.0,2.0,3.0,4.0,"['Bon état', '20-30 ans']",14512.19512195122
+Villas,Ain Diab,9500000,618.0,6.0,5.0,5.0,0.0,"['À rénover', '10-20 ans']",15372.168284789645
+Appartements,Riviera,2682500,148.0,4.0,3.0,4.0,5.0,"['Nouveau', '1-5 ans']",18125.0
+Appartements,Riviera,2886000,156.0,5.0,4.0,4.0,2.0,"['Nouveau', '1-5 ans']",18500.0
+Appartements,Riviera,3505750,222.0,5.0,4.0,4.0,1.0,"['Nouveau', '1-5 ans']",15791.666666666666
+Appartements,Gauthier,3800000,289.0,5.0,4.0,2.0,4.0,"['Bon état', '10-20 ans']",13148.78892733564
+Villas,Nassim 2,3500000,180.0,7.0,4.0,3.0,0.0,"['Bon état', '10-20 ans']",19444.444444444445
+Maisons,Hay Hassani,7000000,510.0,14.0,5.0,4.0,0.0,"['À rénover', '20-30 ans']",13725.490196078432
+Appartements,Maârif Extension,1750000,156.0,5.0,3.0,2.0,3.0,"['Bon état', '10-20 ans']",11217.948717948719
+Villas,Ain Diab Extension,14500000,1288.0,5.0,4.0,2.0,0.0,"['Bon état', '1-5 ans']",11257.76397515528
+Appartements,Belvédère,1800000,144.0,4.0,3.0,2.0,2.0,"['Bon état', '10-20 ans']",12500.0
+Appartements,Racine,4500000,294.0,6.0,3.0,3.0,5.0,"['Bon état', '10-20 ans']",15306.122448979591
+Appartements,La Gironde,1150000,120.0,3.0,2.0,2.0,5.0,"['Bon état', '10-20 ans']",9583.333333333334
+Appartements,Maârif Extension,2350000,137.0,5.0,3.0,2.0,1.0,"['Nouveau', ""Moins d'un an""]",17153.284671532845
+Appartements,Belvédère,2100000,210.0,2.0,3.0,2.0,7.0,"['Bon état', '20-30 ans']",10000.0
+Appartements,Derb Abdellah,1350000,99.0,6.0,3.0,2.0,1.0,"['Bon état', '5-10 ans']",13636.363636363636
+Appartements,Anassi,700000,78.0,4.0,3.0,2.0,4.0,"['Nouveau', '1-5 ans']",8974.358974358975
+Villas,Californie,13000000,1300.0,7.0,7.0,4.0,0.0,"['À rénover', '20-30 ans']",10000.0
+Appartements,Racine,2900000,191.0,5.0,2.0,2.0,2.0,"['Bon état', '10-20 ans']",15183.24607329843
+Appartements,Hermitage,1221690,57.0,2.0,1.0,2.0,1.0,[],21433.157894736843
+Villas,Californie,40000000,2700.0,9.0,4.0,3.0,0.0,"['Nouveau', ""Moins d'un an""]",14814.814814814816
+Appartements,Gauthier,3300000,229.0,5.0,3.0,2.0,1.0,"['Bon état', '5-10 ans']",14410.480349344978
+Appartements,Casablanca Finance City,2090000,112.0,3.0,2.0,2.0,3.0,"['Nouveau', '1-5 ans']",18660.714285714286
+Appartements,Les princesses,2950000,160.0,4.0,3.0,1.0,5.0,"['Bon état', '10-20 ans']",18437.5
+Villas,Ain Diab,6400000,432.0,5.0,4.0,3.0,0.0,[],14814.814814814816
+Appartements,Roches Noires,750000,85.0,3.0,2.0,1.0,4.0,"['Bon état', '10-20 ans']",8823.529411764706
+Appartements,Bourgogne Ouest,2000000,172.0,6.0,4.0,2.0,6.0,"['Bon état', '20-30 ans']",11627.906976744185
+Appartements,Ain Chock,3100000,201.0,8.0,3.0,3.0,1.0,"['Nouveau', ""Moins d'un an""]",15422.885572139303
+Villas,Ain Diab,6400000,450.0,8.0,4.0,4.0,0.0,['Bon état'],14222.222222222223
+Villas,Californie,14500000,1016.0,4.0,4.0,3.0,0.0,"['Bon état', '5-10 ans']",14271.653543307086
+Appartements,Centre Ville,4100000,434.0,6.0,6.0,3.0,10.0,"['À rénover', '20-30 ans']",9447.00460829493
+Appartements,Gauthier,4900000,320.0,5.0,5.0,3.0,5.0,"['Bon état', '10-20 ans']",15312.5
+Villas,Californie,7400000,483.0,5.0,4.0,3.0,0.0,"['Nouveau', '5-10 ans']",15320.910973084887
+Appartements,Racine,4800000,257.0,5.0,3.0,2.0,2.0,"['À rénover', '10-20 ans']",18677.04280155642
+Villas,CIL (Hay Salam),9500000,735.0,10.0,5.0,2.0,0.0,"['À rénover', '20-30 ans']",12925.170068027212
+Appartements,Triangle d'Or,4400000,195.0,4.0,3.0,2.0,2.0,"['Nouveau', '1-5 ans']",22564.102564102563
+Villas,Ain Diab,16500000,520.0,3.0,4.0,2.0,0.0,"['À rénover', '20-30 ans']",31730.76923076923
+Appartements,Racine,3400000,205.0,5.0,3.0,2.0,2.0,"['Bon état', '5-10 ans']",16585.365853658535
+Appartements,Triangle d'Or,4350000,295.0,4.0,4.0,3.0,5.0,"['Bon état', '5-10 ans']",14745.762711864407
+Appartements,Triangle d'Or,3700000,192.0,3.0,3.0,2.0,3.0,"['À rénover', '10-20 ans']",19270.833333333332
+Villas,Anfa,26000000,1455.0,3.0,5.0,4.0,0.0,"['À rénover', '5-10 ans']",17869.415807560137
+Villas,Anfa,16000000,872.0,6.0,4.0,3.0,0.0,"['Bon état', '10-20 ans']",18348.623853211007
+Villas,Polo,8500000,926.0,5.0,4.0,3.0,0.0,"['Bon état', '30-50 ans']",9179.2656587473
+Villas,Californie,16000000,1640.0,5.0,5.0,3.0,0.0,"['Bon état', '20-30 ans']",9756.09756097561
+Villas,Californie,7250000,486.0,4.0,4.0,3.0,0.0,"['Bon état', '5-10 ans']",14917.69547325103
+Villas,Californie,11500000,1422.0,9.0,4.0,4.0,0.0,"['Bon état', '10-20 ans']",8087.201125175809
+Villas,Anfa Supérieur,25000000,781.0,9.0,4.0,4.0,0.0,"['Nouveau', '1-5 ans']",32010.243277848913
+Villas,Anfa Supérieur,18000000,815.0,8.0,4.0,4.0,0.0,"['À rénover', '10-20 ans']",22085.889570552146
+Appartements,La Gironde,1276500,111.0,4.0,3.0,2.0,5.0,['Nouveau'],11500.0
+Villas,Californie,10500000,1124.0,5.0,3.0,3.0,0.0,"['À rénover', '20-30 ans']",9341.637010676157
+Appartements,Ain Diab,2550000,172.0,3.0,3.0,2.0,1.0,"['Nouveau', '10-20 ans']",14825.581395348838
+Appartements,Maârif Extension,1600000,99.0,2.0,2.0,2.0,4.0,"['Nouveau', ""Moins d'un an""]",16161.61616161616
+Villas,Sidi Maarouf,5100000,265.0,6.0,4.0,3.0,0.0,"['Bon état', '5-10 ans']",19245.283018867925
+Appartements,Palmier,2000000,184.0,3.0,3.0,2.0,1.0,"['À rénover', '20-30 ans']",10869.565217391304
+Appartements,Racine,2850000,160.0,5.0,3.0,2.0,3.0,"['Bon état', '10-20 ans']",17812.5
+Appartements,Gauthier,16500000,1200.0,3.0,5.0,4.0,6.0,"['Nouveau', ""Moins d'un an""]",13750.0
+Appartements,Mers Sultan,2500000,194.0,5.0,3.0,2.0,2.0,"['Bon état', '5-10 ans']",12886.59793814433
+Villas,Aïn Sebaâ,60000000,640.0,10.0,18.0,10.0,0.0,"['Bon état', '1-5 ans']",93750.0
+Maisons,Sidi Maarouf,4900000,250.0,4.0,3.0,3.0,0.0,"['Bon état', '5-10 ans']",19600.0
+Villas,Gauthier,4800000,152.0,6.0,3.0,2.0,0.0,['Bon état'],31578.947368421053
+Villas,Ain Diab,6800000,395.0,8.0,4.0,3.0,0.0,"['À rénover', '20-30 ans']",17215.189873417723
+Villas,Ain Diab,6100000,370.0,9.0,4.0,3.0,0.0,"['À rénover', '10-20 ans']",16486.486486486487
+Villas,Ain Diab,8500000,479.0,8.0,4.0,2.0,0.0,"['Bon état', '10-20 ans']",17745.302713987472
+Appartements,Racine,3850000,167.0,7.0,3.0,2.0,2.0,"['Bon état', '10-20 ans']",23053.892215568863
+Villas,Ain Diab,7800000,350.0,8.0,4.0,2.0,0.0,"['Bon état', '10-20 ans']",22285.714285714286
+Villas,Ain Diab,7200000,340.0,8.0,4.0,2.0,0.0,"['À rénover', '20-30 ans']",21176.470588235294
+Villas,Ain Diab,8000000,450.0,10.0,5.0,3.0,0.0,"['À rénover', '20-30 ans']",17777.777777777777
+Appartements,Oulfa,570000,61.0,3.0,2.0,1.0,2.0,"['Bon état', '10-20 ans']",9344.262295081968
+Appartements,Hermitage,1701080,83.0,2.0,1.0,2.0,4.0,[],20494.939759036144
+Appartements,Aïn Sebaâ,655500,57.0,3.0,2.0,2.0,2.0,"['Nouveau', ""Moins d'un an""]",11500.0
+Appartements,Ferme Bretonne (Hay Arraha),2160000,130.0,3.0,2.0,3.0,3.0,"['Nouveau', '1-5 ans']",16615.384615384617
+Appartements,Racine,2600000,130.0,4.0,3.0,3.0,3.0,"['Bon état', '5-10 ans']",20000.0
+Appartements,Racine,2600000,140.0,5.0,3.0,3.0,2.0,"['Bon état', '10-20 ans']",18571.428571428572
+Villas,Sidi Maarouf,7100000,310.0,6.0,4.0,3.0,0.0,"['Bon état', '5-10 ans']",22903.225806451614
+Villas,Californie,16500000,1260.0,10.0,4.0,4.0,0.0,['Bon état'],13095.238095238095
+Villas,Laymoune,6000000,401.0,8.0,6.0,3.0,0.0,"['Bon état', '5-10 ans']",14962.593516209476
+Villas,Polo,9000000,919.0,4.0,4.0,4.0,0.0,"['À rénover', '30-50 ans']",9793.253536452667
+Appartements,Val Fleury,1380000,100.0,3.0,2.0,2.0,2.0,"['Bon état', '10-20 ans']",13800.0
+Appartements,Gauthier,5800000,562.0,10.0,5.0,5.0,6.0,"['Bon état', '5-10 ans']",10320.284697508896
+Appartements,Palmier,4200000,279.0,4.0,3.0,3.0,6.0,"['Bon état', '5-10 ans']",15053.763440860215
+Villas,Sidi Maarouf,7000000,380.0,10.0,5.0,7.0,0.0,['Nouveau'],18421.052631578947
+Villas,CIL (Hay Salam),9500000,440.0,7.0,6.0,6.0,0.0,['Nouveau'],21590.909090909092
+Villas,CIL (Hay Salam),8700000,570.0,2.0,1.0,1.0,0.0,"['À rénover', '10-20 ans']",15263.157894736842
+Villas,Anfa Supérieur,34000000,1300.0,7.0,6.0,5.0,0.0,['À rénover'],26153.846153846152
+Maisons,Sidi Maarouf,3500000,120.0,4.0,4.0,2.0,0.0,['Bon état'],29166.666666666668
+Maisons,Hay Hassani,1500000,85.0,6.0,6.0,3.0,0.0,"['Bon état', '20-30 ans']",17647.058823529413
+Maisons,Sidi Maarouf,4600000,120.0,7.0,5.0,2.0,0.0,"['Bon état', '10-20 ans']",38333.333333333336
+Villas,Casablanca,9200000,490.0,5.0,5.0,4.0,0.0,[],18775.51020408163
+Appartements,Racine Extension,5000000,234.0,5.0,4.0,2.0,5.0,['Bon état'],21367.521367521367
+Appartements,Bourgogne Ouest,950000,50.0,2.0,1.0,1.0,5.0,"['Bon état', '5-10 ans']",19000.0
+Appartements,Belvédère,1100000,111.0,3.0,2.0,2.0,5.0,"['Bon état', '10-20 ans']",9909.90990990991
+Appartements,Beauséjour,2200000,155.0,4.0,2.0,2.0,3.0,"['Bon état', '5-10 ans']",14193.548387096775
+Villas,Sidi Maarouf,3600000,260.0,5.0,4.0,2.0,0.0,['Bon état'],13846.153846153846
+Appartements,Franceville,2000000,140.0,3.0,2.0,1.0,5.0,[],14285.714285714286
+Villas,Polo,8000000,799.0,7.0,4.0,2.0,0.0,[],10012.515644555695
+Villas,Longchamps (Hay Al Hanâa),11000000,600.0,7.0,4.0,2.0,0.0,[],18333.333333333332
+Villas,Casablanca,22750000,1750.0,8.0,5.0,2.0,0.0,[],13000.0
+Villas,Ain Diab,8000000,390.0,6.0,4.0,2.0,0.0,[],20512.82051282051
+Appartements,Bourgogne Ouest,1400000,92.0,5.0,3.0,1.0,3.0,[],15217.391304347826
+Appartements,Maârif,900000,60.0,2.0,1.0,1.0,3.0,[],15000.0
+Appartements,Bourgogne Ouest,1700000,159.0,4.0,3.0,2.0,5.0,"['Nouveau', '1-5 ans']",10691.82389937107
+Maisons,Polo,6500000,350.0,5.0,3.0,3.0,0.0,"['Nouveau', '1-5 ans']",18571.428571428572
+Maisons,Hay Al Qods,5000000,281.0,6.0,4.0,3.0,0.0,"['Bon état', '10-20 ans']",17793.59430604982
+Villas,Polo,9000000,1010.0,9.0,5.0,4.0,0.0,['À rénover'],8910.89108910891
+Appartements,CIL (Hay Salam),2300000,131.0,4.0,3.0,2.0,3.0,"['Bon état', '10-20 ans']",17557.251908396946
+Villas,Californie,16000000,1100.0,8.0,5.0,4.0,0.0,"['Nouveau', '1-5 ans']",14545.454545454546
+Villas,Californie,7500000,370.0,8.0,4.0,3.0,0.0,"['Nouveau', '5-10 ans']",20270.27027027027
+Appartements,Racine,3360000,191.0,5.0,3.0,3.0,2.0,[],17591.623036649216
+Villas,Polo,15500000,1000.0,8.0,4.0,6.0,0.0,"['Bon état', '10-20 ans']",15500.0
+Villas,CIL (Hay Salam),12000000,845.0,8.0,4.0,5.0,0.0,"['Bon état', '10-20 ans']",14201.183431952662
+Villas,Californie,9500000,1053.0,6.0,5.0,5.0,0.0,['Nouveau'],9021.842355175688
+Appartements,Gauthier,3300000,222.0,4.0,3.0,3.0,4.0,"['À rénover', '20-30 ans']",14864.864864864865
+Appartements,Palmier,3950000,217.0,5.0,3.0,3.0,4.0,"['Nouveau', '20-30 ans']",18202.764976958526
+Appartements,Racine Extension,3200000,156.0,6.0,4.0,3.0,3.0,"['À rénover', '10-20 ans']",20512.82051282051
+Appartements,Les princesses,3200000,198.0,4.0,3.0,3.0,5.0,"['Nouveau', '5-10 ans']",16161.61616161616
+Appartements,Bourgogne Ouest,2400000,150.0,4.0,3.0,3.0,4.0,"['Bon état', '10-20 ans']",16000.0
+Appartements,Burger,2650000,167.0,5.0,3.0,3.0,5.0,"['Nouveau', '5-10 ans']",15868.263473053892
+Appartements,Hay Arrahma,490000,68.0,3.0,2.0,1.0,4.0,"['Bon état', '5-10 ans']",7205.882352941177
+Appartements,Les princesses,1390000,105.0,3.0,2.0,2.0,3.0,"['Bon état', '10-20 ans']",13238.095238095239
+Appartements,Palmier,2000000,135.0,4.0,3.0,2.0,5.0,"['Bon état', '10-20 ans']",14814.814814814816
+Appartements,Californie,1650000,140.0,5.0,3.0,2.0,1.0,"['Bon état', '10-20 ans']",11785.714285714286
+Appartements,Les princesses,1550000,76.0,5.0,2.0,1.0,1.0,"['Nouveau', ""Moins d'un an""]",20394.736842105263
+Appartements,Racine,2400000,156.0,5.0,3.0,3.0,1.0,"['Nouveau', '10-20 ans']",15384.615384615385
+Appartements,Garage Allal,890000,89.0,3.0,2.0,2.0,8.0,"['Nouveau', '1-5 ans']",10000.0
+Appartements,Val Fleury,1470000,113.0,3.0,2.0,1.0,4.0,"['Bon état', '1-5 ans']",13008.849557522124
+Appartements,Ferme Bretonne (Hay Arraha),2900000,122.0,5.0,3.0,2.0,1.0,"['Bon état', ""Moins d'un an""]",23770.491803278688
+Appartements,El Manar - El Hank,1250000,93.0,3.0,2.0,1.0,5.0,"['Bon état', '5-10 ans']",13440.860215053763
+Appartements,Les princesses,1050000,60.0,2.0,1.0,1.0,7.0,"['Bon état', '5-10 ans']",17500.0
+Villas,CIL (Hay Salam),8500000,600.0,6.0,4.0,4.0,0.0,"['À rénover', '5-10 ans']",14166.666666666666
+Villas,Longchamps (Hay Al Hanâa),12000000,700.0,4.0,3.0,3.0,0.0,"['Nouveau', ""Moins d'un an""]",17142.85714285714
+Villas,Californie,13000000,1000.0,7.0,5.0,6.0,0.0,"['Bon état', '10-20 ans']",13000.0
+Villas,Californie,19000000,1100.0,8.0,6.0,6.0,0.0,"['Bon état', '5-10 ans']",17272.727272727272
+Appartements,Maârif Extension,700000,40.0,1.0,1.0,1.0,3.0,"['Nouveau', '1-5 ans']",17500.0
+Appartements,Hay Zobir,1090000,95.0,4.0,3.0,2.0,1.0,"['Bon état', '5-10 ans']",11473.684210526315
+Appartements,Les Hôpitaux,2500000,200.0,5.0,4.0,3.0,4.0,"['Bon état', '10-20 ans']",12500.0
+Villas,Ain Diab,33000000,1613.0,7.0,4.0,4.0,0.0,"['Bon état', '10-20 ans']",20458.77247365158
+Appartements,Oulfa,400000,50.0,1.0,3.0,1.0,3.0,"['Bon état', '1-5 ans']",8000.0
+Appartements,Maârif Extension,2600000,153.0,3.0,2.0,2.0,2.0,"['Bon état', '5-10 ans']",16993.46405228758
+Appartements,Val Fleury,2100000,130.0,5.0,3.0,2.0,1.0,"['Bon état', ""Moins d'un an""]",16153.846153846154
+Appartements,Maârif,1900000,127.0,4.0,3.0,2.0,4.0,"['Nouveau', '1-5 ans']",14960.629921259842
+Villas,Ain Diab Extension,8000000,320.0,6.0,4.0,1.0,0.0,"['Bon état', '5-10 ans']",25000.0
+Appartements,Hermitage,1600000,144.0,5.0,3.0,2.0,4.0,"['Bon état', '10-20 ans']",11111.111111111111
+Appartements,Maârif,2400000,138.0,4.0,3.0,2.0,5.0,['Bon état'],17391.304347826088
+Appartements,Sidi Othmane,425000,61.0,4.0,2.0,1.0,3.0,"['Nouveau', ""Moins d'un an""]",6967.213114754099
+Appartements,Gauthier,2100000,149.0,5.0,3.0,2.0,3.0,"['Bon état', '10-20 ans']",14093.959731543624
+Appartements,Casablanca,1800000,128.0,4.0,3.0,2.0,3.0,[],14062.5
+Appartements,Les princesses,970000,54.0,2.0,1.0,1.0,7.0,"['Nouveau', ""Moins d'un an""]",17962.962962962964
+Appartements,Casablanca Finance City,1500000,45.0,2.0,1.0,2.0,2.0,"['Nouveau', '1-5 ans']",33333.333333333336
+Appartements,Les Hôpitaux,1900000,142.0,5.0,3.0,2.0,4.0,['Bon état'],13380.281690140846
+Appartements,Anfa,2280000,127.0,5.0,3.0,2.0,3.0,"['Nouveau', '5-10 ans']",17952.75590551181
+Villas,Oulfa,3500000,251.0,4.0,11.0,4.0,0.0,"['Bon état', '10-20 ans']",13944.223107569722
+Maisons,Hay Zobir,3800000,85.0,10.0,3.0,4.0,0.0,"['Bon état', '10-20 ans']",44705.882352941175
+Villas,Californie,28000000,1633.0,8.0,4.0,3.0,0.0,"['Nouveau', '1-5 ans']",17146.356399265158
+Villas,Anfa Supérieur,24000000,1465.0,9.0,4.0,2.0,0.0,"['Bon état', '10-20 ans']",16382.252559726963
+Villas,CIL (Hay Salam),8000000,535.0,7.0,4.0,2.0,0.0,"['Bon état', '5-10 ans']",14953.271028037383
+Villas,Californie,13000000,1020.0,8.0,4.0,3.0,0.0,"['Nouveau', '5-10 ans']",12745.098039215687
+Villas,Anfa Supérieur,19000000,1065.0,8.0,3.0,2.0,0.0,"['Bon état', '10-20 ans']",17840.37558685446
+Villas,Oasis,8500000,563.0,7.0,4.0,3.0,0.0,"['Nouveau', '1-5 ans']",15097.690941385436
+Villas,Longchamps (Hay Al Hanâa),11700000,675.0,7.0,4.0,3.0,0.0,"['Nouveau', '5-10 ans']",17333.333333333332
+Villas,Longchamps (Hay Al Hanâa),15000000,733.0,7.0,4.0,3.0,0.0,"['Nouveau', '1-5 ans']",20463.847203274214
+Villas,CIL (Hay Salam),9500000,425.0,7.0,4.0,3.0,0.0,"['Nouveau', '1-5 ans']",22352.941176470587
+Villas,Californie,12000000,1200.0,9.0,4.0,3.0,0.0,"['Bon état', '10-20 ans']",10000.0
+Villas,Californie,10000000,855.0,9.0,4.0,3.0,0.0,"['Nouveau', '5-10 ans']",11695.906432748538
+Villas,Ain Diab,7000000,400.0,8.0,4.0,3.0,0.0,"['Bon état', '5-10 ans']",17500.0
+Villas,Ain Diab,9500000,615.0,8.0,4.0,3.0,0.0,"['À rénover', '1-5 ans']",15447.154471544716
+Villas,Oasis,9000000,850.0,8.0,4.0,3.0,0.0,"['À rénover', '10-20 ans']",10588.235294117647
+Villas,CIL (Hay Salam),9000000,435.0,7.0,4.0,2.0,0.0,"['À rénover', '10-20 ans']",20689.655172413793
+Villas,Californie,16000000,1500.0,9.0,4.0,4.0,0.0,"['Bon état', '10-20 ans']",10666.666666666666
+Villas,Ain Diab,7500000,545.0,8.0,4.0,3.0,0.0,"['Nouveau', '5-10 ans']",13761.467889908257
+Villas,Longchamps (Hay Al Hanâa),7500000,400.0,6.0,2.0,2.0,0.0,"['À rénover', '10-20 ans']",18750.0
+Villas,Oasis,7000000,584.0,8.0,4.0,3.0,0.0,"['Bon état', '10-20 ans']",11986.301369863013
+Villas,Oasis,7500000,625.0,8.0,4.0,3.0,0.0,"['Bon état', '10-20 ans']",12000.0
+Villas,Oasis,6500000,530.0,7.0,4.0,3.0,0.0,"['À rénover', '10-20 ans']",12264.150943396226
+Villas,CIL (Hay Salam),6800000,400.0,5.0,3.0,3.0,0.0,"['Nouveau', '10-20 ans']",17000.0
+Villas,Anfa,6500000,400.0,8.0,4.0,2.0,0.0,"['Bon état', '10-20 ans']",16250.0
+Villas,Polo,7000000,665.0,7.0,3.0,2.0,0.0,"['À rénover', '10-20 ans']",10526.315789473685
+Villas,Oasis,6500000,320.0,6.0,3.0,3.0,0.0,"['Nouveau', '5-10 ans']",20312.5
+Villas,CIL (Hay Salam),7500000,460.0,6.0,4.0,2.0,0.0,"['Bon état', '5-10 ans']",16304.347826086956
+Villas,Oasis,13000000,733.0,8.0,4.0,2.0,0.0,"['À rénover', '10-20 ans']",17735.334242837653
+Villas,Ain Diab,5800000,350.0,7.0,4.0,3.0,0.0,"['Nouveau', '5-10 ans']",16571.428571428572
+Villas,Anfa Supérieur,60000000,3200.0,9.0,4.0,3.0,0.0,"['Bon état', '10-20 ans']",18750.0
+Villas,Polo,6000000,380.0,8.0,4.0,3.0,0.0,"['Nouveau', '5-10 ans']",15789.473684210527
+Villas,Polo,5800000,525.0,8.0,3.0,2.0,0.0,"['À rénover', '10-20 ans']",11047.619047619048
+Villas,CIL (Hay Salam),6800000,375.0,7.0,3.0,2.0,0.0,"['À rénover', '10-20 ans']",18133.333333333332
+Villas,El Manar - El Hank,7500000,540.0,8.0,4.0,3.0,0.0,"['Bon état', '10-20 ans']",13888.888888888889
+Villas,Anfa,7900000,593.0,8.0,4.0,3.0,0.0,"['Nouveau', '5-10 ans']",13322.091062394604
+Villas,Oasis,5500000,417.0,6.0,3.0,2.0,0.0,"['À rénover', '10-20 ans']",13189.448441247003
+Villas,CIL (Hay Salam),9000000,390.0,8.0,4.0,4.0,0.0,"['Nouveau', ""Moins d'un an""]",23076.923076923078
+Villas,CIL (Hay Salam),8700000,675.0,7.0,4.0,3.0,0.0,"['À rénover', '10-20 ans']",12888.888888888889
+Villas,Longchamps (Hay Al Hanâa),10800000,865.0,7.0,4.0,2.0,0.0,"['À rénover', '10-20 ans']",12485.549132947977
+Villas,CIL (Hay Salam),13800000,988.0,8.0,4.0,3.0,0.0,"['À rénover', '10-20 ans']",13967.611336032389
+Villas,Ain Diab,6500000,350.0,7.0,4.0,3.0,0.0,"['Nouveau', '5-10 ans']",18571.428571428572
+Villas,Longchamps (Hay Al Hanâa),12000000,580.0,7.0,4.0,3.0,0.0,"['Nouveau', '5-10 ans']",20689.655172413793
+Villas,CIL (Hay Salam),7000000,360.0,8.0,4.0,3.0,0.0,"['Bon état', '10-20 ans']",19444.444444444445
+Villas,Ain Diab,11500000,722.0,8.0,4.0,3.0,0.0,"['Nouveau', '5-10 ans']",15927.97783933518
+Villas,Anfa,15000000,945.0,8.0,4.0,3.0,0.0,"['À rénover', '5-10 ans']",15873.015873015873
+Villas,Ain Diab,6800000,400.0,8.0,4.0,3.0,0.0,"['Nouveau', '5-10 ans']",17000.0
+Villas,Anfa,14500000,993.0,7.0,4.0,3.0,0.0,"['Nouveau', '5-10 ans']",14602.215508559919
+Villas,Californie,16000000,1350.0,7.0,4.0,2.0,0.0,"['Bon état', '10-20 ans']",11851.851851851852
+Villas,Californie,15000000,1120.0,8.0,4.0,3.0,0.0,"['Bon état', '10-20 ans']",13392.857142857143
+Villas,Californie,22000000,1800.0,7.0,4.0,3.0,0.0,"['Bon état', '10-20 ans']",12222.222222222223
+Villas,Polo,13000000,977.0,8.0,4.0,2.0,0.0,"['Bon état', '10-20 ans']",13306.038894575231
+Villas,Polo,23000000,2200.0,7.0,4.0,3.0,0.0,"['À rénover', '10-20 ans']",10454.545454545454
+Villas,Anfa,18000000,1025.0,8.0,4.0,2.0,0.0,"['Bon état', '10-20 ans']",17560.975609756097
+Villas,Oasis,30000000,1622.0,7.0,4.0,2.0,0.0,"['Bon état', '10-20 ans']",18495.684340320593
+Villas,Longchamps (Hay Al Hanâa),20000000,1085.0,8.0,4.0,3.0,0.0,"['Bon état', '10-20 ans']",18433.179723502304
+Villas,CIL (Hay Salam),12000000,575.0,9.0,4.0,3.0,0.0,"['Bon état', '10-20 ans']",20869.565217391304
+Villas,Anfa,20000000,985.0,8.0,4.0,2.0,0.0,"['À rénover', '10-20 ans']",20304.568527918782
+Villas,Anfa,13000000,627.0,8.0,4.0,3.0,0.0,"['À rénover', '10-20 ans']",20733.652312599683
+Villas,Anfa,25000000,1017.0,8.0,4.0,3.0,0.0,"['À rénover', '10-20 ans']",24582.104228121927
+Villas,CIL (Hay Salam),8700000,715.0,9.0,4.0,3.0,0.0,"['À rénover', '10-20 ans']",12167.832167832168
+Villas,Ain Borja,6630000,390.0,5.0,1.0,1.0,0.0,['Bon état'],17000.0
+Maisons,Hay Al Amal,2600000,96.0,5.0,2.0,2.0,0.0,"['Bon état', '20-30 ans']",27083.333333333332
+Appartements,Oasis,1400000,71.0,3.0,2.0,2.0,1.0,"['Nouveau', ""Moins d'un an""]",19718.309859154928
+Appartements,Bourgogne Ouest,1170000,89.0,4.0,2.0,1.0,6.0,"['Bon état', '10-20 ans']",13146.067415730337
+Appartements,Palmier,1950000,125.0,5.0,3.0,2.0,9.0,['Bon état'],15600.0
+Appartements,Les princesses,1500000,100.0,3.0,2.0,2.0,4.0,"['Bon état', '10-20 ans']",15000.0
+Riad,Californie,16500000,1000.0,7.0,5.0,5.0,0.0,"['Bon état', '1-5 ans']",16500.0
+Appartements,La Gironde,1590000,153.0,6.0,3.0,3.0,6.0,"['Nouveau', '5-10 ans']",10392.156862745098
+Appartements,Casablanca Finance City,5200000,58.0,2.0,2.0,1.0,3.0,"['Bon état', '20-30 ans']",89655.1724137931
+Appartements,Burger,2400000,215.0,4.0,3.0,3.0,1.0,"['Bon état', '10-20 ans']",11162.790697674418
+Appartements,Ferme Bretonne (Hay Arraha),2430000,138.0,4.0,3.0,2.0,3.0,"['Nouveau', ""Moins d'un an""]",17608.695652173912
+Appartements,Maârif,1747300,98.0,3.0,2.0,2.0,6.0,"['Bon état', '10-20 ans']",17829.591836734693
+Appartements,Al Qods,360000,54.0,3.0,2.0,1.0,3.0,"['Bon état', '5-10 ans']",6666.666666666667
+Maisons,Michouar,4000000,441.0,9.0,5.0,3.0,0.0,"['À rénover', '50-70 ans']",9070.2947845805
+Appartements,Nassim 1,840000,91.0,4.0,2.0,2.0,3.0,"['Bon état', '10-20 ans']",9230.76923076923
+Villas,Les Crêtes,7500000,399.0,8.0,4.0,3.0,0.0,"['Bon état', '5-10 ans']",18796.992481203008
+Maisons,Polo,4050000,345.0,7.0,5.0,3.0,0.0,"['Bon état', '20-30 ans']",11739.130434782608
+Appartements,Les princesses,8000,95.0,3.0,2.0,2.0,4.0,"['Nouveau', '5-10 ans']",84.21052631578948
+Appartements,Maârif Extension,980000,98.0,3.0,2.0,1.0,5.0,"['À rénover', '20-30 ans']",10000.0
+Appartements,Ain Diab,3700000,203.0,5.0,3.0,2.0,2.0,"['Bon état', '10-20 ans']",18226.600985221674
+Appartements,Maârif Extension,1700000,96.0,3.0,2.0,1.0,7.0,['Bon état'],17708.333333333332
+Villas,Ain Diab,14500000,1250.0,16.0,7.0,4.0,0.0,['Bon état'],11600.0
+Appartements,Maârif Extension,990000,107.0,3.0,2.0,2.0,3.0,"['Bon état', '5-10 ans']",9252.336448598131
+Villas,Laymoune,5000000,460.0,8.0,5.0,4.0,0.0,"['Bon état', '10-20 ans']",10869.565217391304
+Appartements,Palmier,2800000,155.0,4.0,3.0,2.0,8.0,['Bon état'],18064.516129032258
+Villas,Mandarona,13000000,897.0,9.0,4.0,4.0,0.0,['Bon état'],14492.753623188406
+Appartements,Palmier,3650000,265.0,4.0,3.0,3.0,6.0,"['Bon état', '10-20 ans']",13773.584905660377
+Appartements,Bourgogne Ouest,820000,48.0,2.0,1.0,1.0,4.0,"['Nouveau', ""Moins d'un an""]",17083.333333333332
+Villas,Californie,5600000,252.0,4.0,3.0,3.0,0.0,"['Bon état', '1-5 ans']",22222.222222222223
+Appartements,Palmier,2750000,153.0,6.0,3.0,2.0,7.0,"['Bon état', '5-10 ans']",17973.856209150326
+Appartements,Maârif,1150000,73.0,3.0,2.0,2.0,3.0,"['Bon état', '5-10 ans']",15753.424657534246
+Appartements,Gauthier,2200000,150.0,6.0,3.0,3.0,3.0,"['À rénover', '5-10 ans']",14666.666666666666
+Villas,Sidi Maarouf,5400000,265.0,11.0,3.0,4.0,0.0,"['Nouveau', '5-10 ans']",20377.35849056604
+Appartements,Triangle d'Or,5300000,340.0,10.0,4.0,3.0,5.0,"['Nouveau', '10-20 ans']",15588.235294117647
+Appartements,Gauthier,2350000,132.0,7.0,3.0,2.0,5.0,"['Bon état', '10-20 ans']",17803.030303030304
+Villas,CIL (Hay Salam),11000000,599.0,8.0,4.0,2.0,0.0,"['À rénover', '30-50 ans']",18363.939899833054
+Villas,Bourgogne Ouest,7600000,487.0,7.0,4.0,3.0,0.0,"['Bon état', '10-20 ans']",15605.749486652978
+Appartements,Sidi Maarouf,900000,93.0,3.0,2.0,1.0,1.0,"['Bon état', '5-10 ans']",9677.41935483871
+Villas,Mandarona,6400000,450.0,10.0,4.0,3.0,0.0,"['Bon état', '1-5 ans']",14222.222222222223
+Appartements,Maârif Extension,1790000,131.0,3.0,2.0,2.0,1.0,"['Nouveau', '1-5 ans']",13664.12213740458
+Villas,Ain Diab Extension,4500000,330.0,6.0,4.0,3.0,0.0,"['Bon état', '5-10 ans']",13636.363636363636
+Appartements,CIL (Hay Salam),830000,34.0,2.0,1.0,1.0,3.0,"['Bon état', '30-50 ans']",24411.764705882353
+Appartements,Bourgogne Ouest,1020000,83.0,2.0,2.0,2.0,3.0,['Bon état'],12289.156626506025
+Appartements,Laymoune,1300000,104.0,5.0,3.0,2.0,1.0,"['Nouveau', '5-10 ans']",12500.0
+Appartements,Hay Inara,740000,74.0,3.0,2.0,1.0,4.0,"['Bon état', '10-20 ans']",10000.0
+Appartements,Bourgogne Ouest,1200000,89.0,3.0,2.0,1.0,4.0,"['Bon état', '10-20 ans']",13483.14606741573
+Appartements,Belvédère,8200000,74.0,2.0,2.0,2.0,3.0,"['Nouveau', '1-5 ans']",110810.81081081081
+Villas,Californie,28880000,2500.0,10.0,6.0,5.0,0.0,[],11552.0
+Appartements,Maârif Extension,1500000,124.0,5.0,2.0,2.0,4.0,"['Bon état', '5-10 ans']",12096.774193548386
+Appartements,Hay Mansour,2000,60.0,2.0,1.0,1.0,2.0,"['Bon état', '1-5 ans']",33.333333333333336
+Appartements,Maârif,1000000,96.0,4.0,4.0,2.0,4.0,"['Bon état', '20-30 ans']",10416.666666666666
+Appartements,Sidi Maarouf,680000,80.0,2.0,2.0,1.0,3.0,"['Bon état', '10-20 ans']",8500.0
+Appartements,Bourgogne Ouest,1100000,110.0,4.0,3.0,1.0,1.0,"['Bon état', '10-20 ans']",10000.0
+Appartements,Val Fleury,1850000,132.0,5.0,3.0,2.0,2.0,"['Bon état', '5-10 ans']",14015.151515151516
+Maisons,Beauséjour,7200000,137.0,3.0,2.0,2.0,0.0,['Nouveau'],52554.744525547445
+Appartements,Les Hôpitaux,1270000,105.0,3.0,2.0,2.0,4.0,"['Bon état', '10-20 ans']",12095.238095238095
+Appartements,Mers Sultan,250000,100.0,2.0,1.0,2.0,5.0,['Bon état'],2500.0
+Appartements,Palmier,1800000,129.0,4.0,3.0,2.0,2.0,"['Bon état', '10-20 ans']",13953.488372093023
+Appartements,Mers Sultan,1350000,109.0,4.0,3.0,2.0,5.0,"['Bon état', '10-20 ans']",12385.321100917432
+Appartements,Anfa,3000000,186.0,5.0,3.0,2.0,10.0,"['Bon état', '20-30 ans']",16129.032258064517
+Appartements,Casablanca,3800000,185.0,5.0,4.0,1.0,5.0,[],20540.54054054054
+Appartements,Racine,4250000,267.0,5.0,3.0,2.0,3.0,['Bon état'],15917.602996254682
+Appartements,Derb Loubila,950000,103.0,3.0,2.0,1.0,5.0,"['À rénover', '20-30 ans']",9223.300970873786
+Appartements,Maârif Extension,1400000,112.0,4.0,3.0,2.0,3.0,"['Bon état', '10-20 ans']",12500.0
+Villas,Californie,50000000,2600.0,15.0,8.0,9.0,0.0,"['Bon état', '10-20 ans']",19230.76923076923
+Appartements,Triangle d'Or,2500000,169.0,6.0,3.0,3.0,3.0,"['Bon état', '10-20 ans']",14792.899408284024
+Appartements,Maârif Extension,1950000,150.0,5.0,3.0,2.0,1.0,"['Bon état', '10-20 ans']",13000.0
+Appartements,Gauthier,1717500,51.0,2.0,1.0,2.0,3.0,['Nouveau'],33676.470588235294
+Appartements,Maârif,1780000,125.0,4.0,3.0,2.0,4.0,[],14240.0
+Appartements,Bourgogne Ouest,1400000,105.0,3.0,2.0,2.0,7.0,['Bon état'],13333.333333333334
+Appartements,Les Hôpitaux,1340000,115.0,3.0,2.0,2.0,5.0,"['Bon état', '10-20 ans']",11652.173913043478
+Appartements,Les Hôpitaux,2480000,179.0,5.0,3.0,3.0,2.0,"['Bon état', '10-20 ans']",13854.748603351954
+Villas,CIL (Hay Salam),5000000,240.0,4.0,3.0,4.0,0.0,['Bon état'],20833.333333333332
+Villas,Californie,10000000,600.0,6.0,4.0,5.0,0.0,['Nouveau'],16666.666666666668
+Villas,Californie,9700000,575.0,7.0,4.0,4.0,0.0,['Bon état'],16869.565217391304
+Appartements,Maârif Extension,3500000,230.0,5.0,3.0,3.0,5.0,"['Nouveau', '1-5 ans']",15217.391304347826
+Appartements,Racine,2650000,148.0,4.0,3.0,3.0,3.0,"['Bon état', '10-20 ans']",17905.405405405407
+Appartements,Racine,2600000,169.0,4.0,3.0,3.0,5.0,"['Bon état', '10-20 ans']",15384.615384615385
+Appartements,Burger,1500000,107.0,3.0,2.0,2.0,3.0,"['Bon état', '5-10 ans']",14018.691588785046
+Appartements,Burger,2600000,169.0,4.0,2.0,2.0,4.0,['Bon état'],15384.615384615385
+Villas,Californie,13000000,1040.0,9.0,5.0,3.0,0.0,['À rénover'],12500.0
+Appartements,Racine Extension,2800000,194.0,6.0,4.0,2.0,3.0,"['Bon état', '20-30 ans']",14432.98969072165
+Appartements,Racine Extension,3200000,181.0,5.0,3.0,2.0,5.0,"['Bon état', '10-20 ans']",17679.558011049725
+Appartements,Les princesses,2400000,188.0,5.0,3.0,2.0,2.0,"['Bon état', '5-10 ans']",12765.95744680851
+Appartements,Racine,2450000,139.0,5.0,3.0,2.0,2.0,"['Bon état', '10-20 ans']",17625.89928057554
+Appartements,Beausite,400000,52.0,3.0,2.0,1.0,3.0,"['Bon état', '10-20 ans']",7692.307692307692
+Villas,CIL (Hay Salam),12500000,700.0,7.0,4.0,4.0,0.0,"['Bon état', '10-20 ans']",17857.14285714286
+Appartements,Ain Diab,3500000,153.0,4.0,3.0,3.0,2.0,"['Bon état', '10-20 ans']",22875.816993464054
+Appartements,Les princesses,2235000,125.0,5.0,3.0,3.0,3.0,['Bon état'],17880.0
+Maisons,El Manar - El Hank,6200000,400.0,6.0,4.0,3.0,0.0,['À rénover'],15500.0
+Appartements,Les Hôpitaux,3500000,245.0,6.0,3.0,3.0,2.0,['Bon état'],14285.714285714286
+Appartements,Racine,2500000,126.0,5.0,3.0,2.0,2.0,['Bon état'],19841.26984126984
+Maisons,La Vilette,1200000,168.0,11.0,7.0,3.0,0.0,"['Bon état', '5-10 ans']",7142.857142857143
+Appartements,Lissasfa,335000,50.0,4.0,3.0,2.0,4.0,"['Nouveau', '1-5 ans']",6700.0
+Appartements,Derb Moulay Cherif,12000000,168.0,11.0,7.0,3.0,3.0,"['Bon état', '5-10 ans']",71428.57142857143
+Appartements,Anassi,640000,98.0,4.0,4.0,2.0,4.0,"['Bon état', '1-5 ans']",6530.6122448979595
+Villas,Ain Diab,7500000,385.0,6.0,4.0,2.0,0.0,"['Bon état', '5-10 ans']",19480.51948051948
+Villas,Longchamps (Hay Al Hanâa),6800000,396.0,7.0,5.0,2.0,0.0,"['À rénover', '20-30 ans']",17171.717171717173
+Appartements,Plateau (Al Batha),2900000,240.0,5.0,3.0,2.0,1.0,"['Bon état', '20-30 ans']",12083.333333333334
+Appartements,Racine,2300000,129.0,3.0,2.0,2.0,4.0,"['Bon état', '5-10 ans']",17829.457364341084
+Villas,Anfa,7300000,384.0,6.0,4.0,3.0,0.0,"['Bon état', '20-30 ans']",19010.416666666668
+Appartements,Les Hôpitaux,1800000,129.0,4.0,2.0,2.0,3.0,"['Bon état', '5-10 ans']",13953.488372093023
+Appartements,Bourgogne Ouest,1330000,53.0,2.0,1.0,1.0,3.0,"['Nouveau', '1-5 ans']",25094.33962264151
+Appartements,Hay Hassani,360000,56.0,5.0,2.0,1.0,1.0,"['Nouveau', '1-5 ans']",6428.571428571428
+Villas,Californie,8500000,620.0,7.0,5.0,4.0,0.0,[],13709.677419354839
+Appartements,CIL (Hay Salam),2200000,192.0,3.0,2.0,3.0,4.0,"['Nouveau', '10-20 ans']",11458.333333333334
+Villas,Casablanca,8800000,525.0,8.0,4.0,4.0,0.0,[],16761.904761904763
+Appartements,Aïn Sebaâ,650000,60.0,3.0,2.0,2.0,3.0,"['Bon état', '5-10 ans']",10833.333333333334
+Appartements,Maârif,1250000,78.0,3.0,2.0,2.0,4.0,['Bon état'],16025.641025641025
+Appartements,Les Hôpitaux,780000,44.0,2.0,1.0,1.0,4.0,"['Nouveau', ""Moins d'un an""]",17727.272727272728
+Appartements,Nassim 2,700000,71.0,3.0,2.0,1.0,4.0,"['Bon état', '5-10 ans']",9859.154929577464
+Appartements,Sidi Moumen,450000,56.0,3.0,2.0,1.0,2.0,"['Bon état', '5-10 ans']",8035.714285714285
+Appartements,Bourgogne Ouest,1400000,75.0,2.0,1.0,1.0,5.0,['Bon état'],18666.666666666668
+Appartements,Les Hôpitaux,1256000,84.0,3.0,2.0,1.0,4.0,['Bon état'],14952.380952380952
+Appartements,Anassi,640000,73.0,3.0,2.0,1.0,2.0,"['Bon état', '1-5 ans']",8767.123287671233
+Appartements,Quartier Bachkou,1625000,108.0,4.0,3.0,2.0,4.0,"['Bon état', '10-20 ans']",15046.296296296296
+Appartements,Maârif,1890000,127.0,4.0,3.0,3.0,4.0,"['Bon état', '5-10 ans']",14881.889763779527
+Villas,Ain Diab Extension,8200000,400.0,11.0,6.0,5.0,0.0,['Nouveau'],20500.0
+Appartements,Anfa,1200000,55.0,2.0,1.0,1.0,2.0,['Bon état'],21818.18181818182
+Appartements,Al Qods,540000,71.0,4.0,2.0,1.0,4.0,"['Bon état', '5-10 ans']",7605.633802816901
+Appartements,Californie,2500000,144.0,5.0,3.0,2.0,5.0,"['Bon état', '1-5 ans']",17361.11111111111
+Appartements,Sidi Moumen,480000,59.0,3.0,2.0,1.0,1.0,['Bon état'],8135.593220338983
+Appartements,Oulfa,1350000,129.0,4.0,2.0,2.0,2.0,"['Bon état', '20-30 ans']",10465.116279069767
+Appartements,Roches Noires,930000,105.0,4.0,2.0,1.0,3.0,"['Bon état', '5-10 ans']",8857.142857142857
+Appartements,Sidi Maarouf,1600000,103.0,4.0,3.0,2.0,2.0,"['Bon état', '1-5 ans']",15533.980582524271
+Appartements,Ain Diab,1100000,62.0,2.0,1.0,1.0,5.0,"['Bon état', '1-5 ans']",17741.935483870966
+Villas,El Manar - El Hank,7700000,475.0,7.0,5.0,4.0,0.0,"['Bon état', '10-20 ans']",16210.526315789473
+Appartements,Maârif Extension,1550000,100.0,7.0,3.0,2.0,4.0,"['Bon état', '5-10 ans']",15500.0
+Appartements,Franceville,2200000,128.0,8.0,3.0,2.0,4.0,"['Bon état', '5-10 ans']",17187.5
+Appartements,Val Fleury,3100000,220.0,9.0,3.0,3.0,3.0,"['Bon état', '10-20 ans']",14090.90909090909
+Appartements,Al Qods,950000,91.0,4.0,2.0,2.0,2.0,"['Bon état', '10-20 ans']",10439.560439560439
+Appartements,Ain Borja,1058000,92.0,5.0,2.0,2.0,1.0,"['Bon état', '5-10 ans']",11500.0
+Appartements,Al Qods,810000,85.0,4.0,3.0,2.0,3.0,"['Bon état', '5-10 ans']",9529.411764705883
+Maisons,Hay Lalla Meriem,550000,48.0,2.0,5.0,2.0,0.0,"['Bon état', '10-20 ans']",11458.333333333334
+Appartements,Hay Zobir,580000,76.0,2.0,1.0,1.0,3.0,"['Bon état', '20-30 ans']",7631.578947368421
+Villas,Hermitage,8800000,880.0,10.0,4.0,3.0,0.0,"['À rénover', '20-30 ans']",10000.0
+Villas,Racine Extension,7980000,420.0,7.0,4.0,2.0,0.0,"['À rénover', '20-30 ans']",19000.0
+Villas,Ain Diab,20631000,1058.0,9.0,4.0,4.0,0.0,"['À rénover', '20-30 ans']",19500.0
+Villas,Ain Diab,45000,667.0,5.0,4.0,3.0,0.0,[],67.46626686656671
+Appartements,Sidi Maarouf,500000,49.0,3.0,2.0,1.0,1.0,"['Bon état', '5-10 ans']",10204.081632653062
+Appartements,Hay Tasahol,630000,83.0,3.0,2.0,1.0,4.0,"['À rénover', '20-30 ans']",7590.361445783133
+Villas,Ain Diab,8500000,477.0,7.0,5.0,4.0,0.0,"['Bon état', '5-10 ans']",17819.706498951782
+Villas,Ain Diab,16000000,1050.0,6.0,4.0,5.0,0.0,"['Nouveau', '1-5 ans']",15238.095238095239
+Appartements,Moulay Youssef,1100000,72.0,3.0,2.0,2.0,4.0,"['Bon état', '5-10 ans']",15277.777777777777
+Appartements,Oulfa,700000,84.0,6.0,4.0,1.0,3.0,"['Bon état', '10-20 ans']",8333.333333333334
+Appartements,Maârif,4300000,215.0,4.0,4.0,2.0,2.0,"['À rénover', '20-30 ans']",20000.0
+Appartements,Racine,4300000,256.0,4.0,3.0,1.0,2.0,"['À rénover', '20-30 ans']",16796.875
+Villas,Anfa,16500000,680.0,10.0,4.0,5.0,0.0,['Nouveau'],24264.70588235294
+Appartements,Mers Sultan,3500000,222.0,3.0,3.0,3.0,5.0,"['Bon état', '10-20 ans']",15765.765765765766
+Villas,Anfa,2800000,178.0,8.0,7.0,3.0,0.0,"['À rénover', '50-70 ans']",15730.337078651686
+Appartements,Maârif,950000,58.0,2.0,1.0,1.0,4.0,"['Bon état', '5-10 ans']",16379.310344827587
+Appartements,Les Hôpitaux,1490000,116.0,7.0,3.0,2.0,4.0,"['Bon état', '10-20 ans']",12844.827586206897
+Appartements,Nassim 1,1680000,105.0,3.0,3.0,2.0,5.0,"['Bon état', '5-10 ans']",16000.0
+Appartements,Maârif Extension,3200000,220.0,5.0,3.0,2.0,1.0,['Bon état'],14545.454545454546
+Appartements,Racine,2450000,164.0,4.0,2.0,2.0,4.0,['Bon état'],14939.024390243903
+Appartements,Moulay Youssef,1050000,74.0,4.0,2.0,1.0,3.0,"['Bon état', '5-10 ans']",14189.18918918919
+Appartements,La Floride,590000,70.0,2.0,2.0,1.0,3.0,"['À rénover', '10-20 ans']",8428.57142857143
+Appartements,Californie,1260000,153.0,6.0,2.0,2.0,2.0,"['Bon état', '1-5 ans']",8235.29411764706
+Appartements,Ain Chock,1500000,106.0,1.0,3.0,2.0,1.0,"['Nouveau', '1-5 ans']",14150.943396226416
+Appartements,Palmier,2320000,145.0,6.0,3.0,2.0,3.0,['Bon état'],16000.0
+Appartements,Oulfa,729000,73.0,3.0,2.0,1.0,2.0,"['Bon état', '10-20 ans']",9986.301369863013
+Appartements,Triangle d'Or,3000000,175.0,5.0,3.0,3.0,1.0,"['Nouveau', '20-30 ans']",17142.85714285714
+Appartements,Ain Chock,690000,75.0,3.0,2.0,1.0,4.0,['Bon état'],9200.0
+Appartements,Gauthier,5000000,290.0,5.0,3.0,4.0,10.0,"['Nouveau', '1-5 ans']",17241.379310344826
+Appartements,Beauséjour,1350000,107.0,2.0,2.0,2.0,2.0,"['Bon état', '10-20 ans']",12616.822429906542
+Appartements,Bourgogne Ouest,1500000,99.0,4.0,2.0,2.0,4.0,"['Bon état', '10-20 ans']",15151.515151515152
+Villas,Riviera,9690000,510.0,2.0,2.0,2.0,0.0,['Bon état'],19000.0
+Appartements,Oulfa,4800000,121.0,5.0,3.0,2.0,2.0,"['Bon état', '10-20 ans']",39669.42148760331
+Maisons,Sidi Maarouf,1950000,200.0,3.0,4.0,2.0,0.0,"['Bon état', '5-10 ans']",9750.0
+Maisons,Hay M'barka,2100000,77.0,10.0,4.0,3.0,0.0,"['Bon état', '20-30 ans']",27272.727272727272
+Appartements,Racine,2800000,150.0,5.0,3.0,4.0,3.0,"['Bon état', '10-20 ans']",18666.666666666668
+Appartements,Triangle d'Or,2450000,140.0,7.0,2.0,2.0,2.0,"['Bon état', '10-20 ans']",17500.0
+Appartements,Sidi El Khadir,1200000,129.0,4.0,3.0,2.0,2.0,"['Bon état', '5-10 ans']",9302.32558139535
+Appartements,El Manar - El Hank,3060000,122.0,4.0,3.0,2.0,5.0,"['Nouveau', ""Moins d'un an""]",25081.967213114753
+Appartements,Maârif Extension,1760000,119.0,6.0,3.0,2.0,4.0,['Bon état'],14789.915966386554
+Appartements,Les Hôpitaux,2873000,221.0,6.0,3.0,3.0,1.0,"['À rénover', '20-30 ans']",13000.0
+Appartements,Bourgogne Ouest,800000,75.0,2.0,1.0,1.0,6.0,['Bon état'],10666.666666666666
+Appartements,Hay Hakam,640000,72.0,3.0,2.0,1.0,4.0,['Bon état'],8888.888888888889
+Appartements,Californie,3200000,193.0,4.0,3.0,2.0,2.0,"['Bon état', '1-5 ans']",16580.310880829016
+Appartements,Anassi,360000,60.0,3.0,2.0,1.0,1.0,"['Bon état', '10-20 ans']",6000.0
+Appartements,CIL (Hay Salam),1450000,120.0,4.0,3.0,2.0,3.0,"['Bon état', '10-20 ans']",12083.333333333334
+Appartements,Racine,3800000,150.0,5.0,3.0,2.0,3.0,['Bon état'],25333.333333333332
+Appartements,Beausite,960000,80.0,4.0,3.0,2.0,1.0,"['Nouveau', ""Moins d'un an""]",12000.0
+Appartements,Lissasfa,330000,50.0,3.0,2.0,1.0,4.0,"['Bon état', '5-10 ans']",6600.0
+Appartements,Oulfa,900000,87.0,4.0,2.0,1.0,2.0,"['Bon état', '10-20 ans']",10344.827586206897
+Appartements,Les Hôpitaux,760000,45.0,2.0,1.0,1.0,3.0,"['À rénover', '5-10 ans']",16888.88888888889
+Appartements,Belvédère,750000,51.0,2.0,1.0,1.0,1.0,"['Nouveau', ""Moins d'un an""]",14705.882352941177
+Appartements,Les Hôpitaux,1250000,91.0,3.0,2.0,2.0,3.0,"['Bon état', '10-20 ans']",13736.263736263736
+Appartements,Bourgogne Ouest,1480000,120.0,3.0,2.0,2.0,3.0,[],12333.333333333334
+Appartements,Beauséjour,2000000,194.0,4.0,3.0,2.0,1.0,[],10309.278350515464
+Appartements,Casablanca,1600000,93.0,3.0,2.0,1.0,3.0,[],17204.301075268817
+Maisons,Derb Salama,1300000,116.0,4.0,3.0,1.0,0.0,"['À rénover', '20-30 ans']",11206.896551724138
+Appartements,Palmier,1560000,110.0,4.0,3.0,2.0,2.0,"['Bon état', '10-20 ans']",14181.818181818182
+Appartements,Derb Omar,1680000,106.0,3.0,2.0,1.0,5.0,"['Bon état', '1-5 ans']",15849.056603773584
+Appartements,Triangle d'Or,1590000,86.0,3.0,2.0,1.0,3.0,"['Bon état', '10-20 ans']",18488.372093023256
+Appartements,Belvédère,680000,45.0,4.0,1.0,1.0,4.0,"['Nouveau', '1-5 ans']",15111.111111111111
+Appartements,Les Hôpitaux,4800000,577.0,7.0,5.0,3.0,4.0,"['Bon état', '20-30 ans']",8318.890814558059
+Appartements,Beausite,900000,80.0,3.0,2.0,1.0,2.0,['Bon état'],11250.0
+Appartements,Bernoussi,3300000,46.0,2.0,1.0,1.0,1.0,"['Bon état', '5-10 ans']",71739.13043478261
+Appartements,Bourgogne Ouest,2000000,104.0,4.0,3.0,2.0,5.0,['Bon état'],19230.76923076923
+Appartements,Maârif,820000,43.0,4.0,1.0,1.0,1.0,"['Bon état', '5-10 ans']",19069.767441860466
+Appartements,Belvédère,810000,68.0,2.0,1.0,1.0,4.0,"['Bon état', '10-20 ans']",11911.764705882353
+Appartements,Maârif Extension,2000000,100.0,3.0,2.0,2.0,4.0,['Bon état'],20000.0
+Appartements,Anfa,2400000,179.0,6.0,2.0,3.0,20.0,"['Bon état', '20-30 ans']",13407.82122905028
+Appartements,Ain Diab,4300000,230.0,4.0,3.0,3.0,1.0,"['Bon état', '1-5 ans']",18695.652173913044
+Appartements,Bourgogne Ouest,1950000,131.0,5.0,3.0,2.0,4.0,"['Bon état', '5-10 ans']",14885.496183206107
+Appartements,Aïn Sebaâ,380000,56.0,1.0,2.0,2.0,3.0,"['Bon état', '10-20 ans']",6785.714285714285
+Appartements,Palmier,3200000,169.0,4.0,3.0,2.0,3.0,"['Bon état', '5-10 ans']",18934.91124260355
+Appartements,Oasis,1950000,136.0,10.0,3.0,2.0,2.0,"['Bon état', '5-10 ans']",14338.235294117647
+Appartements,Val Fleury,2650000,164.0,5.0,3.0,2.0,12.0,"['Bon état', '10-20 ans']",16158.536585365853
+Appartements,Les Crêtes,3180000,216.0,4.0,4.0,3.0,2.0,"['Bon état', '10-20 ans']",14722.222222222223
+Villas,Polo,8400000,805.0,4.0,4.0,3.0,0.0,"['Bon état', '10-20 ans']",10434.782608695652
+Villas,Oasis,10800000,935.0,12.0,7.0,8.0,0.0,['Bon état'],11550.802139037432
+Villas,Tantonville,5300000,378.0,6.0,4.0,3.0,0.0,"['Bon état', '10-20 ans']",14021.16402116402
+Appartements,Belvédère,1150000,141.0,3.0,2.0,2.0,2.0,"['Bon état', '5-10 ans']",8156.0283687943265
+Villas,Californie,12000000,860.0,5.0,4.0,3.0,0.0,['Bon état'],13953.488372093023
+Appartements,Anfa,2190000,131.0,3.0,2.0,2.0,4.0,"['À rénover', '10-20 ans']",16717.557251908398
+Appartements,Aïn Sebaâ,935000,89.0,3.0,2.0,2.0,2.0,"['Nouveau', ""Moins d'un an""]",10505.61797752809
+Appartements,Aïn Sebaâ,550000,50.0,2.0,1.0,1.0,2.0,"['Nouveau', ""Moins d'un an""]",11000.0
+Appartements,Triangle d'Or,5000000,269.0,6.0,5.0,4.0,5.0,"['Bon état', '5-10 ans']",18587.36059479554
+Appartements,Burger,1650000,128.0,4.0,3.0,2.0,3.0,"['Bon état', '10-20 ans']",12890.625
+Appartements,Racine Extension,3800000,190.0,5.0,4.0,2.0,2.0,"['Bon état', '5-10 ans']",20000.0
+Villas,Ain Diab Extension,10000000,600.0,6.0,3.0,5.0,0.0,['Bon état'],16666.666666666668
+Appartements,Les Hôpitaux,1730000,128.0,5.0,3.0,2.0,5.0,"['Bon état', '10-20 ans']",13515.625
+Appartements,Racine,3800000,190.0,5.0,3.0,3.0,4.0,"['Bon état', '10-20 ans']",20000.0
+Appartements,Centre Ville,1600000,135.0,4.0,3.0,1.0,1.0,"['Bon état', '10-20 ans']",11851.851851851852
+Appartements,Sidi Maarouf,1300000,123.0,4.0,2.0,2.0,1.0,['Bon état'],10569.105691056911
+Maisons,Sidi Maarouf,2950000,303.0,5.0,5.0,5.0,0.0,"['Nouveau', '5-10 ans']",9735.973597359736
+Appartements,Derb Omar,1100000,94.0,3.0,2.0,1.0,4.0,"['Bon état', '10-20 ans']",11702.127659574468
+Maisons,Hay Mohammadi,1450000,65.0,8.0,6.0,3.0,0.0,"['Bon état', '10-20 ans']",22307.69230769231
+Appartements,Hay Alhoda,240000,66.0,6.0,4.0,2.0,2.0,"['Bon état', '10-20 ans']",3636.3636363636365
+Villas,Californie,13500000,1000.0,9.0,6.0,5.0,0.0,"['Bon état', '10-20 ans']",13500.0
+Appartements,Maârif Extension,790000,99.0,3.0,2.0,2.0,5.0,"['Bon état', '10-20 ans']",7979.79797979798
+Appartements,Bourgogne Est,1250000,51.0,2.0,1.0,1.0,4.0,"['Bon état', '1-5 ans']",24509.803921568626
+Appartements,Ain Diab,880000,58.0,2.0,1.0,1.0,7.0,"['Bon état', '10-20 ans']",15172.413793103447
+Appartements,Oulfa,450000,60.0,4.0,2.0,1.0,1.0,"['Bon état', '5-10 ans']",7500.0
+Appartements,Racine,2990000,143.0,4.0,3.0,2.0,2.0,['Bon état'],20909.090909090908
+Appartements,La Gironde,1350000,97.0,4.0,2.0,2.0,5.0,"['Bon état', '10-20 ans']",13917.525773195875
+Villas,Sidi Maarouf,4500000,440.0,5.0,4.0,3.0,0.0,['Bon état'],10227.272727272728
+Appartements,Sidi Maarouf,1130000,80.0,3.0,2.0,2.0,3.0,"['Nouveau', '1-5 ans']",14125.0
+Appartements,Aïn Sebaâ,680000,64.0,2.0,1.0,1.0,3.0,"['Nouveau', '5-10 ans']",10625.0
+Maisons,Hay Hassani,500000,240.0,3.0,2.0,1.0,0.0,"['Bon état', '5-10 ans']",2083.3333333333335
+Villas,Californie,15500000,1025.0,7.0,4.0,5.0,0.0,"['Nouveau', '10-20 ans']",15121.951219512195
+Appartements,Tantonville,1450000,81.0,3.0,2.0,1.0,2.0,"['Bon état', '10-20 ans']",17901.234567901236
+Appartements,Triangle d'Or,1900000,91.0,4.0,2.0,2.0,1.0,"['Bon état', '5-10 ans']",20879.120879120877
+Appartements,Les Hôpitaux,1100000,79.0,3.0,2.0,1.0,2.0,"['Bon état', '10-20 ans']",13924.050632911392
+Appartements,Les Hôpitaux,1500000,111.0,4.0,3.0,2.0,4.0,"['Bon état', '10-20 ans']",13513.513513513513
+Appartements,La Gironde,1500000,100.0,4.0,2.0,2.0,5.0,"['Bon état', '10-20 ans']",15000.0
+Villas,Habbous,5400000,420.0,5.0,4.0,2.0,0.0,"['À rénover', '30-50 ans']",12857.142857142857
+Appartements,Val Fleury,1950000,139.0,3.0,3.0,2.0,3.0,"['Bon état', '5-10 ans']",14028.776978417267
+Appartements,Maârif,3200000,256.0,4.0,3.0,2.0,4.0,['Bon état'],12500.0
+Appartements,Ain Chock,1680000,105.0,4.0,2.0,2.0,2.0,"['Nouveau', ""Moins d'un an""]",16000.0
+Appartements,Les princesses,1200000,68.0,3.0,1.0,1.0,1.0,"['Nouveau', ""Moins d'un an""]",17647.058823529413
+Appartements,Benjdia,1310000,107.0,4.0,3.0,2.0,1.0,"['Bon état', '5-10 ans']",12242.990654205607
+Appartements,Gauthier,1500000,79.0,3.0,2.0,1.0,8.0,"['Bon état', '10-20 ans']",18987.3417721519
+Appartements,Oulfa,997000,95.0,5.0,3.0,1.0,1.0,"['Bon état', '1-5 ans']",10494.736842105263
+Appartements,Sidi Moumen,570000,77.0,4.0,2.0,1.0,2.0,"['Bon état', '1-5 ans']",7402.597402597403
+Villas,Oasis,9500000,930.0,8.0,5.0,4.0,0.0,['À rénover'],10215.053763440861
+Appartements,Hay Zobir,340000,55.0,3.0,2.0,1.0,1.0,"['Bon état', '5-10 ans']",6181.818181818182
+Appartements,Triangle d'Or,1700000,86.0,3.0,2.0,2.0,5.0,['Bon état'],19767.441860465115
+Appartements,Al Qods,1000000,94.0,3.0,2.0,2.0,1.0,"['Bon état', '5-10 ans']",10638.297872340425
+Appartements,Ain Chock,530000,60.0,3.0,2.0,1.0,3.0,"['Bon état', '5-10 ans']",8833.333333333334
+Appartements,Ferme Bretonne (Hay Arraha),2500000,132.0,3.0,2.0,3.0,3.0,"['Nouveau', ""Moins d'un an""]",18939.39393939394
+Appartements,Bourgogne Ouest,1200000,82.0,3.0,2.0,1.0,2.0,"['À rénover', '10-20 ans']",14634.146341463415
+Appartements,Nassim 1,1270000,115.0,5.0,3.0,2.0,1.0,"['Bon état', '5-10 ans']",11043.478260869566
+Appartements,Oulfa,300000,54.0,3.0,2.0,1.0,4.0,"['Bon état', '1-5 ans']",5555.555555555556
+Appartements,Maârif Extension,1450000,112.0,4.0,2.0,1.0,2.0,['Bon état'],12946.42857142857
+Villas,Nassim 1,9500000,500.0,8.0,5.0,4.0,0.0,['Bon état'],19000.0
+Appartements,Californie,1750000,125.0,5.0,3.0,2.0,1.0,"['Nouveau', '1-5 ans']",14000.0
+Villas,Oulfa,3950000,400.0,7.0,4.0,4.0,0.0,"['Bon état', '1-5 ans']",9875.0
+Appartements,Bernoussi,400000,74.0,4.0,3.0,1.0,4.0,"['Bon état', '5-10 ans']",5405.405405405405
+Appartements,Bourgogne Ouest,2089000,137.0,8.0,3.0,3.0,5.0,"['Bon état', '10-20 ans']",15248.175182481751
+Appartements,Roches Noires,880000,75.0,3.0,2.0,1.0,1.0,"['Bon état', '10-20 ans']",11733.333333333334
+Appartements,Belvédère,780000,88.0,3.0,2.0,1.0,4.0,"['Bon état', '10-20 ans']",8863.636363636364
+Appartements,Maârif Extension,700000,63.0,3.0,2.0,1.0,2.0,"['Bon état', '30-50 ans']",11111.111111111111
+Appartements,Bourgogne Ouest,1340000,124.0,3.0,2.0,2.0,1.0,"['Bon état', '10-20 ans']",10806.451612903225
+Appartements,Sidi Maarouf,420000,59.0,3.0,2.0,1.0,1.0,"['Bon état', '10-20 ans']",7118.64406779661
+Appartements,Maârif Extension,1030000,100.0,3.0,2.0,2.0,3.0,"['Bon état', '5-10 ans']",10300.0
+Appartements,Hay Al Amal,1600,33.0,1.0,1.0,1.0,3.0,"['Bon état', '20-30 ans']",48.484848484848484
+Appartements,Nassim 2,1450000,143.0,5.0,3.0,2.0,2.0,"['Nouveau', '1-5 ans']",10139.86013986014
+Appartements,Racine,3950000,160.0,7.0,3.0,3.0,3.0,['Nouveau'],24687.5
+Appartements,Ferme Bretonne (Hay Arraha),1130000,82.0,3.0,2.0,2.0,3.0,"['Nouveau', '1-5 ans']",13780.487804878048
+Appartements,Racine,5100000,275.0,8.0,3.0,3.0,2.0,['Bon état'],18545.454545454544
+Appartements,Gauthier,950000,64.0,1.0,1.0,1.0,1.0,"['Bon état', '10-20 ans']",14843.75
+Appartements,Racine,3150000,160.0,7.0,3.0,3.0,3.0,"['Bon état', '10-20 ans']",19687.5
+Villas,Anfa Supérieur,24000000,805.0,6.0,4.0,3.0,0.0,"['Bon état', '5-10 ans']",29813.66459627329
+Appartements,Ferme Bretonne (Hay Arraha),2086500,107.0,4.0,3.0,2.0,3.0,['Bon état'],19500.0
+Appartements,Beauséjour,1300000,96.0,1.0,2.0,2.0,4.0,"['Nouveau', ""Moins d'un an""]",13541.666666666666
+Appartements,Les Hôpitaux,2500000,210.0,5.0,3.0,2.0,1.0,"['Bon état', '10-20 ans']",11904.761904761905
+Appartements,Mers Sultan,2500000,158.0,5.0,3.0,2.0,4.0,"['Bon état', '10-20 ans']",15822.784810126583
+Appartements,Maârif,1150000,101.0,1.0,3.0,2.0,2.0,"['Bon état', '20-30 ans']",11386.138613861385
+Appartements,Les princesses,2100000,116.0,3.0,3.0,2.0,4.0,"['Nouveau', ""Moins d'un an""]",18103.44827586207
+Appartements,Franceville,1610000,115.0,4.0,3.0,2.0,4.0,"['Bon état', '10-20 ans']",14000.0
+Appartements,Belvédère,1100000,95.0,3.0,2.0,2.0,2.0,"['Bon état', '10-20 ans']",11578.947368421053
+Appartements,Belvédère,1850000,134.0,1.0,3.0,2.0,5.0,"['Bon état', '10-20 ans']",13805.970149253732
+Maisons,Hay Mohammadi,3000000,158.0,1.0,15.0,5.0,0.0,"['Bon état', '30-50 ans']",18987.3417721519
+Appartements,Maârif Extension,1200000,56.0,2.0,1.0,1.0,4.0,"['Bon état', '5-10 ans']",21428.571428571428
+Appartements,Bourgogne Est,1650000,118.0,4.0,3.0,2.0,2.0,"['Bon état', '10-20 ans']",13983.050847457627
+Appartements,Maârif,1120000,81.0,4.0,2.0,2.0,5.0,['Bon état'],13827.160493827161
+Appartements,Val Fleury,1590000,124.0,3.0,2.0,1.0,1.0,"['Bon état', '5-10 ans']",12822.58064516129
+Appartements,Les princesses,1000000,42.0,2.0,1.0,1.0,5.0,"['Nouveau', ""Moins d'un an""]",23809.52380952381
+Appartements,Gauthier,2050000,113.0,4.0,2.0,2.0,5.0,"['Bon état', '10-20 ans']",18141.59292035398
+Villas,Ain Diab Extension,7100000,365.0,10.0,5.0,3.0,0.0,"['Bon état', '5-10 ans']",19452.054794520547
+Appartements,Californie,960000,95.0,5.0,3.0,1.0,4.0,"['Bon état', '5-10 ans']",10105.263157894737
+Appartements,Hay Hassani,1500000,124.0,3.0,3.0,2.0,2.0,"['Bon état', '10-20 ans']",12096.774193548386
+Appartements,Val Fleury,1200000,55.0,3.0,1.0,1.0,2.0,"['Nouveau', ""Moins d'un an""]",21818.18181818182
+Appartements,Centre Ville,450000,40.0,3.0,2.0,1.0,1.0,"['Bon état', '20-30 ans']",11250.0
+Maisons,Sidi Maarouf,2200000,80.0,7.0,5.0,2.0,0.0,['Bon état'],27500.0
+Appartements,Oulfa,1100000,97.0,3.0,3.0,2.0,2.0,"['Bon état', '5-10 ans']",11340.20618556701
+Appartements,Moulay Youssef,3725000,146.0,4.0,3.0,3.0,4.0,[],25513.698630136987
+Appartements,Palmier,17000,143.0,4.0,3.0,3.0,2.0,"['Nouveau', '5-10 ans']",118.88111888111888
+Appartements,Les Hôpitaux,2100000,196.0,4.0,3.0,2.0,4.0,"['Bon état', '10-20 ans']",10714.285714285714
+Appartements,Maârif,1220000,75.0,3.0,2.0,1.0,5.0,"['Bon état', '5-10 ans']",16266.666666666666
+Appartements,Anfa,950000,46.0,2.0,1.0,1.0,4.0,"['Bon état', '5-10 ans']",20652.17391304348
+Appartements,La Gironde,830000,83.0,3.0,2.0,1.0,5.0,"['Bon état', '5-10 ans']",10000.0
+Appartements,Californie,1400000,120.0,8.0,3.0,1.0,3.0,"['Bon état', '10-20 ans']",11666.666666666666
+Appartements,Hay Lmkansa,800000,73.0,3.0,2.0,1.0,2.0,"['Bon état', '10-20 ans']",10958.90410958904
+Appartements,Oulfa,720000,102.0,5.0,3.0,1.0,2.0,['Bon état'],7058.823529411765
+Villas,Californie,7800000,440.0,8.0,4.0,3.0,0.0,"['Nouveau', '5-10 ans']",17727.272727272728
+Appartements,Belvédère,1000100,71.0,3.0,2.0,2.0,3.0,"['Nouveau', '1-5 ans']",14085.915492957747
+Appartements,Racine,7000000,350.0,7.0,3.0,3.0,1.0,"['Nouveau', '1-5 ans']",20000.0
+Appartements,Gauthier,3150000,138.0,6.0,2.0,2.0,6.0,['Nouveau'],22826.08695652174
+Appartements,Casablanca Finance City,6200000,206.0,10.0,3.0,3.0,8.0,"['Nouveau', '1-5 ans']",30097.087378640776
+Appartements,Triangle d'Or,5400000,373.0,6.0,3.0,3.0,1.0,['Bon état'],14477.21179624665
+Appartements,Plateau (Al Batha),2350000,130.0,4.0,3.0,2.0,4.0,"['Bon état', '1-5 ans']",18076.923076923078
+Appartements,Maârif,4900000,188.0,7.0,3.0,2.0,4.0,"['Bon état', '5-10 ans']",26063.82978723404
+Appartements,Maârif Extension,1850000,105.0,3.0,2.0,2.0,5.0,['Bon état'],17619.04761904762
+Appartements,Les princesses,1650000,100.0,3.0,2.0,2.0,1.0,['Bon état'],16500.0
+Villas,CIL (Hay Salam),4500000,286.0,9.0,3.0,3.0,0.0,['Bon état'],15734.265734265735
+Appartements,Bernoussi,400000,84.0,3.0,2.0,1.0,1.0,"['Bon état', '5-10 ans']",4761.9047619047615
+Appartements,Sidi Maarouf,660000,62.0,3.0,2.0,1.0,2.0,"['Bon état', '10-20 ans']",10645.161290322581
+Appartements,Bernoussi,650000,84.0,4.0,3.0,2.0,3.0,"['Bon état', '5-10 ans']",7738.0952380952385
+Villas,Anfa,6300000,360.0,7.0,3.0,4.0,0.0,['Bon état'],17500.0
+Appartements,Californie,1250000,89.0,3.0,2.0,2.0,4.0,"['Bon état', '5-10 ans']",14044.943820224718
+Appartements,Les princesses,1250000,80.0,6.0,2.0,2.0,3.0,"['Bon état', '10-20 ans']",15625.0
+Appartements,Aïn Sebaâ,750000,76.0,6.0,2.0,2.0,4.0,"['Nouveau', ""Moins d'un an""]",9868.421052631578
+Appartements,Aïn Sebaâ,1050000,110.0,6.0,2.0,2.0,1.0,"['Nouveau', ""Moins d'un an""]",9545.454545454546
+Appartements,Aïn Sebaâ,934500,89.0,6.0,2.0,2.0,2.0,"['Nouveau', ""Moins d'un an""]",10500.0
+Appartements,Aïn Sebaâ,934500,100.0,6.0,2.0,2.0,3.0,['Nouveau'],9345.0
+Appartements,Aïn Sebaâ,616000,56.0,3.0,1.0,1.0,1.0,"['Nouveau', ""Moins d'un an""]",11000.0
+Appartements,Aïn Sebaâ,770000,70.0,4.0,1.0,2.0,1.0,"['Nouveau', ""Moins d'un an""]",11000.0
+Appartements,Aïn Sebaâ,693000,65.0,3.0,1.0,1.0,1.0,"['Nouveau', ""Moins d'un an""]",10661.538461538461
+Villas,Ain Diab,30000000,2100.0,8.0,5.0,5.0,0.0,"['Bon état', '10-20 ans']",14285.714285714286
+Villas,Ain Diab,50000000,1250.0,7.0,5.0,6.0,0.0,"['À rénover', '5-10 ans']",40000.0
+Appartements,Oulfa,1350000,124.0,7.0,3.0,2.0,3.0,['Bon état'],10887.09677419355
+Appartements,Racine,1550000,75.0,2.0,1.0,2.0,1.0,"['Nouveau', '1-5 ans']",20666.666666666668
+Appartements,Aïn Sebaâ,1520000,150.0,7.0,5.0,3.0,1.0,"['Bon état', '5-10 ans']",10133.333333333334
+Appartements,Al Osra,1200000,114.0,4.0,3.0,1.0,15.0,"['Bon état', '10-20 ans']",10526.315789473685
+Appartements,Bourgogne Ouest,950000,63.0,2.0,2.0,2.0,3.0,"['Bon état', '10-20 ans']",15079.36507936508
+Appartements,Bernoussi,750000,82.0,3.0,2.0,1.0,3.0,"['Bon état', '10-20 ans']",9146.341463414634
+Appartements,Bourgogne Ouest,3100000,179.0,3.0,3.0,2.0,4.0,"['Bon état', '5-10 ans']",17318.435754189944
+Appartements,Anfa,2200000,175.0,3.0,3.0,2.0,4.0,"['Bon état', '20-30 ans']",12571.42857142857
+Appartements,Bourgogne Ouest,770000,87.0,4.0,2.0,1.0,4.0,"['Bon état', '20-30 ans']",8850.574712643678
+Appartements,Bourgogne Ouest,3200000,191.0,3.0,3.0,3.0,4.0,"['Nouveau', '1-5 ans']",16753.92670157068
+Appartements,Bourgogne Ouest,1330000,90.0,4.0,2.0,2.0,2.0,"['Bon état', '5-10 ans']",14777.777777777777
+Appartements,Maârif Extension,1350000,103.0,3.0,2.0,2.0,2.0,"['Bon état', '5-10 ans']",13106.796116504855
+Appartements,Ain Borja,640000,64.0,3.0,1.0,1.0,1.0,"['Bon état', '5-10 ans']",10000.0
+Maisons,Hay Tarik,1150000,81.0,6.0,3.0,3.0,0.0,"['Bon état', '20-30 ans']",14197.530864197532
+Appartements,Maârif,1200000,80.0,8.0,2.0,1.0,3.0,"['Bon état', '10-20 ans']",15000.0
+Appartements,Bernoussi,340000,66.0,3.0,1.0,1.0,3.0,"['Bon état', '5-10 ans']",5151.515151515152
+Villas,Ain Diab,44000000,2250.0,8.0,4.0,4.0,0.0,['Bon état'],19555.555555555555
+Appartements,Maârif Extension,1450000,99.0,2.0,2.0,1.0,3.0,['Bon état'],14646.464646464647
+Appartements,Californie,2100000,134.0,4.0,3.0,2.0,3.0,"['Bon état', '5-10 ans']",15671.641791044776
+Appartements,Ain Borja,700000,77.0,3.0,2.0,1.0,5.0,"['Bon état', '5-10 ans']",9090.90909090909
+Appartements,Racine,3400000,195.0,4.0,3.0,2.0,5.0,"['Bon état', '10-20 ans']",17435.897435897437
+Appartements,Oulfa,980000,85.0,3.0,2.0,1.0,2.0,"['Bon état', '5-10 ans']",11529.411764705883
+Appartements,Al Qods,660000,72.0,3.0,2.0,1.0,3.0,"['Bon état', '1-5 ans']",9166.666666666666
+Appartements,Racine Extension,3000000,150.0,5.0,3.0,2.0,1.0,"['Bon état', '10-20 ans']",20000.0
+Appartements,Ain Diab,2650000,77.0,2.0,1.0,1.0,2.0,['Bon état'],34415.58441558442
+Appartements,Palmier,1300000,65.0,3.0,2.0,2.0,4.0,"['Nouveau', ""Moins d'un an""]",20000.0
+Appartements,Hay Chrifa,960000,81.0,5.0,2.0,2.0,2.0,['Bon état'],11851.851851851852
+Appartements,Tantonville,1850000,160.0,5.0,3.0,3.0,1.0,"['Bon état', '20-30 ans']",11562.5
+Appartements,La Gironde,850000,76.0,6.0,2.0,2.0,2.0,"['Nouveau', ""Moins d'un an""]",11184.21052631579
+Villas,Hay Hassani,2250000,350.0,8.0,6.0,2.0,0.0,"['Bon état', '5-10 ans']",6428.571428571428
+Maisons,Beausite,4999000,119.0,7.0,3.0,4.0,0.0,"['Bon état', '10-20 ans']",42008.403361344535
+Appartements,Al Qods,850000,95.0,3.0,2.0,1.0,3.0,"['Bon état', '5-10 ans']",8947.368421052632
+Appartements,Ferme Bretonne (Hay Arraha),1850000,102.0,3.0,3.0,2.0,2.0,"['Bon état', '1-5 ans']",18137.254901960783
+Appartements,Aïn Sebaâ,660000,74.0,4.0,3.0,1.0,4.0,['Bon état'],8918.918918918918
+Appartements,Val Fleury,7000,124.0,4.0,3.0,2.0,3.0,"['Bon état', '10-20 ans']",56.45161290322581
+Appartements,Maârif,1490000,92.0,3.0,2.0,2.0,4.0,"['Bon état', ""Moins d'un an""]",16195.652173913044
+Appartements,Roches Noires,900000,96.0,3.0,2.0,2.0,4.0,"['Bon état', '5-10 ans']",9375.0
+Appartements,Bernoussi,380000,50.0,3.0,2.0,1.0,4.0,"['Bon état', '5-10 ans']",7600.0
+Appartements,Anassi,380000,60.0,1.0,2.0,1.0,3.0,"['Bon état', '5-10 ans']",6333.333333333333
+Appartements,Casablanca Finance City,6200000,257.0,5.0,4.0,3.0,1.0,['Nouveau'],24124.513618677043
+Appartements,Casablanca Finance City,3025000,126.0,3.0,2.0,2.0,1.0,['Nouveau'],24007.93650793651
+Maisons,La Floride,2800000,303.0,7.0,5.0,5.0,0.0,"['Bon état', '5-10 ans']",9240.924092409241
+Appartements,Sidi Moumen,550000,79.0,1.0,2.0,1.0,1.0,"['Bon état', '20-30 ans']",6962.025316455696
+Appartements,Mandarona,1700000,99.0,2.0,3.0,1.0,3.0,"['Bon état', '5-10 ans']",17171.717171717173
+Villas,Aïn Sebaâ,3600000,392.0,4.0,10.0,4.0,0.0,"['Bon état', '20-30 ans']",9183.673469387755
+Appartements,Racine,5990000,244.0,3.0,3.0,3.0,5.0,"['Bon état', '5-10 ans']",24549.180327868853
+Villas,Anfa,36000000,1600.0,10.0,5.0,5.0,0.0,"['Bon état', '10-20 ans']",22500.0
+Appartements,Les princesses,2100000,118.0,2.0,2.0,1.0,7.0,"['Nouveau', '1-5 ans']",17796.610169491527
+Appartements,Les princesses,2100000,113.0,4.0,3.0,2.0,4.0,"['Bon état', '1-5 ans']",18584.070796460175
+Appartements,Maârif Extension,1495000,106.0,3.0,2.0,2.0,2.0,"['Bon état', '5-10 ans']",14103.77358490566
+Appartements,Aïn Sebaâ,550000,57.0,3.0,3.0,1.0,4.0,"['Bon état', '10-20 ans']",9649.122807017544
+Appartements,La Vilette,820000,80.0,5.0,2.0,1.0,4.0,"['Bon état', '10-20 ans']",10250.0
+Appartements,Bourgogne Ouest,2600000,131.0,1.0,3.0,3.0,3.0,"['Bon état', '5-10 ans']",19847.32824427481
+Villas,Ain Diab,7700000,574.0,5.0,4.0,4.0,0.0,"['Bon état', '10-20 ans']",13414.634146341463
+Appartements,Oasis,1100000,55.0,2.0,1.0,2.0,2.0,"['Nouveau', ""Moins d'un an""]",20000.0
+Appartements,Ferme Bretonne (Hay Arraha),1810000,108.0,3.0,2.0,3.0,2.0,"['Nouveau', '1-5 ans']",16759.25925925926
+Appartements,Bernoussi,400000,60.0,3.0,2.0,2.0,2.0,['À rénover'],6666.666666666667
+Appartements,Racine,3950000,238.0,5.0,3.0,2.0,4.0,['Bon état'],16596.638655462186
+Appartements,Californie,1725000,130.0,5.0,3.0,2.0,3.0,"['Bon état', '5-10 ans']",13269.23076923077
+Appartements,La Gironde,880000,91.0,3.0,2.0,2.0,1.0,['Nouveau'],9670.329670329671
+Appartements,Les Hôpitaux,1680000,112.0,3.0,2.0,2.0,1.0,['Nouveau'],15000.0
+Appartements,Les Hôpitaux,1287900,80.0,3.0,2.0,2.0,1.0,['Nouveau'],16098.75
+Appartements,Bourgogne Est,1050000,87.0,3.0,2.0,2.0,1.0,"['Bon état', '10-20 ans']",12068.965517241379
+Appartements,Al Azhar,520000,84.0,5.0,3.0,1.0,2.0,['Bon état'],6190.476190476191
+Appartements,Ain Borja,1150000,132.0,2.0,2.0,2.0,5.0,"['Bon état', '10-20 ans']",8712.121212121212
+Appartements,Derb Loubila,1100000,87.0,2.0,2.0,1.0,1.0,"['Bon état', '10-20 ans']",12643.67816091954
+Appartements,CIL (Hay Salam),3100000,150.0,4.0,2.0,2.0,2.0,"['Bon état', ""Moins d'un an""]",20666.666666666668
+Villas,Anfa,18500000,1000.0,9.0,5.0,5.0,0.0,['Nouveau'],18500.0
+Villas,El Manar - El Hank,12000000,600.0,8.0,4.0,5.0,0.0,['Nouveau'],20000.0
+Appartements,El Manar - El Hank,1100000,86.0,2.0,2.0,2.0,1.0,"['Bon état', '1-5 ans']",12790.697674418605
+Appartements,Bourgogne Ouest,1300000,81.0,3.0,3.0,2.0,1.0,"['Nouveau', '5-10 ans']",16049.382716049382
+Appartements,Bourgogne Ouest,2850000,219.0,4.0,3.0,2.0,3.0,"['Bon état', '10-20 ans']",13013.698630136987
+Appartements,Gauthier,1500000,74.0,2.0,1.0,1.0,1.0,"['Nouveau', ""Moins d'un an""]",20270.27027027027
+Appartements,Maârif,2800000,163.0,5.0,3.0,3.0,2.0,"['À rénover', '10-20 ans']",17177.914110429447
+Appartements,Aïn Sebaâ,750000,84.0,4.0,2.0,1.0,3.0,"['Bon état', '10-20 ans']",8928.57142857143
+Appartements,Anfa,2150000,133.0,4.0,3.0,2.0,4.0,['Bon état'],16165.413533834586
+Villas,Californie,14000000,1200.0,6.0,5.0,4.0,0.0,['Bon état'],11666.666666666666
+Appartements,Racine,3250000,123.0,3.0,2.0,3.0,5.0,"['Nouveau', ""Moins d'un an""]",26422.764227642278
+Appartements,Triangle d'Or,2750000,150.0,5.0,3.0,2.0,1.0,"['Bon état', '10-20 ans']",18333.333333333332
+Appartements,Racine,4900000,318.0,5.0,4.0,3.0,2.0,"['Bon état', '10-20 ans']",15408.805031446542
+Appartements,Al Hadika,860000,96.0,4.0,3.0,2.0,1.0,"['Bon état', '1-5 ans']",8958.333333333334
+Appartements,Franceville,11000,249.0,8.0,5.0,3.0,1.0,"['Bon état', '10-20 ans']",44.17670682730924
+Appartements,Palmier,3100000,168.0,4.0,3.0,2.0,3.0,['Bon état'],18452.380952380954
+Villas,Ain Diab Extension,7700000,400.0,6.0,4.0,4.0,0.0,"['Bon état', '5-10 ans']",19250.0
+Maisons,Anassi,500000,84.0,4.0,2.0,1.0,0.0,"['Bon état', '1-5 ans']",5952.380952380952
+Appartements,Mers Sultan,1600000,132.0,8.0,3.0,2.0,1.0,"['Bon état', ""Moins d'un an""]",12121.212121212122
+Appartements,Les Hôpitaux,2500000,153.0,4.0,3.0,2.0,8.0,"['À rénover', '10-20 ans']",16339.869281045752
+Appartements,CIL (Hay Salam),2500000,136.0,4.0,3.0,2.0,3.0,"['Bon état', '5-10 ans']",18382.352941176472
+Appartements,Hay Zobir,1060000,101.0,4.0,3.0,2.0,5.0,"['Nouveau', '5-10 ans']",10495.049504950495
+Appartements,Californie,1300000,100.0,4.0,2.0,2.0,3.0,"['Bon état', '10-20 ans']",13000.0
+Appartements,Al Qods,720000,76.0,4.0,3.0,1.0,4.0,"['Bon état', '5-10 ans']",9473.684210526315
+Maisons,Sidi Maarouf,2750000,320.0,8.0,5.0,5.0,0.0,"['Bon état', '1-5 ans']",8593.75
+Appartements,Oulfa,640000,74.0,3.0,2.0,2.0,3.0,"['Bon état', '10-20 ans']",8648.648648648648
+Appartements,La Gironde,1150000,109.0,4.0,3.0,2.0,3.0,"['Bon état', '5-10 ans']",10550.45871559633
+Villas,Californie,8000000,510.0,13.0,4.0,3.0,0.0,"['Bon état', '10-20 ans']",15686.274509803921
+Appartements,Racine,4000000,176.0,6.0,3.0,3.0,5.0,"['Bon état', '10-20 ans']",22727.272727272728
+Appartements,Bourgogne Est,10000,172.0,7.0,5.0,2.0,5.0,['Bon état'],58.13953488372093
+Appartements,Les princesses,2150000,108.0,6.0,2.0,2.0,4.0,"['Nouveau', ""Moins d'un an""]",19907.40740740741
+Villas,Longchamps (Hay Al Hanâa),13500000,972.0,12.0,4.0,4.0,0.0,"['À rénover', '20-30 ans']",13888.888888888889
+Appartements,Racine,2200000,112.0,4.0,3.0,3.0,5.0,"['Bon état', '10-20 ans']",19642.85714285714
+Appartements,Maârif Extension,950000,55.0,1.0,1.0,1.0,2.0,"['Bon état', '1-5 ans']",17272.727272727272
+Appartements,Maârif,4900000,318.0,7.0,5.0,4.0,3.0,"['Bon état', '1-5 ans']",15408.805031446542
+Villas,Longchamps (Hay Al Hanâa),16000000,525.0,7.0,4.0,6.0,0.0,"['Nouveau', ""Moins d'un an""]",30476.190476190477
+Appartements,Oulfa,500000,57.0,3.0,2.0,2.0,1.0,"['Bon état', '1-5 ans']",8771.929824561403
+Appartements,Sidi Maarouf,370000,55.0,3.0,2.0,2.0,4.0,['Bon état'],6727.272727272727
+Appartements,Mers Sultan,1000000,71.0,4.0,2.0,1.0,4.0,['Bon état'],14084.507042253521
+Appartements,Maârif Extension,2500000,161.0,3.0,2.0,2.0,3.0,['Bon état'],15527.950310559007
+Villas,Ain Diab,11950000,567.0,10.0,4.0,4.0,0.0,['Bon état'],21075.83774250441
+Villas,Ain Diab,9500000,414.0,10.0,4.0,4.0,0.0,"['Bon état', '10-20 ans']",22946.859903381643
+Appartements,Californie,1780000,110.0,4.0,3.0,2.0,5.0,['Bon état'],16181.818181818182
+Maisons,Oulfa,2500000,83.0,7.0,3.0,4.0,0.0,"['Bon état', '5-10 ans']",30120.481927710844
+Appartements,Hay Mohammadi,660000,98.0,3.0,2.0,1.0,1.0,"['Bon état', '20-30 ans']",6734.693877551021
+Appartements,El Manar - El Hank,1100000,96.0,4.0,2.0,1.0,4.0,"['Bon état', '5-10 ans']",11458.333333333334
+Appartements,Maârif Extension,3200000,175.0,4.0,3.0,2.0,1.0,['Bon état'],18285.714285714286
+Appartements,Californie,1100000,86.0,2.0,2.0,2.0,3.0,"['Bon état', '5-10 ans']",12790.697674418605
+Appartements,Belvédère,750000,85.0,3.0,2.0,1.0,5.0,"['Bon état', '10-20 ans']",8823.529411764706
+Appartements,Roches Noires,900000,86.0,3.0,2.0,2.0,2.0,"['Bon état', '10-20 ans']",10465.116279069767
+Appartements,Racine,2600000,126.0,4.0,2.0,2.0,3.0,"['Bon état', '10-20 ans']",20634.920634920636
+Appartements,Maârif,2500000,193.0,5.0,2.0,2.0,5.0,"['Bon état', '5-10 ans']",12953.36787564767
+Appartements,Racine,1550000,83.0,2.0,1.0,1.0,5.0,"['Bon état', '1-5 ans']",18674.698795180724
+Appartements,Les Hôpitaux,1180000,72.0,2.0,1.0,1.0,7.0,"['Bon état', '5-10 ans']",16388.88888888889
+Appartements,Les Hôpitaux,1460000,124.0,3.0,2.0,2.0,4.0,"['Bon état', '5-10 ans']",11774.193548387097
+Appartements,Belvédère,800000,96.0,2.0,1.0,2.0,7.0,['Bon état'],8333.333333333334
+Villas,Californie,39000000,1700.0,9.0,6.0,6.0,0.0,['Bon état'],22941.176470588234
+Appartements,Derb Moulay Cherif,380000,55.0,2.0,2.0,1.0,4.0,"['Nouveau', '5-10 ans']",6909.090909090909
+Maisons,Hay Moulay Abdellah,2600000,100.0,8.0,6.0,2.0,0.0,"['Bon état', '20-30 ans']",26000.0
+Maisons,Hay Albaraka,3200000,110.0,15.0,5.0,5.0,0.0,"['Bon état', '5-10 ans']",29090.909090909092
+Appartements,Derb Omar,300000,90.0,4.0,2.0,2.0,2.0,"['Bon état', '20-30 ans']",3333.3333333333335
+Appartements,Maârif,3265000,227.0,5.0,3.0,3.0,5.0,[],14383.259911894273
+Appartements,Maârif,1540000,106.0,3.0,2.0,2.0,3.0,[],14528.301886792453
+Villas,Californie,6900000,436.0,7.0,4.0,4.0,0.0,"['Bon état', '10-20 ans']",15825.688073394496
+Appartements,Sidi Maarouf,1100000,125.0,5.0,3.0,2.0,1.0,"['Bon état', '5-10 ans']",8800.0
+Appartements,Sidi Moumen,600000,69.0,2.0,2.0,1.0,4.0,"['Bon état', '5-10 ans']",8695.652173913044
+Appartements,Sidi Maarouf,775000,70.0,3.0,2.0,1.0,3.0,"['Bon état', '10-20 ans']",11071.42857142857
+Appartements,Belvédère,780000,51.0,2.0,1.0,1.0,1.0,"['Nouveau', ""Moins d'un an""]",15294.117647058823
+Appartements,Les Hôpitaux,1300000,113.0,4.0,2.0,2.0,1.0,"['Bon état', '10-20 ans']",11504.424778761062
+Appartements,Val Fleury,1022000,73.0,4.0,2.0,2.0,5.0,"['Bon état', '5-10 ans']",14000.0
+Appartements,Hermitage,1097000,64.0,3.0,2.0,1.0,2.0,"['Nouveau', ""Moins d'un an""]",17140.625
+Appartements,Triangle d'Or,2500000,148.0,5.0,3.0,2.0,2.0,['Bon état'],16891.891891891893
+Appartements,Oulfa,649000,63.0,3.0,2.0,2.0,3.0,"['Bon état', '1-5 ans']",10301.587301587302
+Appartements,Bourgogne Ouest,950000,47.0,2.0,1.0,1.0,5.0,"['Bon état', '1-5 ans']",20212.76595744681
+Appartements,Aïn Sebaâ,380000,49.0,5.0,3.0,2.0,2.0,"['Bon état', '5-10 ans']",7755.102040816327
+Villas,Longchamps (Hay Al Hanâa),10500000,560.0,3.0,4.0,2.0,0.0,"['À rénover', '30-50 ans']",18750.0
+Appartements,Bourgogne Ouest,1500000,120.0,7.0,3.0,1.0,3.0,"['Bon état', '10-20 ans']",12500.0
+Appartements,Hay Salama,830000,72.0,3.0,2.0,1.0,5.0,"['Bon état', '10-20 ans']",11527.777777777777
+Appartements,Belvédère,1500000,150.0,3.0,2.0,2.0,3.0,"['Bon état', '20-30 ans']",10000.0
+Appartements,Bernoussi,940000,100.0,3.0,3.0,2.0,1.0,"['Bon état', '5-10 ans']",9400.0
+Appartements,Oulfa,350000,46.0,3.0,2.0,1.0,2.0,"['Bon état', '1-5 ans']",7608.695652173913
+Appartements,Nassim 1,930000,115.0,4.0,3.0,2.0,3.0,"['Bon état', '10-20 ans']",8086.95652173913
+Appartements,Les Hôpitaux,3200000,281.0,5.0,3.0,2.0,5.0,"['Bon état', '20-30 ans']",11387.900355871887
+Appartements,Belvédère,2400000,164.0,5.0,3.0,2.0,6.0,"['Bon état', '5-10 ans']",14634.146341463415
+Villas,La Floride,4600000,346.0,6.0,4.0,4.0,0.0,"['Bon état', '10-20 ans']",13294.797687861272
+Appartements,Riviera,1790000,120.0,4.0,3.0,2.0,3.0,"['Bon état', '5-10 ans']",14916.666666666666
+Appartements,Palmier,2030000,135.0,4.0,3.0,2.0,6.0,"['Bon état', '10-20 ans']",15037.037037037036
+Appartements,Aïn Sebaâ,560000,60.0,3.0,2.0,1.0,2.0,"['Bon état', '5-10 ans']",9333.333333333334
+Appartements,Oulfa,390000,50.0,3.0,2.0,1.0,3.0,"['Bon état', '1-5 ans']",7800.0
+Appartements,Ain Diab,2650000,172.0,4.0,3.0,3.0,1.0,"['Bon état', '10-20 ans']",15406.976744186046
+Appartements,Hay Arsalan,820000,116.0,1.0,3.0,1.0,4.0,"['À rénover', '20-30 ans']",7068.9655172413795
+Appartements,Al Hassania,594000,54.0,3.0,2.0,1.0,3.0,"['Bon état', '1-5 ans']",11000.0
+Appartements,Gauthier,3200000,197.0,6.0,4.0,3.0,5.0,"['Bon état', '10-20 ans']",16243.654822335026
+Appartements,Belvédère,935000,85.0,3.0,2.0,2.0,3.0,"['Bon état', '5-10 ans']",11000.0
+Appartements,Val Fleury,2400000,137.0,5.0,3.0,2.0,2.0,"['Bon état', '1-5 ans']",17518.24817518248
+Villas,Polo,8000000,800.0,5.0,3.0,3.0,0.0,['À rénover'],10000.0
+Villas,Ain Diab,14000000,700.0,7.0,4.0,4.0,0.0,['Bon état'],20000.0
+Appartements,Casablanca Finance City,2350000,103.0,3.0,2.0,2.0,3.0,"['Nouveau', '1-5 ans']",22815.533980582524
+Appartements,Palmier,14200,284.0,7.0,5.0,3.0,2.0,"['Bon état', '10-20 ans']",50.0
+Villas,Californie,7200000,450.0,5.0,4.0,5.0,0.0,['Bon état'],16000.0
+Villas,Californie,16000000,1040.0,8.0,5.0,6.0,0.0,['Bon état'],15384.615384615385
+Appartements,Val Fleury,1140000,74.0,3.0,2.0,2.0,4.0,['Bon état'],15405.405405405405
+Appartements,Hermitage,870000,56.0,2.0,1.0,2.0,4.0,"['Nouveau', ""Moins d'un an""]",15535.714285714286
+Appartements,Hay Arrahma,495000,68.0,3.0,2.0,1.0,4.0,"['Bon état', '5-10 ans']",7279.411764705882
+Appartements,Les Hôpitaux,2760000,230.0,9.0,3.0,3.0,6.0,"['Bon état', '10-20 ans']",12000.0
