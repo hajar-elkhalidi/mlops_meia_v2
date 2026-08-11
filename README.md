@@ -1,135 +1,133 @@
-# Membre 3 — Data Engineer 1 : Ingestion
+# Membre 3 — Data Engineer 1 : Ingestion multi-sources
 
 ## Objectif
 
-Mettre en place l'ingestion du dataset Kaggle **Housing Data in Morocco** vers DuckDB avec **dlt**.
+Ingestionner automatiquement deux sources immobilières dans DuckDB avec `dlt` :
 
-Source :
-https://www.kaggle.com/datasets/yassinesadiki/housing-data-in-morocco
+1. `data/housing_data.csv` — dataset immobilier Maroc.
+2. `data/casa_housing.csv` — dataset immobilier spécifique à Casablanca.
 
-Dataset fourni : `data/housing_data.csv`
-- 4 675 annonces
-- 14 colonnes source
-- aucun champ manquant dans le fichier fourni
+Les deux sources sont normalisées vers une table commune :
 
-Types observés :
-- Appartement : 2 244
-- Studio : 1 683
-- Villa : 561
-- Bureau : 187
-
-Villes observées :
-Casablanca, Marrakech, Meknès, Fès, Mohammadia, Dar Bouazza, Tanger.
+`raw_immobilier.housing_listings`
 
 ## Architecture
 
 ```text
-Kaggle CSV
-    |
-    v
-housing_data.csv
-    |
-    v
-normalisation Python
-    |
-    v
-dlt resource: housing_listings
-    |
-    | merge / primary_key=listing_id
-    v
-DuckDB
-    |
-    v
-raw_immobilier.housing_listings
+housing_data.csv ───────┐
+                        ├──> normalization ──> dlt ──> DuckDB
+casa_housing.csv ───────┘                         │
+                                                 ▼
+                                      raw_immobilier.housing_listings
 ```
+
+## Schéma unifié
+
+| Colonne | Description |
+|---|---|
+| `listing_id` | Identifiant global (`morocco_1`, `casa_1`, ...) |
+| `source_listing_id` | Identifiant de la ligne dans la source |
+| `price_mad` | Prix |
+| `surface_m2` | Surface |
+| `price_m2` | Prix au m² |
+| `rooms` | Nombre de pièces |
+| `bedrooms` | Chambres |
+| `bathrooms` | Salles de bain |
+| `floor` | Étage |
+| `address` | Adresse si disponible |
+| `localisation` | Quartier/localisation |
+| `elevator` | Ascenseur si disponible |
+| `terrace` | Terrasse si disponible |
+| `parking` | Parking si disponible |
+| `other_tags` | Tags complémentaires si disponibles |
+| `property_type` | Type de bien |
+| `city` | Ville |
+| `source` | Source de l'annonce |
+
+La colonne `desc` du dataset Maroc est volontairement ignorée.
+
+## Pourquoi un identifiant global ?
+
+Les deux datasets peuvent avoir des IDs de lignes identiques (`1`, `2`, ...). Pour éviter les collisions avec `merge`, `listing_id` devient :
+
+- `morocco_1`, `morocco_2`, ...
+- `casa_1`, `casa_2`, ...
+
+`listing_id` est donc la clé primaire globale de la table.
 
 ## Installation
 
 ```bash
-python -m venv .venv
-# Windows
-.venv\Scripts\activate
-# Linux/macOS
-source .venv/bin/activate
-
 pip install -r requirements.txt
+```
+
+## Configuration
+
+Copier `.env.example` vers `.env` :
+
+```bash
 cp .env.example .env
 ```
 
-## Exécution
+Vérifier :
 
-Depuis la racine du projet :
+```env
+MOROCCO_DATA_FILE=data/housing_data.csv
+CASA_DATA_FILE=data/casa_housing.csv
+DUCKDB_PATH=morocco_housing_ingestion.duckdb
+DLT_DATASET_NAME=raw_immobilier
+```
+
+## Exécution
 
 ```bash
 python ingestion/pipeline.py
 ```
 
-Le pipeline :
-1. lit le CSV ;
-2. normalise les noms de colonnes ;
-3. convertit les champs numériques ;
-4. ajoute `source=kaggle_morocco_housing` ;
-5. charge les données dans DuckDB ;
-6. utilise `listing_id` comme clé primaire ;
-7. utilise `merge` pour éviter les doublons lors d'un refresh.
-
-Vérification :
+Puis :
 
 ```bash
 python ingestion/check.py
 ```
 
-## Mapping des colonnes
+Le script de contrôle affiche :
 
-| Source Kaggle | Colonne cible |
-|---|---|
-| Unnamed: 0 | listing_id |
-| new_price | price_mad |
-| desc | description |
-| address | address |
-| chambres | bedrooms |
-| salles de bains | bathrooms |
-| surface | surface_m2 |
-| ascenseur | elevator |
-| floor | floor |
-| terrasse | terrace |
-| parking | parking |
-| Type | property_type |
-| City | city |
-| Nighberd | neighborhood |
-
-## Pourquoi `merge` ?
-
-Le pipeline est prévu pour être relancé. `listing_id` identifie l'annonce dans le dataset fourni et permet à dlt de mettre à jour une annonce existante au lieu de créer systématiquement une nouvelle ligne.
+- les tables DuckDB ;
+- le nombre total d'annonces ;
+- le nombre d'annonces par source ;
+- les colonnes ;
+- un échantillon.
 
 ## Refresh
 
-Le workflow `.github/workflows/ingestion.yml` lance l'ingestion automatiquement sur `schedule` ou manuellement (`workflow_dispatch`).
+Le pipeline utilise :
 
-> Pour un dataset Kaggle statique, le refresh n'ajoute de nouvelles données que si le fichier source est remplacé par une version actualisée. Le workflow constitue donc la structure d'automatisation ; une récupération automatique depuis Kaggle nécessiterait des credentials/API Kaggle et un téléchargement du nouveau dataset.
-
-## Secrets
-
-Ne jamais committer `.env` ou une clé API.
-
-Si votre équipe automatise le téléchargement Kaggle, les credentials doivent être stockés dans **GitHub Actions Secrets**, pas dans le dépôt.
-
-## Interface avec le membre 4
-
-La sortie d'ingestion est la table :
-
-`raw_immobilier.housing_listings`
-
-Le membre 4 peut ensuite construire avec dbt :
-
-```text
-raw_immobilier.housing_listings
-        |
-        +--> staging
-        |
-        +--> intermediate
-        |
-        +--> marts
+```python
+write_disposition="merge"
+primary_key="listing_id"
 ```
 
-La colonne `source` permet également de conserver la provenance des données.
+Un nouveau chargement met donc à jour une annonce ayant le même `listing_id` au lieu de créer un doublon.
+
+Pour un refresh complet avec les fichiers locaux :
+
+```bash
+python ingestion/pipeline.py
+```
+
+## Note sur les sources
+
+Le pipeline ne scrape pas directement les sites web. Il ingère les deux fichiers CSV fournis dans le projet. Le dataset Casablanca et le dataset Maroc peuvent être remplacés par de nouveaux exports sans changer la structure de la destination.
+
+## Livrable membre 3
+
+Cette implémentation couvre :
+
+- identification de deux sources ;
+- ingestion automatisée avec dlt ;
+- normalisation multi-sources ;
+- chargement dans DuckDB ;
+- clé primaire et stratégie de merge ;
+- traçabilité de la source ;
+- vérification du nombre de lignes ;
+- préparation d'une table raw exploitable par dbt.
