@@ -1,84 +1,83 @@
-# Partie Membre 3 — Data Engineer 1 : Ingestion
+# Rapport — Membre 3 : Data Engineer 1 — Ingestion
 
-## 1. Source de données
+## 1. Sources de données
 
-Pour l'Observatoire Intelligent des Prix Immobiliers, la source retenue est le dataset Kaggle **Housing Data in Morocco** de Yassine Sadiki.
+Deux datasets immobiliers sont utilisés. Le premier couvre des annonces immobilières au Maroc (`housing_data.csv`). Le second est spécialisé sur Casablanca (`casa_housing.csv`).
 
-Le fichier fourni contient 4 675 annonces immobilières et 14 colonnes. Les informations couvrent notamment le prix, la description, l'adresse, le nombre de chambres et salles de bains, la surface, l'ascenseur, l'étage, la terrasse, le parking, le type de bien, la ville et le quartier.
-
-Le dataset contient quatre types de biens principaux : appartement, studio, villa et bureau.
+Cette approche permet de conserver une source nationale et une source plus détaillée pour Casablanca.
 
 ## 2. Pipeline d'ingestion
 
-Le pipeline est développé avec **dlt** et utilise **DuckDB** comme destination analytique.
+Le pipeline Python utilise `dlt` et DuckDB. Chaque fichier CSV est lu avec `csv.DictReader`, puis transformé vers un schéma commun avant d'être envoyé à la ressource `housing_listings`.
 
-Le flux est :
-
-**Dataset Kaggle → fichier CSV → normalisation → ressource dlt → DuckDB**
-
-La ressource `housing_listings` lit les lignes du CSV et transforme les noms de colonnes en noms normalisés compatibles avec les traitements SQL et Python.
-
-Exemples :
-- `new_price` devient `price_mad`
-- `surface` devient `surface_m2`
-- `chambres` devient `bedrooms`
-- `salles de bains` devient `bathrooms`
-- `Type` devient `property_type`
-- `City` devient `city`
-- `Nighberd` devient `neighborhood`
-
-Une colonne `source` est ajoutée afin de conserver la provenance des données.
-
-## 3. Stratégie d'identification et de chargement
-
-La colonne `Unnamed: 0` du fichier source est utilisée comme identifiant de l'annonce et devient `listing_id`.
-
-Le pipeline dlt utilise :
-- `primary_key="listing_id"`
-- `write_disposition="merge"`
-
-Ce choix permet de relancer le pipeline sans recréer systématiquement les mêmes annonces.
-
-Les champs numériques sont convertis en entiers lorsque cela est possible, notamment :
-- prix ;
-- surface ;
-- chambres ;
-- salles de bains ;
-- étage.
-
-## 4. DuckDB
-
-DuckDB constitue la cible de l'ingestion. Les données sont organisées dans le dataset logique `raw_immobilier`.
-
-La table principale produite est :
+Les deux sources sont chargées dans une seule table raw :
 
 `raw_immobilier.housing_listings`
 
-Cette table représente la couche **raw/ingestion** qui sera utilisée par le Data Engineer 2 pour la transformation dbt.
+La colonne `source` permet de distinguer les origines.
 
-## 5. Refresh et credentials
+## 3. Normalisation
 
-Le projet contient un workflow GitHub Actions permettant de lancer l'ingestion manuellement ou selon une planification.
+Les noms de colonnes diffèrent entre les deux datasets. Le pipeline les harmonise vers un schéma commun :
 
-Pour un dataset Kaggle statique, la planification relance le pipeline à partir du fichier présent dans le dépôt. Pour récupérer automatiquement une nouvelle version publiée sur Kaggle, il faudra ajouter une étape de téléchargement avec les credentials Kaggle stockés dans GitHub Secrets.
+- `new_price` / `Price` → `price_mad`
+- `surface` / `Area` → `surface_m2`
+- `chambres` / `Bedrooms` → `bedrooms`
+- `salles de bains` / `Bathrooms` → `bathrooms`
+- `Type` → `property_type`
+- `City` / valeur Casablanca → `city`
+- `Nighberd` / `Localisation` → `localisation`
 
-Les fichiers `.env` et les credentials ne doivent jamais être commités.
+La colonne `desc` du dataset Maroc est volontairement exclue.
 
-## 6. Interface avec les autres membres
+Le prix au m² est conservé lorsqu'il existe dans la source Casablanca et calculé pour la source Maroc lorsque le prix et la surface sont disponibles.
 
-La sortie de mon travail est la table `raw_immobilier.housing_listings`.
+## 4. Gestion des identifiants
 
-Le membre 4 peut utiliser cette table comme source dbt pour créer les couches :
-- staging ;
-- intermediate ;
-- marts.
+Les deux fichiers peuvent avoir des numéros de lignes identiques. Une clé globale est donc construite :
 
-Le membre 5 pourra ensuite appliquer les contrôles de qualité et documenter la provenance des données.
+- `morocco_1`, `morocco_2`, ...
+- `casa_1`, `casa_2`, ...
 
-## 7. Résultat
+Cela permet d'utiliser `listing_id` comme clé primaire sans collision lors des opérations `merge`.
 
-La partie ingestion fournit donc une chaîne reproductible :
+## 5. Destination DuckDB
 
-**Kaggle → CSV → dlt → DuckDB → dbt**
+La destination est :
 
-Elle prépare une base propre et structurée pour les étapes suivantes du projet : transformation, contrôle qualité, modélisation ML, orchestration et déploiement.
+`morocco_housing_ingestion.duckdb`
+
+avec le dataset :
+
+`raw_immobilier`
+
+et la table :
+
+`housing_listings`
+
+Les métadonnées dlt (`_dlt_load_id`, `_dlt_id`) sont conservées automatiquement par dlt.
+
+## 6. Refresh
+
+La ressource utilise :
+
+```python
+write_disposition="merge"
+primary_key="listing_id"
+```
+
+Ainsi, une annonce ayant le même identifiant global peut être mise à jour lors d'un nouveau chargement.
+
+## 7. Validation
+
+Le script `ingestion/check.py` vérifie :
+
+- l'existence de la table ;
+- le nombre total d'annonces ;
+- le nombre d'annonces par source ;
+- les colonnes ;
+- un échantillon.
+
+## 8. Interface avec le membre 4
+
+La table `raw_immobilier.housing_listings` constitue l'entrée du travail dbt. Le membre 4 peut créer les modèles `staging`, `intermediate` et `marts` à partir de cette table unifiée.
