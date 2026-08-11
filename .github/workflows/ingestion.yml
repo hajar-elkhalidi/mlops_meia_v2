@@ -1,25 +1,25 @@
-name: ingestion-refresh
+name: Ingestion
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 6 * * *"
+    - cron: "0 2 * * *"
 
 jobs:
   ingestion:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: "3.12"
 
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run dlt ingestion
+      - name: Run ingestion
         run: python ingestion/pipeline.py
+
+      - name: Validate ingestion
+        run: python ingestion/check.py
