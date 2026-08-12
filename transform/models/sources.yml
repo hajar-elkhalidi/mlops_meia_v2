@@ -1,0 +1,21 @@
+version: 2
+
+sources:
+  - name: raw_immobilier
+    schema: raw_immobilier
+    tables:
+      - name: housing_listings
+        description: "Données brutes des annonces immobilières ingérées par le Membre 3"
+        columns:
+          - name: listing_id
+            description: "Identifiant unique de l'annonce"
+          - name: price_mad
+            description: "Prix en dirhams (peut contenir des 0 ou des NULL)"
+          - name: surface_m2
+            description: "Surface en mètres carrés"
+          - name: city
+            description: "Ville du bien"
+          - name: property_type
+            description: "Type de bien (Appartement, Villa, etc.)"
+          - name: source
+            description: "Source des données (casa_housing / kaggle_morocco_housing)"

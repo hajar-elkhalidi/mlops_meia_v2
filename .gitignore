@@ -4,3 +4,10 @@ __pycache__/
 *.pyc
 *.duckdb.wal
 .venv/
+# ===== AJOUTS OBLIGATOIRES POUR DBT =====
+target/
+dbt_packages/
+logs/
+*.duckdb
+*.db
+transform/.user.yml

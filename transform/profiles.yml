@@ -1,0 +1,9 @@
+morocco_housing:
+  outputs:
+    dev:
+      type: duckdb
+      path: '../morocco_housing_ingestion.duckdb'
+      extensions:
+        - parquet
+        - httpfs
+  target: dev
