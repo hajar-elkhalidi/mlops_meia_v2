@@ -1,0 +1,69 @@
+version: 2
+
+models:
+  - name: stg_housing_listings
+    description: "Données nettoyées des annonces immobilières (prix et surface valides)"
+    columns:
+      - name: listing_id
+        description: "Identifiant unique de l'annonce"
+        tests:
+          - unique
+          - not_null
+      - name: price_mad
+        description: "Prix en dirhams (valeurs > 0)"
+        tests:
+          - not_null
+      - name: surface_m2
+        description: "Surface en m² (valeurs > 0)"
+        tests:
+          - not_null
+      - name: city
+        description: "Ville du bien"
+        tests:
+          - not_null
+      - name: property_type
+        description: "Type de bien"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['Appartement', 'Appartements', 'Bureau', 'Maisons', 'Riad', 'Studio', 'Villa', 'Villas']
+
+  - name: int_housing_by_city
+    description: "Agrégation des prix par ville"
+    columns:
+      - name: city
+        tests:
+          - not_null
+          - unique
+
+  - name: int_housing_by_type
+    description: "Agrégation des prix par type de bien"
+    columns:
+      - name: property_type
+        tests:
+          - not_null
+          - unique
+
+  - name: mart_price_by_city
+    description: "Prix moyen, min, max par ville"
+    columns:
+      - name: city
+        tests:
+          - not_null
+          - unique
+
+  - name: mart_price_per_sqm_by_city
+    description: "Prix au m² moyen par ville"
+    columns:
+      - name: city
+        tests:
+          - not_null
+          - unique
+
+  - name: mart_price_by_type
+    description: "Prix moyen par type de bien"
+    columns:
+      - name: property_type
+        tests:
+          - not_null
+          - unique

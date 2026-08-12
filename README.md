@@ -131,3 +131,42 @@ Cette implémentation couvre :
 - traçabilité de la source ;
 - vérification du nombre de lignes ;
 - préparation d'une table raw exploitable par dbt.
+
+
+
+## 📊 Transformation des données (dbt) — Membre 4
+
+### Objectif
+Nettoyer et structurer les données immobilières brutes (issues de l'ingestion) pour les rendre exploitables par le modèle de Machine Learning.
+
+### Architecture dbt
+La transformation suit une architecture en couches (médailion) :
+
+1. **Staging** (`stg_housing_listings`) : Nettoyage des données brutes
+   - Filtrage des prix et surfaces invalides (valeurs <= 0 ou NULL)
+   - Recalcul du prix au m² (`price_per_sqm_calculated`)
+   - Standardisation des colonnes
+
+2. **Intermédiaires** (`int_housing_by_city`, `int_housing_by_type`)
+   - Agrégations des moyennes, minimums, maximums par ville et par type de bien
+   - Calcul du nombre total d'annonces par catégorie
+
+3. **Marts (produits finaux)** :
+   - `mart_price_by_city` : Prix moyen, min et max par ville
+   - `mart_price_per_sqm_by_city` : Classement des villes par prix au m²
+   - `mart_price_by_type` : Prix moyen par type de bien (Appartement, Villa, etc.)
+
+### Qualité des données
+17 tests automatisés ont été mis en place via dbt :
+- **`not_null`** : Vérifie l'absence de valeurs nulles sur les colonnes critiques (prix, surface, ville, ID).
+- **`unique`** : Garantit l'unicité des identifiants et des clés d'agrégation.
+- **`accepted_values`** : Contrôle que les types de biens sont valides (Appartement, Villa, Bureau, etc.).
+
+**Résultat** : ✅ 17/17 tests passants.
+
+### Documentation
+La documentation complète du pipeline est générée automatiquement avec :
+```bash
+cd transform
+dbt docs generate --profiles-dir .
+dbt docs serve --profiles-dir .  # (utiliser --port 8081 si le port 8080 est occupé)
