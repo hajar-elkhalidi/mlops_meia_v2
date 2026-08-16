@@ -1,0 +1,144 @@
+services:
+  
+  mlflow:
+    build:
+      context: .
+
+    command:
+      - mlflow
+      - server
+      - --backend-store-uri
+      - sqlite:////runtime/mlflow/mlflow.db
+      - --artifacts-destination
+      - /runtime/mlartifacts
+      - --host
+      - 0.0.0.0
+      - --port
+      - "5000"
+      - --allowed-hosts
+      - "mlflow:5000,localhost:*,127.0.0.1:*"
+
+    volumes:
+      - mlflow_data:/runtime/mlflow
+      - mlflow_artifacts:/runtime/mlartifacts
+
+    ports:
+      - "3901:5000"
+
+    restart: unless-stopped
+
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "python",
+          "-c",
+          "import urllib.request; urllib.request.urlopen('http://127.0.0.1:5000/health')"
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+
+  api:
+    build:
+      context: .
+
+    command:
+      - uvicorn
+      - api.main:app
+      - --host
+      - 0.0.0.0
+      - --port
+      - "8000"
+
+    environment:
+      MLFLOW_TRACKING_URI: http://mlflow:5000
+      REGISTERED_MODEL_NAME: prix_immobilier_maroc
+      MODEL_ALIAS: champion
+
+    ports:
+      - "3900:8000"
+
+    depends_on:
+      mlflow:
+        condition: service_healthy
+
+    restart: unless-stopped
+
+
+  dagster:
+    build:
+      context: .
+
+    command:
+      - dagster-webserver
+      - -f
+      - orchestration/definitions.py
+      - -h
+      - 0.0.0.0
+      - -p
+      - "3000"
+
+    environment:
+      MLFLOW_TRACKING_URI: http://mlflow:5000
+      REGISTERED_MODEL_NAME: prix_immobilier_maroc
+      MODEL_ALIAS: champion
+      DUCKDB_PATH: /runtime/data/morocco_housing_ingestion.duckdb
+      MOROCCO_DATA_FILE: /app/data/housing_data.csv
+      CASA_DATA_FILE: /app/data/casa_housing.csv
+      DLT_DATASET_NAME: raw_immobilier
+      DAGSTER_HOME: /runtime/dagster
+
+    volumes:
+      - housing_data:/runtime/data
+      - dagster_data:/runtime/dagster
+      - ./orchestration/dagster.yaml:/runtime/dagster/dagster.yaml:ro
+
+    ports:
+      - "3902:3000"
+
+    depends_on:
+      mlflow:
+        condition: service_healthy
+
+    restart: unless-stopped
+
+
+  dagster-daemon:
+    build:
+      context: .
+
+    command:
+      - dagster-daemon
+      - run
+      - -f
+      - orchestration/definitions.py
+
+    environment:
+      MLFLOW_TRACKING_URI: http://mlflow:5000
+      REGISTERED_MODEL_NAME: prix_immobilier_maroc
+      MODEL_ALIAS: champion
+      DUCKDB_PATH: /runtime/data/morocco_housing_ingestion.duckdb
+      MOROCCO_DATA_FILE: /app/data/housing_data.csv
+      CASA_DATA_FILE: /app/data/casa_housing.csv
+      DLT_DATASET_NAME: raw_immobilier
+      DAGSTER_HOME: /runtime/dagster
+
+    volumes:
+      - housing_data:/runtime/data
+      - dagster_data:/runtime/dagster
+      - ./orchestration/dagster.yaml:/runtime/dagster/dagster.yaml:ro
+
+    depends_on:
+      mlflow:
+        condition: service_healthy
+
+    restart: unless-stopped
+
+
+volumes:
+  housing_data:
+  mlflow_data:
+  mlflow_artifacts:
+  dagster_data:

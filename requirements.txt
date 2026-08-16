@@ -10,3 +10,6 @@ dbt-duckdb
 fastapi
 uvicorn[standard]
 httpx
+dagster
+dagster-webserver
+dagster-dg-cli
