@@ -11,3 +11,7 @@ logs/
 *.duckdb
 *.db
 transform/.user.yml
+mlflow.db
+mlartifacts/
+data/stg_export.csv
+mlruns/
