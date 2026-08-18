@@ -13,3 +13,4 @@ httpx
 dagster
 dagster-webserver
 dagster-dg-cli
+xgboost

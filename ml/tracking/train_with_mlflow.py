@@ -8,6 +8,7 @@ Usage:
     python ml/tracking/train_with_mlflow.py
 """
 import os
+
 import json
 import duckdb
 import mlflow
@@ -26,36 +27,10 @@ from xgboost import XGBRegressor
 # ---------------------------------------------------------------------
 # 0. CONFIG - adapte ces chemins/noms a ton .env si besoin
 # ---------------------------------------------------------------------
-DUCKDB_PATH = os.getenv(
-    "DUCKDB_PATH",
-    "morocco_housing_ingestion.duckdb",
-)
-
-SOURCE_TABLE = os.getenv(
-    "SOURCE_TABLE",
-    "stg_housing_listings",
-)
-
-MLFLOW_EXPERIMENT = os.getenv(
-    "MLFLOW_EXPERIMENT",
-    "observatoire_prix_immobiliers",
-)
-
-REGISTERED_MODEL_NAME = os.getenv(
-    "REGISTERED_MODEL_NAME",
-    "prix_immobilier_maroc",
-)
-
-MODEL_ALIAS = os.getenv(
-    "MODEL_ALIAS",
-    "champion",
-)
-
-MLFLOW_TRACKING_URI = os.getenv(
-    "MLFLOW_TRACKING_URI",
-    "sqlite:///mlflow.db",
-)
-
+DUCKDB_PATH = "morocco_housing_ingestion.duckdb"   # meme fichier que membre 3/4
+SOURCE_TABLE = "stg_housing_listings"              # table dbt de membre 4
+MLFLOW_EXPERIMENT = "observatoire_prix_immobiliers"
+REGISTERED_MODEL_NAME = "prix_immobilier_maroc"
 RARE_LOCALISATION_THRESHOLD = 5
 PRICE_MIN, PRICE_MAX = 50_000, 30_000_000
 
@@ -63,7 +38,7 @@ NUMERIC_FEATURES = ["surface_m2", "bedrooms", "bathrooms", "floor", "rooms"]
 CATEGORICAL_FEATURES = ["city", "property_type", "localisation_grouped"]
 TARGET = "price_mad"
 
-mlflow.set_tracking_uri(MLFLOW_TRACKING_URI)    # backend recommande par MLflow (pas 'mlruns', deprecie)
+mlflow.set_tracking_uri("sqlite:///mlflow.db")     # backend recommande par MLflow (pas 'mlruns', deprecie)
 mlflow.set_experiment(MLFLOW_EXPERIMENT)
 
 
@@ -197,15 +172,10 @@ def main():
     print(f"Modele enregistre : {REGISTERED_MODEL_NAME} v{registered.version}")
 
     client = mlflow.MlflowClient()
-    client.set_registered_model_alias(
+    client.transition_model_version_stage(
         name=REGISTERED_MODEL_NAME,
-        alias=MODEL_ALIAS,
         version=registered.version,
-    )
-
-    print(
-        f"Alias '{MODEL_ALIAS}' -> "
-        f"{REGISTERED_MODEL_NAME} v{registered.version}"
+        stage="Staging",
     )
     client.update_model_version(
         name=REGISTERED_MODEL_NAME,
