@@ -1,9 +1,14 @@
 morocco_housing:
+  target: dev
+
   outputs:
     dev:
       type: duckdb
-      path: '../morocco_housing_ingestion.duckdb'
+
+      path: "{{ env_var('DUCKDB_PATH', '../morocco_housing_ingestion.duckdb') }}"
+
       extensions:
         - parquet
         - httpfs
-  target: dev
+
+      threads: 1

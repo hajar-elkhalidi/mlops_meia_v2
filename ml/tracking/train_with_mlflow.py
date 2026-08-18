@@ -7,6 +7,7 @@ de features pour la detection de derive.
 Usage:
     python ml/tracking/train_with_mlflow.py
 """
+import os
 
 import json
 import duckdb

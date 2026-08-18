@@ -5,3 +5,12 @@ pandas>=2.0.0
 pytest>=8.0.0
 mlflow
 xgboost
+scikit-learn
+dbt-duckdb
+fastapi
+uvicorn[standard]
+httpx
+dagster
+dagster-webserver
+dagster-dg-cli
+xgboost
