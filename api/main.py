@@ -15,7 +15,7 @@ from api.schemas import (
 async def lifespan(app: FastAPI):
     try:
         model_service.ensure_loaded()
-    except Exception as exc:
+    except Exception as exc:  # noqa: BLE001
         print(f"Model not available at startup: {exc}")
 
     yield
@@ -59,7 +59,7 @@ def health():
             tracking_uri=model_service.tracking_uri,
         )
 
-    except Exception:
+    except Exception:  # noqa: BLE001
         return HealthResponse(
             status="waiting_for_model",
             model_loaded=False,
@@ -74,11 +74,9 @@ def health():
 )
 def model_info():
     try:
-        return ModelInfoResponse(
-            **model_service.info()
-        )
+        return ModelInfoResponse(**model_service.info())
 
-    except Exception as exc:
+    except Exception as exc:  # noqa: BLE001
         raise HTTPException(
             status_code=503,
             detail=str(exc),
@@ -92,7 +90,7 @@ def supported_values():
 
         return model_service.supported_values
 
-    except Exception as exc:
+    except Exception as exc:  # noqa: BLE001
         raise HTTPException(
             status_code=503,
             detail=str(exc),
@@ -105,9 +103,7 @@ def supported_values():
 )
 def predict(payload: PredictionRequest):
     try:
-        prediction, localisation_grouped = (
-            model_service.predict(payload)
-        )
+        prediction, localisation_grouped = model_service.predict(payload)
 
         return PredictionResponse(
             predicted_price_mad=round(prediction, 2),
@@ -125,7 +121,7 @@ def predict(payload: PredictionRequest):
             detail=str(exc),
         )
 
-    except Exception as exc:
+    except Exception as exc:  # noqa: BLE001
         raise HTTPException(
             status_code=503,
             detail=f"Prediction service unavailable: {exc}",

@@ -3,7 +3,6 @@ from fastapi.testclient import TestClient
 from api.main import app
 from api.model_service import model_service
 
-
 client = TestClient(app)
 
 
