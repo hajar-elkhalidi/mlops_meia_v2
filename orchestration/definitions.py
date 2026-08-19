@@ -183,18 +183,18 @@ def monitoring_ready(
 
     context.log.info(f"Received: {model_result}")
 
-    baseline_candidates = [
-        PROJECT_ROOT / "feature_baseline.json",
-        PROJECT_ROOT / "ml" / "tracking" / "feature_baseline.json",
-    ]
-
-    baseline = next(
-        (path for path in baseline_candidates if path.exists()),
-        None,
+    baseline = Path(
+        os.getenv(
+            "FEATURE_BASELINE_PATH",
+            "feature_baseline.json",
+        )
     )
 
-    if baseline is None:
-        raise RuntimeError("Feature baseline was not generated.")
+    if not baseline.is_absolute():
+        baseline = PROJECT_ROOT / baseline
+
+    if not baseline.exists():
+        raise RuntimeError(f"Feature baseline was not generated: {baseline}")
 
     context.log.info(f"Monitoring baseline available: {baseline}")
 

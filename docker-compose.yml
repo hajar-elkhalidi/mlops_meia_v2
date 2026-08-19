@@ -56,6 +56,10 @@ services:
       MLFLOW_TRACKING_URI: http://mlflow:5000
       REGISTERED_MODEL_NAME: prix_immobilier_maroc
       MODEL_ALIAS: champion
+      PREDICTION_LOG_PATH: /runtime/monitoring/predictions.jsonl
+
+    volumes:
+      - monitoring_data:/runtime/monitoring
 
     ports:
       - "3900:8000"
@@ -85,6 +89,7 @@ services:
       REGISTERED_MODEL_NAME: prix_immobilier_maroc
       MODEL_ALIAS: champion
       DUCKDB_PATH: /runtime/data/morocco_housing_ingestion.duckdb
+      FEATURE_BASELINE_PATH: /runtime/monitoring/feature_baseline.json
       MOROCCO_DATA_FILE: /app/data/housing_data.csv
       CASA_DATA_FILE: /app/data/casa_housing.csv
       DLT_DATASET_NAME: raw_immobilier
@@ -92,6 +97,7 @@ services:
 
     volumes:
       - housing_data:/runtime/data
+      - monitoring_data:/runtime/monitoring
       - dagster_data:/runtime/dagster
       - ./orchestration/dagster.yaml:/runtime/dagster/dagster.yaml:ro
 
@@ -120,6 +126,7 @@ services:
       REGISTERED_MODEL_NAME: prix_immobilier_maroc
       MODEL_ALIAS: champion
       DUCKDB_PATH: /runtime/data/morocco_housing_ingestion.duckdb
+      FEATURE_BASELINE_PATH: /runtime/monitoring/feature_baseline.json
       MOROCCO_DATA_FILE: /app/data/housing_data.csv
       CASA_DATA_FILE: /app/data/casa_housing.csv
       DLT_DATASET_NAME: raw_immobilier
@@ -127,6 +134,7 @@ services:
 
     volumes:
       - housing_data:/runtime/data
+      - monitoring_data:/runtime/monitoring
       - dagster_data:/runtime/dagster
       - ./orchestration/dagster.yaml:/runtime/dagster/dagster.yaml:ro
 
@@ -137,8 +145,59 @@ services:
     restart: unless-stopped
 
 
+  monitoring:
+    build:
+      context: .
+
+    command:
+      - uvicorn
+      - monitoring.main:app
+      - --host
+      - 0.0.0.0
+      - --port
+      - "8001"
+
+    environment:
+      API_BASE_URL: http://api:8000
+      MLFLOW_TRACKING_URI: http://mlflow:5000
+      REGISTERED_MODEL_NAME: prix_immobilier_maroc
+      MODEL_ALIAS: champion
+      FEATURE_BASELINE_PATH: /runtime/monitoring/feature_baseline.json
+      PREDICTION_LOG_PATH: /runtime/monitoring/predictions.jsonl
+      AVAILABILITY_LOG_PATH: /runtime/monitoring/availability.jsonl
+      MONITOR_INTERVAL_SECONDS: "30"
+      DRIFT_MIN_SAMPLES: "20"
+
+    volumes:
+      - monitoring_data:/runtime/monitoring
+
+    ports:
+      - "3903:8001"
+
+    depends_on:
+      api:
+        condition: service_started
+      mlflow:
+        condition: service_healthy
+
+    restart: unless-stopped
+
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "python",
+          "-c",
+          "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8001/health')"
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+
 volumes:
   housing_data:
   mlflow_data:
   mlflow_artifacts:
   dagster_data:
+  monitoring_data:

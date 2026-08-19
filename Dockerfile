@@ -23,8 +23,9 @@ RUN mkdir -p \
     /runtime/data \
     /runtime/mlflow \
     /runtime/mlartifacts \
-    /runtime/dagster
+    /runtime/dagster \
+    /runtime/monitoring
 
-EXPOSE 8000 5000 3000
+EXPOSE 8000 5000 3000 8001
 
 CMD ["uvicorn", "api.main:app", "--host", "0.0.0.0", "--port", "8000"]

@@ -1,9 +1,22 @@
+import json
+
+import pytest
 from fastapi.testclient import TestClient
 
+import api.main as api_main
 from api.main import app
 from api.model_service import model_service
 
 client = TestClient(app)
+
+
+@pytest.fixture(autouse=True)
+def prediction_log_path(tmp_path, monkeypatch):
+    monkeypatch.setattr(
+        api_main,
+        "PREDICTION_LOG_PATH",
+        str(tmp_path / "predictions.jsonl"),
+    )
 
 
 def configure_fake_model(monkeypatch):
@@ -41,7 +54,7 @@ def test_health(monkeypatch):
     assert data["model_version"] == "1"
 
 
-def test_predict(monkeypatch):
+def test_predict(monkeypatch, tmp_path):
     configure_fake_model(monkeypatch)
 
     monkeypatch.setattr(
@@ -72,6 +85,18 @@ def test_predict(monkeypatch):
     assert data["model_name"] == "prix_immobilier_maroc"
     assert data["model_version"] == "1"
     assert data["localisation_grouped"] == "Ain Diab"
+
+    records = [
+        json.loads(line)
+        for line in (tmp_path / "predictions.jsonl")
+        .read_text(encoding="utf-8")
+        .splitlines()
+    ]
+
+    assert len(records) == 1
+    assert records[0]["surface_m2"] == 100
+    assert records[0]["predicted_price_mad"] == 2_500_000.0
+    assert records[0]["model_type"] == "LinearRegression"
 
 
 def test_invalid_surface():

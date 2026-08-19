@@ -26,7 +26,7 @@ CATEGORICAL_FEATURES = ["city", "property_type", "localisation_grouped"]
 def psi_numeric(baseline_stats: dict, new_values: pd.Series) -> float:
     """PSI pour une variable numerique, en reutilisant les vraies bornes/pourcentages
     de la distribution d'entrainement stockes dans feature_baseline.json."""
-    edges = np.array(baseline_stats["bin_edges"])
+    edges = np.array(baseline_stats["bin_edges"], dtype=float)
     edges_for_hist = edges.copy()
     edges_for_hist[0], edges_for_hist[-1] = -np.inf, np.inf
 
@@ -38,7 +38,9 @@ def psi_numeric(baseline_stats: dict, new_values: pd.Series) -> float:
     expected_pct = np.clip(expected_pct, 1e-4, None)
     actual_pct = np.clip(actual_pct, 1e-4, None)
 
-    return float(np.sum((actual_pct - expected_pct) * np.log(actual_pct / expected_pct)))
+    return float(
+        np.sum((actual_pct - expected_pct) * np.log(actual_pct / expected_pct))
+    )
 
 
 def psi_categorical(baseline_dist: dict, new_values: pd.Series) -> float:
@@ -72,13 +74,22 @@ def run_drift_check(baseline_path: str, new_data_path: str) -> pd.DataFrame:
         if col not in new_df.columns:
             continue
         score = psi_numeric(baseline["numeric"][col], new_df[col])
-        rows.append({"feature": col, "type": "numeric", "psi": score, "status": classify(score)})
+        rows.append(
+            {"feature": col, "type": "numeric", "psi": score, "status": classify(score)}
+        )
 
     for col in CATEGORICAL_FEATURES:
         if col not in new_df.columns:
             continue
         score = psi_categorical(baseline["categorical"][col], new_df[col])
-        rows.append({"feature": col, "type": "categorical", "psi": score, "status": classify(score)})
+        rows.append(
+            {
+                "feature": col,
+                "type": "categorical",
+                "psi": score,
+                "status": classify(score),
+            }
+        )
 
     return pd.DataFrame(rows)
 

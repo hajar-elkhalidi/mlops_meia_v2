@@ -18,3 +18,5 @@ mlruns/
 # Generated ML runtime artifacts
 comparaison_modeles.csv
 feature_baseline.json
+predictions.jsonl
+availability.jsonl

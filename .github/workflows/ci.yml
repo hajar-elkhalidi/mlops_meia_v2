@@ -40,18 +40,22 @@ jobs:
             api \
             ingestion \
             orchestration \
-            ml
+            ml \
+            monitoring
 
       - name: Lint deployment code
         run: |
           ruff check \
+            --exclude ml/notebooks \
             api \
             ingestion \
             orchestration \
+            ml \
+            monitoring \
             tests
 
-      - name: Run API tests
-        run: python -m pytest -q tests/test_api.py
+      - name: Run tests
+        run: python -m pytest -q
 
       - name: Validate dbt project
         working-directory: transform

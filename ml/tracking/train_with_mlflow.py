@@ -7,8 +7,10 @@ de features pour la detection de derive.
 Usage:
     python ml/tracking/train_with_mlflow.py
 """
+
 import json
 import os
+from pathlib import Path
 
 import duckdb
 import mlflow
@@ -51,6 +53,10 @@ MLFLOW_TRACKING_URI = os.getenv(
     "MLFLOW_TRACKING_URI",
     "sqlite:///mlflow.db",
 )
+FEATURE_BASELINE_PATH = os.getenv(
+    "FEATURE_BASELINE_PATH",
+    "feature_baseline.json",
+)
 RARE_LOCALISATION_THRESHOLD = 5
 PRICE_MIN, PRICE_MAX = 50_000, 30_000_000
 
@@ -76,7 +82,13 @@ def load_and_prepare_data() -> pd.DataFrame:
     # colonnes quasi vides / fuite de donnees
     cols_to_drop = [
         c
-        for c in ["address", "elevator", "terrace", "parking", "price_per_sqm_calculated"]
+        for c in [
+            "address",
+            "elevator",
+            "terrace",
+            "parking",
+            "price_per_sqm_calculated",
+        ]
         if c in df.columns
     ]
     df = df.drop(columns=cols_to_drop)
@@ -158,7 +170,11 @@ def main():
             for k, v in params.items():
                 mlflow.log_param(k, v)
             mlflow.log_params(
-                {"train_size": len(X_train), "test_size": len(X_test), "random_state": 42}
+                {
+                    "train_size": len(X_train),
+                    "test_size": len(X_test),
+                    "random_state": 42,
+                }
             )
             mlflow.log_metrics(metrics)
             mlflow.sklearn.log_model(
@@ -168,7 +184,9 @@ def main():
             )
 
             results[name] = metrics
-            print(f"[{name}] RMSE={metrics['rmse']:.0f}  MAE={metrics['mae']:.0f}  R2={metrics['r2']:.3f}")
+            print(
+                f"[{name}] RMSE={metrics['rmse']:.0f}  MAE={metrics['mae']:.0f}  R2={metrics['r2']:.3f}"
+            )
 
             if metrics["r2"] > best_r2:
                 best_r2 = metrics["r2"]
@@ -182,7 +200,9 @@ def main():
     with mlflow.start_run(run_name="comparison_summary"):
         mlflow.log_artifact(comp_path)
 
-    print(f"\nMeilleur modele : {best_model_name} (R2={best_r2:.3f}), run_id={best_run_id}")
+    print(
+        f"\nMeilleur modele : {best_model_name} (R2={best_r2:.3f}), run_id={best_run_id}"
+    )
 
     # -------------------------------------------------------------
     # 4. ENREGISTREMENT DANS LE MODEL REGISTRY
@@ -243,12 +263,16 @@ def main():
             for col in CATEGORICAL_FEATURES
         },
     }
-    baseline_path = "feature_baseline.json"
+    baseline_path = Path(FEATURE_BASELINE_PATH)
+    baseline_path.parent.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
     with open(baseline_path, "w") as f:
         json.dump(baseline, f, indent=2)
 
     with mlflow.start_run(run_name="feature_baseline"):
-        mlflow.log_artifact(baseline_path)
+        mlflow.log_artifact(str(baseline_path))
 
     print(f"Baseline de features sauvegardee -> {baseline_path}")
 
