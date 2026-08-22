@@ -1,4 +1,9 @@
+import json
+import logging
+import os
 from contextlib import asynccontextmanager
+from datetime import UTC, datetime
+from pathlib import Path
 
 from fastapi import FastAPI, HTTPException
 
@@ -10,12 +15,19 @@ from api.schemas import (
     PredictionResponse,
 )
 
+logger = logging.getLogger(__name__)
+
+PREDICTION_LOG_PATH = os.getenv(
+    "PREDICTION_LOG_PATH",
+    "predictions.jsonl",
+)
+
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     try:
         model_service.ensure_loaded()
-    except Exception as exc:
+    except Exception as exc:  # noqa: BLE001
         print(f"Model not available at startup: {exc}")
 
     yield
@@ -59,7 +71,7 @@ def health():
             tracking_uri=model_service.tracking_uri,
         )
 
-    except Exception:
+    except Exception:  # noqa: BLE001
         return HealthResponse(
             status="waiting_for_model",
             model_loaded=False,
@@ -74,11 +86,9 @@ def health():
 )
 def model_info():
     try:
-        return ModelInfoResponse(
-            **model_service.info()
-        )
+        return ModelInfoResponse(**model_service.info())
 
-    except Exception as exc:
+    except Exception as exc:  # noqa: BLE001
         raise HTTPException(
             status_code=503,
             detail=str(exc),
@@ -92,11 +102,42 @@ def supported_values():
 
         return model_service.supported_values
 
-    except Exception as exc:
+    except Exception as exc:  # noqa: BLE001
         raise HTTPException(
             status_code=503,
             detail=str(exc),
         )
+
+
+def log_prediction(payload: PredictionRequest, response: PredictionResponse) -> None:
+    log_path = Path(PREDICTION_LOG_PATH)
+
+    record = {
+        "timestamp": datetime.now(UTC).isoformat(),
+        "surface_m2": payload.surface_m2,
+        "bedrooms": payload.bedrooms,
+        "bathrooms": payload.bathrooms,
+        "floor": payload.floor,
+        "rooms": payload.rooms,
+        "city": payload.city,
+        "property_type": payload.property_type,
+        "localisation": payload.localisation,
+        "localisation_grouped": response.localisation_grouped,
+        "predicted_price_mad": response.predicted_price_mad,
+        "model_name": response.model_name,
+        "model_version": response.model_version,
+        "model_type": response.model_type,
+    }
+
+    try:
+        log_path.parent.mkdir(
+            parents=True,
+            exist_ok=True,
+        )
+        with open(log_path, "a", encoding="utf-8") as file:
+            file.write(json.dumps(record, ensure_ascii=False) + "\n")
+    except OSError as exc:
+        logger.warning("Failed to write prediction monitoring log: %s", exc)
 
 
 @app.post(
@@ -105,11 +146,9 @@ def supported_values():
 )
 def predict(payload: PredictionRequest):
     try:
-        prediction, localisation_grouped = (
-            model_service.predict(payload)
-        )
+        prediction, localisation_grouped = model_service.predict(payload)
 
-        return PredictionResponse(
+        response = PredictionResponse(
             predicted_price_mad=round(prediction, 2),
             model_name=model_service.model_name,
             model_version=model_service.model_version,
@@ -119,13 +158,17 @@ def predict(payload: PredictionRequest):
             localisation_grouped=localisation_grouped,
         )
 
+        log_prediction(payload, response)
+
+        return response
+
     except ValueError as exc:
         raise HTTPException(
             status_code=422,
             detail=str(exc),
         )
 
-    except Exception as exc:
+    except Exception as exc:  # noqa: BLE001
         raise HTTPException(
             status_code=503,
             detail=f"Prediction service unavailable: {exc}",

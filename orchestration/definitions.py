@@ -5,7 +5,6 @@ from pathlib import Path
 
 import dagster as dg
 
-
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
 
@@ -44,17 +43,13 @@ def run_command(
     assert process.stdout is not None
 
     for line in process.stdout:
-        context.log.info(
-            line.rstrip()
-        )
+        context.log.info(line.rstrip())
 
     return_code = process.wait()
 
     if return_code != 0:
         raise RuntimeError(
-            f"Command failed with exit code "
-            f"{return_code}: "
-            f"{' '.join(command)}"
+            f"Command failed with exit code {return_code}: {' '.join(command)}"
         )
 
 
@@ -62,14 +57,13 @@ def run_command(
 # 1. DLT INGESTION
 # ============================================================
 
+
 @dg.op
 def ingestion(
     context: dg.OpExecutionContext,
 ) -> str:
 
-    context.log.info(
-        "Starting dlt ingestion"
-    )
+    context.log.info("Starting dlt ingestion")
 
     run_command(
         context,
@@ -80,9 +74,7 @@ def ingestion(
         cwd=PROJECT_ROOT,
     )
 
-    context.log.info(
-        "dlt ingestion completed"
-    )
+    context.log.info("dlt ingestion completed")
 
     return "ingestion_completed"
 
@@ -91,19 +83,16 @@ def ingestion(
 # 2. DBT TRANSFORMATIONS
 # ============================================================
 
+
 @dg.op
 def dbt_transform(
     context: dg.OpExecutionContext,
     ingestion_result: str,
 ) -> str:
 
-    context.log.info(
-        f"Received: {ingestion_result}"
-    )
+    context.log.info(f"Received: {ingestion_result}")
 
-    context.log.info(
-        "Starting dbt transformations"
-    )
+    context.log.info("Starting dbt transformations")
 
     run_command(
         context,
@@ -116,9 +105,7 @@ def dbt_transform(
         cwd=PROJECT_ROOT / "transform",
     )
 
-    context.log.info(
-        "dbt transformations completed"
-    )
+    context.log.info("dbt transformations completed")
 
     return "dbt_transform_completed"
 
@@ -127,19 +114,16 @@ def dbt_transform(
 # 3. DATA QUALITY
 # ============================================================
 
+
 @dg.op
 def data_quality(
     context: dg.OpExecutionContext,
     transform_result: str,
 ) -> str:
 
-    context.log.info(
-        f"Received: {transform_result}"
-    )
+    context.log.info(f"Received: {transform_result}")
 
-    context.log.info(
-        "Starting dbt quality tests"
-    )
+    context.log.info("Starting dbt quality tests")
 
     run_command(
         context,
@@ -152,9 +136,7 @@ def data_quality(
         cwd=PROJECT_ROOT / "transform",
     )
 
-    context.log.info(
-        "Data quality tests completed"
-    )
+    context.log.info("Data quality tests completed")
 
     return "quality_tests_completed"
 
@@ -163,19 +145,16 @@ def data_quality(
 # 4. ML TRAINING + MLFLOW REGISTRY
 # ============================================================
 
+
 @dg.op
 def train_and_register_model(
     context: dg.OpExecutionContext,
     quality_result: str,
 ) -> str:
 
-    context.log.info(
-        f"Received: {quality_result}"
-    )
+    context.log.info(f"Received: {quality_result}")
 
-    context.log.info(
-        "Starting ML training and MLflow registration"
-    )
+    context.log.info("Starting ML training and MLflow registration")
 
     run_command(
         context,
@@ -186,9 +165,7 @@ def train_and_register_model(
         cwd=PROJECT_ROOT,
     )
 
-    context.log.info(
-        "Training and registration completed"
-    )
+    context.log.info("Training and registration completed")
 
     return "model_registered"
 
@@ -197,50 +174,37 @@ def train_and_register_model(
 # 5. MONITORING READINESS
 # ============================================================
 
+
 @dg.op
 def monitoring_ready(
     context: dg.OpExecutionContext,
     model_result: str,
 ) -> None:
 
-    context.log.info(
-        f"Received: {model_result}"
-    )
+    context.log.info(f"Received: {model_result}")
 
-    baseline_candidates = [
-        PROJECT_ROOT / "feature_baseline.json",
-        PROJECT_ROOT
-        / "ml"
-        / "tracking"
-        / "feature_baseline.json",
-    ]
-
-    baseline = next(
-        (
-            path
-            for path in baseline_candidates
-            if path.exists()
-        ),
-        None,
-    )
-
-    if baseline is None:
-        raise RuntimeError(
-            "Feature baseline was not generated."
+    baseline = Path(
+        os.getenv(
+            "FEATURE_BASELINE_PATH",
+            "feature_baseline.json",
         )
-
-    context.log.info(
-        f"Monitoring baseline available: {baseline}"
     )
 
-    context.log.info(
-        "Drift monitoring is ready for incoming production data."
-    )
+    if not baseline.is_absolute():
+        baseline = PROJECT_ROOT / baseline
+
+    if not baseline.exists():
+        raise RuntimeError(f"Feature baseline was not generated: {baseline}")
+
+    context.log.info(f"Monitoring baseline available: {baseline}")
+
+    context.log.info("Drift monitoring is ready for incoming production data.")
 
 
 # ============================================================
 # FULL DATAOPS / MLOPS JOB
 # ============================================================
+
 
 @dg.job(
     description=(
@@ -253,21 +217,13 @@ def full_mlops_pipeline():
 
     raw_data = ingestion()
 
-    transformed_data = dbt_transform(
-        raw_data
-    )
+    transformed_data = dbt_transform(raw_data)
 
-    validated_data = data_quality(
-        transformed_data
-    )
+    validated_data = data_quality(transformed_data)
 
-    registered_model = train_and_register_model(
-        validated_data
-    )
+    registered_model = train_and_register_model(validated_data)
 
-    monitoring_ready(
-        registered_model
-    )
+    monitoring_ready(registered_model)
 
 
 # ============================================================

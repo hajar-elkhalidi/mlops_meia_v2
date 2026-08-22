@@ -4,7 +4,6 @@ from threading import Lock
 import mlflow
 import mlflow.sklearn
 import pandas as pd
-
 from mlflow.exceptions import MlflowException
 from mlflow.tracking import MlflowClient
 
@@ -49,9 +48,7 @@ class ModelService:
             )
 
         except MlflowException:
-            versions = client.search_model_versions(
-                f"name='{self.model_name}'"
-            )
+            versions = client.search_model_versions(f"name='{self.model_name}'")
 
             if not versions:
                 raise RuntimeError(
@@ -64,24 +61,16 @@ class ModelService:
                 key=lambda item: int(item.version),
             )
 
-            return str(latest.version), (
-                f"models:/{self.model_name}/{latest.version}"
-            )
+            return str(latest.version), (f"models:/{self.model_name}/{latest.version}")
 
     def ensure_loaded(self):
         version, model_uri = self._resolve_version()
 
-        if (
-            self.model is not None
-            and self.model_version == version
-        ):
+        if self.model is not None and self.model_version == version:
             return
 
         with self._lock:
-            if (
-                self.model is not None
-                and self.model_version == version
-            ):
+            if self.model is not None and self.model_version == version:
                 return
 
             model = mlflow.sklearn.load_model(model_uri)
@@ -102,18 +91,9 @@ class ModelService:
         categories = encoder.categories_
 
         self.supported_values = {
-            "city": [
-                str(value)
-                for value in categories[0]
-            ],
-            "property_type": [
-                str(value)
-                for value in categories[1]
-            ],
-            "localisation_grouped": [
-                str(value)
-                for value in categories[2]
-            ],
+            "city": [str(value) for value in categories[0]],
+            "property_type": [str(value) for value in categories[1]],
+            "localisation_grouped": [str(value) for value in categories[2]],
         }
 
     def _prepare_input(self, payload):
@@ -136,9 +116,7 @@ class ModelService:
             )
 
         localisation_grouped = (
-            payload.localisation
-            if payload.localisation in locations
-            else "Autre"
+            payload.localisation if payload.localisation in locations else "Autre"
         )
 
         row = {
@@ -157,9 +135,7 @@ class ModelService:
     def predict(self, payload):
         self.ensure_loaded()
 
-        frame, localisation_grouped = self._prepare_input(
-            payload
-        )
+        frame, localisation_grouped = self._prepare_input(payload)
 
         prediction = float(self.model.predict(frame)[0])
 
