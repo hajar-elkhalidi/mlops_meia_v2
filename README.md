@@ -1,172 +1,601 @@
-# Membre 3 — Data Engineer 1 : Ingestion multi-sources
+# Morocco Housing — End-to-End MLOps Project
 
-## Objectif
+An end-to-end **MLOps project for the Moroccan real-estate market**, covering the complete machine learning lifecycle: data ingestion, transformation, model training, experiment tracking, orchestration, API serving, monitoring, drift detection, testing, containerization, and CI/CD.
 
-Ingestionner automatiquement deux sources immobilières dans DuckDB avec `dlt` :
+The project is designed as a reproducible and automated MLOps pipeline using modern open-source tools.
 
-1. `data/housing_data.csv` — dataset immobilier Maroc.
-2. `data/casa_housing.csv` — dataset immobilier spécifique à Casablanca.
+---
 
-Les deux sources sont normalisées vers une table commune :
+## Project Overview
 
-`raw_immobilier.housing_listings`
+The objective of this project is to build a machine learning system capable of working with **Moroccan housing data** while applying MLOps best practices.
 
-## Architecture
+The pipeline covers:
 
 ```text
-housing_data.csv ───────┐
-                        ├──> normalization ──> dlt ──> DuckDB
-casa_housing.csv ───────┘                         │
-                                                 ▼
-                                      raw_immobilier.housing_listings
+Raw Housing Data
+       │
+       ▼
+   Data Ingestion
+      (dlt)
+       │
+       ▼
+     DuckDB
+       │
+       ▼
+ Data Transformation
+      (dbt)
+       │
+       ▼
+ Feature Engineering
+       │
+       ▼
+ Model Training
+  (scikit-learn)
+       │
+       ├──────────► MLflow
+       │          Experiment Tracking
+       ▼
+   Model Artifact
+       │
+       ▼
+ FastAPI Prediction API
+       │
+       ▼
+ Monitoring & Drift Detection
+       │
+       ▼
+ Continuous MLOps Workflow
+     (Dagster)
 ```
 
-## Schéma unifié
+---
 
-| Colonne | Description |
-|---|---|
-| `listing_id` | Identifiant global (`morocco_1`, `casa_1`, ...) |
-| `source_listing_id` | Identifiant de la ligne dans la source |
-| `price_mad` | Prix |
-| `surface_m2` | Surface |
-| `price_m2` | Prix au m² |
-| `rooms` | Nombre de pièces |
-| `bedrooms` | Chambres |
-| `bathrooms` | Salles de bain |
-| `floor` | Étage |
-| `address` | Adresse si disponible |
-| `localisation` | Quartier/localisation |
-| `elevator` | Ascenseur si disponible |
-| `terrace` | Terrasse si disponible |
-| `parking` | Parking si disponible |
-| `other_tags` | Tags complémentaires si disponibles |
-| `property_type` | Type de bien |
-| `city` | Ville |
-| `source` | Source de l'annonce |
+## Tech Stack
 
-La colonne `desc` du dataset Maroc est volontairement ignorée.
+| Component            | Technology                          |
+| -------------------- | ----------------------------------- |
+| Programming Language | Python                              |
+| Data Ingestion       | dlt                                 |
+| Database             | DuckDB                              |
+| Data Transformation  | dbt                                 |
+| Machine Learning     | scikit-learn                        |
+| Experiment Tracking  | MLflow                              |
+| Orchestration        | Dagster                             |
+| API                  | FastAPI                             |
+| Data Processing      | Pandas                              |
+| Monitoring           | Custom monitoring / drift detection |
+| Testing              | Pytest                              |
+| Containerization     | Docker / Docker Compose             |
+| CI/CD                | GitHub Actions                      |
+| Version Control      | Git / GitHub                        |
 
-## Pourquoi un identifiant global ?
+---
 
-Les deux datasets peuvent avoir des IDs de lignes identiques (`1`, `2`, ...). Pour éviter les collisions avec `merge`, `listing_id` devient :
+## Project Structure
 
-- `morocco_1`, `morocco_2`, ...
-- `casa_1`, `casa_2`, ...
+```text
+.
+├── .github/
+│   └── workflows/
+│       └── CI/CD workflows
+│
+├── api/
+│   └── FastAPI prediction service
+│
+├── data/
+│   └── Housing datasets
+│
+├── docs/
+│   └── Project documentation
+│
+├── ingestion/
+│   └── dlt data ingestion pipeline
+│
+├── ml/
+│   └── Machine learning training and prediction
+│
+├── monitoring/
+│   └── Model monitoring and drift detection
+│
+├── orchestration/
+│   └── Dagster pipelines and assets
+│
+├── tests/
+│   └── Automated tests
+│
+├── transform/
+│   └── dbt transformations
+│
+├── Dockerfile
+├── docker-compose.yml
+├── requirements.txt
+├── pytest.ini
+├── .env.example
+├── .gitignore
+├── .dockerignore
+├── morocco_housing_ingestion.duckdb
+├── Rapport_OIPI__Mlops-MEIA-v2.pdf
+└── Présentation_OIPI__Mlops-MEIA-v2.pdf
+```
 
-`listing_id` est donc la clé primaire globale de la table.
+---
 
-## Installation
+# MLOps Pipeline
+
+## 1. Data Ingestion
+
+The ingestion layer uses **dlt (data load tool)** to load Moroccan housing data into DuckDB.
+
+The ingestion process:
+
+* Reads the source housing data.
+* Validates and processes the input.
+* Loads the data into DuckDB.
+* Creates the raw data layer used by downstream transformations.
+
+Main components:
+
+```text
+ingestion/
+    └── dlt pipeline
+```
+
+The resulting database is:
+
+```text
+morocco_housing_ingestion.duckdb
+```
+
+---
+
+## 2. Data Storage
+
+**DuckDB** is used as the analytical database for storing the ingested housing data.
+
+The raw data is stored in the database before being transformed.
+
+Example logical structure:
+
+```text
+DuckDB
+└── raw_immobilier
+    └── housing_listings
+```
+
+---
+
+## 3. Data Transformation
+
+The transformation layer uses **dbt** to transform raw housing data into datasets suitable for machine learning.
+
+The transformation stage is responsible for:
+
+* Cleaning the data
+* Handling missing values
+* Selecting relevant columns
+* Transforming variables
+* Preparing ML-ready data
+
+```text
+Raw Data
+   │
+   ▼
+dbt transformations
+   │
+   ▼
+Clean / ML-ready dataset
+```
+
+The transformation logic is located in:
+
+```text
+transform/
+```
+
+---
+
+# Machine Learning
+
+The `ml/` directory contains the machine learning components of the project.
+
+The ML pipeline covers:
+
+1. Loading the transformed dataset
+2. Preparing features and target variables
+3. Training the model
+4. Evaluating the model
+5. Saving the trained model
+6. Tracking experiments with MLflow
+
+```text
+Processed Data
+      │
+      ▼
+Feature Preparation
+      │
+      ▼
+Model Training
+      │
+      ▼
+Evaluation
+      │
+      ▼
+MLflow Tracking
+      │
+      ▼
+Model Artifact
+```
+
+---
+
+# MLflow
+
+**MLflow** is used for experiment tracking and model management.
+
+It allows the project to keep track of:
+
+* Experiments
+* Model parameters
+* Evaluation metrics
+* Model artifacts
+* Different training runs
+
+This makes model experimentation reproducible and easier to compare.
+
+---
+
+# Dagster Orchestration
+
+**Dagster** is used to orchestrate the different stages of the MLOps pipeline.
+
+The orchestration layer connects the different components:
+
+```text
+Ingestion
+    ↓
+Transformation
+    ↓
+ML Pipeline
+    ↓
+Model
+    ↓
+Monitoring
+```
+
+Dagster provides a centralized way to execute and monitor the pipeline.
+
+The orchestration code is located in:
+
+```text
+orchestration/
+```
+
+---
+
+# FastAPI Prediction Service
+
+The project provides a **FastAPI** service for model inference.
+
+The API loads the trained ML model and exposes prediction endpoints.
+
+Main API component:
+
+```text
+api/
+```
+
+Typical endpoints include:
+
+```text
+GET  /health
+POST /predict
+```
+
+### Health Check
+
+The health endpoint verifies that the API is running correctly.
+
+### Prediction
+
+The prediction endpoint receives housing information and returns the model prediction.
+
+Example request:
+
+```json
+{
+  "area": 100,
+  "rooms": 3,
+  "bedrooms": 2
+}
+```
+
+> The exact request fields depend on the features used by the final trained model.
+
+---
+
+# Monitoring & Drift Detection
+
+The project includes a persistent monitoring component for the deployed ML system.
+
+The monitoring layer is responsible for observing model/data behavior over time and detecting potential **data drift**.
+
+The monitoring components are located in:
+
+```text
+monitoring/
+```
+
+The monitoring workflow can be represented as:
+
+```text
+Production Data
+      │
+      ▼
+Monitoring
+      │
+      ▼
+Drift Detection
+      │
+      ├── No significant drift
+      │
+      └── Drift detected
+              │
+              ▼
+        Investigation /
+        Model Retraining
+```
+
+This helps identify changes in the incoming data that could affect model performance.
+
+---
+
+# Testing
+
+Automated tests are located in:
+
+```text
+tests/
+```
+
+The project uses **pytest** for testing.
+
+Tests cover important components of the pipeline to help ensure that changes do not break existing functionality.
+
+Run the tests with:
 
 ```bash
-pip install -r requirements.txt
+pytest
 ```
 
-## Configuration
+---
 
-Copier `.env.example` vers `.env` :
+# Docker
+
+The complete project can be containerized using Docker.
+
+The repository contains:
+
+```text
+Dockerfile
+docker-compose.yml
+```
+
+Docker allows the different services to run in a reproducible environment without requiring every dependency to be installed manually on the host machine.
+
+---
+
+## Run with Docker Compose
+
+Clone the repository:
+
+```bash
+git clone <repository-url>
+cd <project-directory>
+```
+
+Create the environment file:
 
 ```bash
 cp .env.example .env
 ```
 
-Vérifier :
-
-```env
-MOROCCO_DATA_FILE=data/housing_data.csv
-CASA_DATA_FILE=data/casa_housing.csv
-DUCKDB_PATH=morocco_housing_ingestion.duckdb
-DLT_DATASET_NAME=raw_immobilier
-```
-
-## Exécution
+Then start the services:
 
 ```bash
-python ingestion/pipeline.py
+docker compose up --build
 ```
 
-Puis :
+To run in detached mode:
 
 ```bash
-python ingestion/check.py
+docker compose up -d --build
 ```
 
-Le script de contrôle affiche :
-
-- les tables DuckDB ;
-- le nombre total d'annonces ;
-- le nombre d'annonces par source ;
-- les colonnes ;
-- un échantillon.
-
-## Refresh
-
-Le pipeline utilise :
-
-```python
-write_disposition="merge"
-primary_key="listing_id"
-```
-
-Un nouveau chargement met donc à jour une annonce ayant le même `listing_id` au lieu de créer un doublon.
-
-Pour un refresh complet avec les fichiers locaux :
+To stop the services:
 
 ```bash
-python ingestion/pipeline.py
+docker compose down
 ```
 
-## Note sur les sources
+---
 
-Le pipeline ne scrape pas directement les sites web. Il ingère les deux fichiers CSV fournis dans le projet. Le dataset Casablanca et le dataset Maroc peuvent être remplacés par de nouveaux exports sans changer la structure de la destination.
+# Local Installation
 
-## Livrable membre 3
+If you want to run the project without Docker:
 
-Cette implémentation couvre :
+### 1. Create a virtual environment
 
-- identification de deux sources ;
-- ingestion automatisée avec dlt ;
-- normalisation multi-sources ;
-- chargement dans DuckDB ;
-- clé primaire et stratégie de merge ;
-- traçabilité de la source ;
-- vérification du nombre de lignes ;
-- préparation d'une table raw exploitable par dbt.
-
-
-
-## 📊 Transformation des données (dbt) — Membre 4
-
-### Objectif
-Nettoyer et structurer les données immobilières brutes (issues de l'ingestion) pour les rendre exploitables par le modèle de Machine Learning.
-
-### Architecture dbt
-La transformation suit une architecture en couches (médailion) :
-
-1. **Staging** (`stg_housing_listings`) : Nettoyage des données brutes
-   - Filtrage des prix et surfaces invalides (valeurs <= 0 ou NULL)
-   - Recalcul du prix au m² (`price_per_sqm_calculated`)
-   - Standardisation des colonnes
-
-2. **Intermédiaires** (`int_housing_by_city`, `int_housing_by_type`)
-   - Agrégations des moyennes, minimums, maximums par ville et par type de bien
-   - Calcul du nombre total d'annonces par catégorie
-
-3. **Marts (produits finaux)** :
-   - `mart_price_by_city` : Prix moyen, min et max par ville
-   - `mart_price_per_sqm_by_city` : Classement des villes par prix au m²
-   - `mart_price_by_type` : Prix moyen par type de bien (Appartement, Villa, etc.)
-
-### Qualité des données
-17 tests automatisés ont été mis en place via dbt :
-- **`not_null`** : Vérifie l'absence de valeurs nulles sur les colonnes critiques (prix, surface, ville, ID).
-- **`unique`** : Garantit l'unicité des identifiants et des clés d'agrégation.
-- **`accepted_values`** : Contrôle que les types de biens sont valides (Appartement, Villa, Bureau, etc.).
-
-**Résultat** : ✅ 17/17 tests passants.
-
-### Documentation
-La documentation complète du pipeline est générée automatiquement avec :
 ```bash
-cd transform
-dbt docs generate --profiles-dir .
-dbt docs serve --profiles-dir .  # (utiliser --port 8081 si le port 8080 est occupé)
+python -m venv .venv
+```
+
+### 2. Activate it
+
+Linux / macOS:
+
+```bash
+source .venv/bin/activate
+```
+
+Windows:
+
+```bash
+.venv\Scripts\activate
+```
+
+### 3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Configure environment variables
+
+```bash
+cp .env.example .env
+```
+
+Update the variables according to your environment.
+
+---
+
+# CI/CD
+
+The project uses **GitHub Actions** for continuous integration.
+
+The workflows are located in:
+
+```text
+.github/workflows/
+```
+
+The CI pipeline helps automatically validate the project when changes are pushed to the repository.
+
+Typical validation includes:
+
+```text
+Code changes
+     │
+     ▼
+GitHub Actions
+     │
+     ├── Install dependencies
+     ├── Run tests
+     └── Validate project
+```
+
+This helps maintain code quality and reduce regressions.
+
+---
+
+# Environment Configuration
+
+Environment-specific configuration is managed using environment variables.
+
+A template is provided in:
+
+```text
+.env.example
+```
+
+Create your local `.env` file from the template:
+
+```bash
+cp .env.example .env
+```
+
+Sensitive credentials and environment-specific values should **not** be committed to Git.
+
+---
+
+# Documentation
+
+Additional project documentation is available in:
+
+```text
+docs/
+```
+
+The project also includes:
+
+* 📄 [Project Report](Rapport_OIPI__Mlops-MEIA-v2.pdf)
+* 📊 [Project Presentation](Présentation_OIPI__Mlops-MEIA-v2.pdf)
+
+---
+
+# MLOps Architecture
+
+The complete architecture combines the different technologies into one automated workflow:
+
+```text
+                    ┌──────────────────┐
+                    │   Housing Data   │
+                    └────────┬─────────┘
+                             │
+                             ▼
+                    ┌──────────────────┐
+                    │       dlt        │
+                    │ Data Ingestion   │
+                    └────────┬─────────┘
+                             │
+                             ▼
+                    ┌──────────────────┐
+                    │      DuckDB      │
+                    │   Raw Storage    │
+                    └────────┬─────────┘
+                             │
+                             ▼
+                    ┌──────────────────┐
+                    │       dbt        │
+                    │ Transformation   │
+                    └────────┬─────────┘
+                             │
+                             ▼
+                    ┌──────────────────┐
+                    │   ML Pipeline    │
+                    │   scikit-learn   │
+                    └────────┬─────────┘
+                             │
+                    ┌────────┴─────────┐
+                    ▼                  ▼
+             ┌─────────────┐    ┌─────────────┐
+             │   MLflow    │    │   Dagster   │
+             │  Tracking   │    │Orchestration│
+             └─────────────┘    └─────────────┘
+                    │
+                    ▼
+             ┌─────────────┐
+             │   FastAPI   │
+             │  Prediction │
+             └──────┬──────┘
+                    │
+                    ▼
+             ┌─────────────┐
+             │  Monitoring │
+             │    & Drift  │
+             └─────────────┘
+```
+
+---
+
+# Team
+
+**MLOps / MEIA Project — OIPI**
+
+This project was developed as part of an academic MLOps project, with responsibilities distributed across the team covering:
+
+* Data Engineering
+* Data Transformation
+* Machine Learning
+* MLOps
+* API Development
+* Monitoring
+* Testing
+* Documentation
+
+---
+
+# 📄 License
+
+This project was developed for academic purposes as part of the **MLOps / MEIA** project.
